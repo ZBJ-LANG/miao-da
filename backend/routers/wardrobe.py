@@ -1,8 +1,8 @@
 from fastapi import APIRouter, Depends, HTTPException
 from typing import List
 
-from models.outfit import Outfit, OutfitCreate
-from services.outfit_service import OutfitService
+from ..models.outfit import Outfit, OutfitCreate
+from ..services.outfit_service import OutfitService
 
 router = APIRouter(prefix="/api/wardrobe", tags=["wardrobe"])
 

@@ -1,8 +1,8 @@
 from fastapi import APIRouter, Depends, HTTPException
 from typing import List, Optional
 
-from models.product import ProductSearch
-from services.product_service import ProductService
+from ..models.product import ProductSearch
+from ..services.product_service import ProductService
 
 router = APIRouter(prefix="/api/search", tags=["search"])
 

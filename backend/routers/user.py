@@ -1,7 +1,7 @@
 from fastapi import APIRouter, HTTPException
 
-from services.user_service import UserService
-from models.user import UserRegister, UserLogin, UserProfileUpdate
+from ..services.user_service import UserService
+from ..models.user import UserRegister, UserLogin, UserProfileUpdate
 
 router = APIRouter(prefix="/api/auth", tags=["auth"])
 

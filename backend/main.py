@@ -5,8 +5,8 @@ from fastapi.middleware.cors import CORSMiddleware
 from fastapi.responses import JSONResponse
 import time
 
-from routers import user, product, wardrobe, search, chat
-from services.database import init_db
+from .routers import user, product, wardrobe, search, chat
+from .services.database import init_db
 
 # 配置日志
 logging.basicConfig(

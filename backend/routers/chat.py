@@ -4,10 +4,10 @@ from typing import Optional
 from pydantic import BaseModel
 import uuid
 
-from agent.agent import run_agent
-from agent.llm_service import analyze_clothing_image, map_style_to_db, map_category_to_db
-from agent.skills.recommendation import search_products_by_conditions
-from agent.intent_classifier import extract_search_conditions
+from ..agent.agent import run_agent
+from ..agent.llm_service import analyze_clothing_image, map_style_to_db, map_category_to_db
+from ..agent.skills.recommendation import search_products_by_conditions
+from ..agent.intent_classifier import extract_search_conditions
 
 router = APIRouter(prefix="/api/chat", tags=["chat"])
 logger = logging.getLogger("backend.chat")
@@ -100,9 +100,9 @@ async def chat(request: ChatRequest):
                 
                 # 构建完整的穿搭推荐
                 logger.info("Building complete outfit recommendation")
-                from agent.skills.recommendation import generate_outfit_from_products
-                from agent.agent import generate_outfit_image
-                
+                from ..agent.skills.recommendation import generate_outfit_from_products
+                from ..agent.agent import generate_outfit_image
+
                 # 分析图片中的材质
                 material = analysis_result.get("material", "")
                 logger.info(f"Extracted material: {material}")
@@ -153,7 +153,7 @@ async def chat(request: ChatRequest):
                         })
                 
                 # 生成推荐理由
-                from agent.llm_service import generate_recommendation_reason
+                from ..agent.llm_service import generate_recommendation_reason
                 message = await generate_recommendation_reason(
                     f"基于图片分析的{conditions.get('style', '时尚')}风格穿搭推荐，材质：{material}", 
                     response_items
@@ -237,12 +237,12 @@ async def image_search(request: ImageSearchRequest):
             logger.info(f"Third search with conditions: {search_conditions}")
             products = search_products_by_conditions(search_conditions, limit=20)
             logger.info(f"Third search found {len(products)} products")
-        
+
         # 构建完整的穿搭推荐
         logger.info("Building complete outfit recommendation")
-        from agent.skills.recommendation import generate_outfit_from_products
-        from agent.agent import generate_outfit_image
-        
+        from ..agent.skills.recommendation import generate_outfit_from_products
+        from ..agent.agent import generate_outfit_image
+
         # 分析图片中的材质
         material = analysis_result.get("material", "")
         logger.info(f"Extracted material: {material}")
@@ -293,7 +293,7 @@ async def image_search(request: ImageSearchRequest):
                 })
         
         # 生成推荐理由
-        from agent.llm_service import generate_recommendation_reason
+        from ..agent.llm_service import generate_recommendation_reason
         message = await generate_recommendation_reason(
             f"基于图片分析的{conditions.get('style', '时尚')}风格穿搭推荐，材质：{material}", 
             response_items
