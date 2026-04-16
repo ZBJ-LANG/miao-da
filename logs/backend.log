@@ -1,0 +1,1428 @@
+2026-04-13 17:41:36,971 - backend - INFO - Starting up backend service...
+2026-04-13 17:41:37,021 - backend - INFO - Database initialized successfully
+2026-04-13 17:41:37,021 - backend - INFO - Backend service started successfully
+2026-04-13 17:42:23,686 - backend - INFO - Received request: POST http://localhost:8000/api/auth/login
+2026-04-13 17:42:23,738 - backend - INFO - Request completed: POST http://localhost:8000/api/auth/login - 200 - 0.0525s
+2026-04-13 17:42:25,855 - backend - INFO - Received request: GET http://localhost:8000/health
+2026-04-13 17:42:25,858 - backend - INFO - Health check endpoint accessed
+2026-04-13 17:42:25,859 - backend - INFO - Request completed: GET http://localhost:8000/health - 200 - 0.0041s
+2026-04-13 17:42:42,512 - backend - INFO - Received request: GET http://localhost:8000/health
+2026-04-13 17:42:42,514 - backend - INFO - Health check endpoint accessed
+2026-04-13 17:42:42,515 - backend - INFO - Request completed: GET http://localhost:8000/health - 200 - 0.0029s
+2026-04-13 17:42:42,664 - backend - INFO - Received request: GET http://localhost:8000/health
+2026-04-13 17:42:42,666 - backend - INFO - Health check endpoint accessed
+2026-04-13 17:42:42,669 - backend - INFO - Request completed: GET http://localhost:8000/health - 200 - 0.0048s
+2026-04-13 17:42:44,763 - backend - INFO - Received request: POST http://localhost:8000/api/chat/
+2026-04-13 17:42:44,766 - backend.chat - INFO - Chat request received: user_id=e0b4a9b2-e866-43dd-a735-fb04fb187fa7, message_length=11, has_image=False
+2026-04-13 17:42:44,767 - backend.chat - INFO - Using existing session_id: bac2a405-5cb9-4eda-8a92-e9b9f1878886
+2026-04-13 17:42:44,767 - backend.chat - INFO - Processing text-only request
+2026-04-13 17:42:48,817 - httpx - INFO - HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-13 17:42:50,039 - httpx - INFO - HTTP Request: POST https://dashscope.aliyuncs.com/api/v1/services/aigc/text2image/image-synthesis "HTTP/1.1 200 OK"
+2026-04-13 17:42:52,140 - httpx - INFO - HTTP Request: GET https://dashscope.aliyuncs.com/api/v1/tasks/64641da6-17fa-4668-9cea-97fb6deface4 "HTTP/1.1 200 OK"
+2026-04-13 17:42:54,219 - httpx - INFO - HTTP Request: GET https://dashscope.aliyuncs.com/api/v1/tasks/64641da6-17fa-4668-9cea-97fb6deface4 "HTTP/1.1 200 OK"
+2026-04-13 17:42:56,298 - httpx - INFO - HTTP Request: GET https://dashscope.aliyuncs.com/api/v1/tasks/64641da6-17fa-4668-9cea-97fb6deface4 "HTTP/1.1 200 OK"
+2026-04-13 17:42:58,370 - httpx - INFO - HTTP Request: GET https://dashscope.aliyuncs.com/api/v1/tasks/64641da6-17fa-4668-9cea-97fb6deface4 "HTTP/1.1 200 OK"
+2026-04-13 17:43:00,438 - httpx - INFO - HTTP Request: GET https://dashscope.aliyuncs.com/api/v1/tasks/64641da6-17fa-4668-9cea-97fb6deface4 "HTTP/1.1 200 OK"
+2026-04-13 17:43:02,538 - httpx - INFO - HTTP Request: GET https://dashscope.aliyuncs.com/api/v1/tasks/64641da6-17fa-4668-9cea-97fb6deface4 "HTTP/1.1 200 OK"
+2026-04-13 17:43:04,600 - httpx - INFO - HTTP Request: GET https://dashscope.aliyuncs.com/api/v1/tasks/64641da6-17fa-4668-9cea-97fb6deface4 "HTTP/1.1 200 OK"
+2026-04-13 17:43:06,675 - httpx - INFO - HTTP Request: GET https://dashscope.aliyuncs.com/api/v1/tasks/64641da6-17fa-4668-9cea-97fb6deface4 "HTTP/1.1 200 OK"
+2026-04-13 17:43:08,761 - httpx - INFO - HTTP Request: GET https://dashscope.aliyuncs.com/api/v1/tasks/64641da6-17fa-4668-9cea-97fb6deface4 "HTTP/1.1 200 OK"
+2026-04-13 17:43:10,848 - httpx - INFO - HTTP Request: GET https://dashscope.aliyuncs.com/api/v1/tasks/64641da6-17fa-4668-9cea-97fb6deface4 "HTTP/1.1 200 OK"
+2026-04-13 17:43:10,850 - backend.chat - INFO - Agent returned result: recommendation
+2026-04-13 17:43:10,851 - backend - INFO - Request completed: POST http://localhost:8000/api/chat/ - 200 - 26.0880s
+2026-04-13 17:47:19,959 - backend - INFO - Starting up backend service...
+2026-04-13 17:47:20,025 - backend - INFO - Database initialized successfully
+2026-04-13 17:47:20,026 - backend - INFO - Backend service started successfully
+2026-04-13 17:48:02,249 - backend - INFO - Received request: POST http://localhost:8000/api/auth/login
+2026-04-13 17:48:02,307 - backend - INFO - Request completed: POST http://localhost:8000/api/auth/login - 200 - 0.0579s
+2026-04-13 17:48:04,435 - backend - INFO - Received request: GET http://localhost:8000/health
+2026-04-13 17:48:04,438 - backend - INFO - Health check endpoint accessed
+2026-04-13 17:48:04,439 - backend - INFO - Request completed: GET http://localhost:8000/health - 200 - 0.0043s
+2026-04-13 17:48:24,427 - backend - INFO - Received request: GET http://localhost:8000/health
+2026-04-13 17:48:24,429 - backend - INFO - Health check endpoint accessed
+2026-04-13 17:48:24,431 - backend - INFO - Request completed: GET http://localhost:8000/health - 200 - 0.0036s
+2026-04-13 17:48:30,079 - backend - INFO - Received request: GET http://localhost:8000/health
+2026-04-13 17:48:30,080 - backend - INFO - Health check endpoint accessed
+2026-04-13 17:48:30,082 - backend - INFO - Request completed: GET http://localhost:8000/health - 200 - 0.0031s
+2026-04-13 17:48:32,132 - backend - INFO - Received request: POST http://localhost:8000/api/chat/
+2026-04-13 17:48:32,135 - backend.chat - INFO - Chat request received: user_id=e0b4a9b2-e866-43dd-a735-fb04fb187fa7, message_length=12, has_image=False
+2026-04-13 17:48:32,135 - backend.chat - INFO - Using existing session_id: 5180e9fe-5cd8-4b62-86cd-d00001f75e6c
+2026-04-13 17:48:32,136 - backend.chat - INFO - Processing text-only request
+2026-04-13 17:48:36,153 - httpx - INFO - HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-13 17:48:37,378 - httpx - INFO - HTTP Request: POST https://dashscope.aliyuncs.com/api/v1/services/aigc/text2image/image-synthesis "HTTP/1.1 200 OK"
+2026-04-13 17:48:39,487 - httpx - INFO - HTTP Request: GET https://dashscope.aliyuncs.com/api/v1/tasks/2ea60580-534c-4461-b8b8-75aa6cf608dc "HTTP/1.1 200 OK"
+2026-04-13 17:48:41,554 - httpx - INFO - HTTP Request: GET https://dashscope.aliyuncs.com/api/v1/tasks/2ea60580-534c-4461-b8b8-75aa6cf608dc "HTTP/1.1 200 OK"
+2026-04-13 17:48:43,624 - httpx - INFO - HTTP Request: GET https://dashscope.aliyuncs.com/api/v1/tasks/2ea60580-534c-4461-b8b8-75aa6cf608dc "HTTP/1.1 200 OK"
+2026-04-13 17:48:45,698 - httpx - INFO - HTTP Request: GET https://dashscope.aliyuncs.com/api/v1/tasks/2ea60580-534c-4461-b8b8-75aa6cf608dc "HTTP/1.1 200 OK"
+2026-04-13 17:48:47,764 - httpx - INFO - HTTP Request: GET https://dashscope.aliyuncs.com/api/v1/tasks/2ea60580-534c-4461-b8b8-75aa6cf608dc "HTTP/1.1 200 OK"
+2026-04-13 17:48:49,833 - httpx - INFO - HTTP Request: GET https://dashscope.aliyuncs.com/api/v1/tasks/2ea60580-534c-4461-b8b8-75aa6cf608dc "HTTP/1.1 200 OK"
+2026-04-13 17:48:51,897 - httpx - INFO - HTTP Request: GET https://dashscope.aliyuncs.com/api/v1/tasks/2ea60580-534c-4461-b8b8-75aa6cf608dc "HTTP/1.1 200 OK"
+2026-04-13 17:48:53,970 - httpx - INFO - HTTP Request: GET https://dashscope.aliyuncs.com/api/v1/tasks/2ea60580-534c-4461-b8b8-75aa6cf608dc "HTTP/1.1 200 OK"
+2026-04-13 17:48:56,051 - httpx - INFO - HTTP Request: GET https://dashscope.aliyuncs.com/api/v1/tasks/2ea60580-534c-4461-b8b8-75aa6cf608dc "HTTP/1.1 200 OK"
+2026-04-13 17:48:58,116 - httpx - INFO - HTTP Request: GET https://dashscope.aliyuncs.com/api/v1/tasks/2ea60580-534c-4461-b8b8-75aa6cf608dc "HTTP/1.1 200 OK"
+2026-04-13 17:49:00,181 - httpx - INFO - HTTP Request: GET https://dashscope.aliyuncs.com/api/v1/tasks/2ea60580-534c-4461-b8b8-75aa6cf608dc "HTTP/1.1 200 OK"
+2026-04-13 17:49:02,258 - httpx - INFO - HTTP Request: GET https://dashscope.aliyuncs.com/api/v1/tasks/2ea60580-534c-4461-b8b8-75aa6cf608dc "HTTP/1.1 200 OK"
+2026-04-13 17:49:04,330 - httpx - INFO - HTTP Request: GET https://dashscope.aliyuncs.com/api/v1/tasks/2ea60580-534c-4461-b8b8-75aa6cf608dc "HTTP/1.1 200 OK"
+2026-04-13 17:49:06,391 - httpx - INFO - HTTP Request: GET https://dashscope.aliyuncs.com/api/v1/tasks/2ea60580-534c-4461-b8b8-75aa6cf608dc "HTTP/1.1 200 OK"
+2026-04-13 17:49:08,467 - httpx - INFO - HTTP Request: GET https://dashscope.aliyuncs.com/api/v1/tasks/2ea60580-534c-4461-b8b8-75aa6cf608dc "HTTP/1.1 200 OK"
+2026-04-13 17:49:10,541 - httpx - INFO - HTTP Request: GET https://dashscope.aliyuncs.com/api/v1/tasks/2ea60580-534c-4461-b8b8-75aa6cf608dc "HTTP/1.1 200 OK"
+2026-04-13 17:49:12,606 - httpx - INFO - HTTP Request: GET https://dashscope.aliyuncs.com/api/v1/tasks/2ea60580-534c-4461-b8b8-75aa6cf608dc "HTTP/1.1 200 OK"
+2026-04-13 17:49:14,685 - httpx - INFO - HTTP Request: GET https://dashscope.aliyuncs.com/api/v1/tasks/2ea60580-534c-4461-b8b8-75aa6cf608dc "HTTP/1.1 200 OK"
+2026-04-13 17:49:16,764 - httpx - INFO - HTTP Request: GET https://dashscope.aliyuncs.com/api/v1/tasks/2ea60580-534c-4461-b8b8-75aa6cf608dc "HTTP/1.1 200 OK"
+2026-04-13 17:49:18,847 - httpx - INFO - HTTP Request: GET https://dashscope.aliyuncs.com/api/v1/tasks/2ea60580-534c-4461-b8b8-75aa6cf608dc "HTTP/1.1 200 OK"
+2026-04-13 17:49:20,914 - httpx - INFO - HTTP Request: GET https://dashscope.aliyuncs.com/api/v1/tasks/2ea60580-534c-4461-b8b8-75aa6cf608dc "HTTP/1.1 200 OK"
+2026-04-13 17:49:22,992 - httpx - INFO - HTTP Request: GET https://dashscope.aliyuncs.com/api/v1/tasks/2ea60580-534c-4461-b8b8-75aa6cf608dc "HTTP/1.1 200 OK"
+2026-04-13 17:49:25,066 - httpx - INFO - HTTP Request: GET https://dashscope.aliyuncs.com/api/v1/tasks/2ea60580-534c-4461-b8b8-75aa6cf608dc "HTTP/1.1 200 OK"
+2026-04-13 17:49:27,145 - httpx - INFO - HTTP Request: GET https://dashscope.aliyuncs.com/api/v1/tasks/2ea60580-534c-4461-b8b8-75aa6cf608dc "HTTP/1.1 200 OK"
+2026-04-13 17:49:29,234 - httpx - INFO - HTTP Request: GET https://dashscope.aliyuncs.com/api/v1/tasks/2ea60580-534c-4461-b8b8-75aa6cf608dc "HTTP/1.1 200 OK"
+2026-04-13 17:49:31,312 - httpx - INFO - HTTP Request: GET https://dashscope.aliyuncs.com/api/v1/tasks/2ea60580-534c-4461-b8b8-75aa6cf608dc "HTTP/1.1 200 OK"
+2026-04-13 17:49:33,375 - httpx - INFO - HTTP Request: GET https://dashscope.aliyuncs.com/api/v1/tasks/2ea60580-534c-4461-b8b8-75aa6cf608dc "HTTP/1.1 200 OK"
+2026-04-13 17:49:35,459 - httpx - INFO - HTTP Request: GET https://dashscope.aliyuncs.com/api/v1/tasks/2ea60580-534c-4461-b8b8-75aa6cf608dc "HTTP/1.1 200 OK"
+2026-04-13 17:49:37,526 - httpx - INFO - HTTP Request: GET https://dashscope.aliyuncs.com/api/v1/tasks/2ea60580-534c-4461-b8b8-75aa6cf608dc "HTTP/1.1 200 OK"
+2026-04-13 17:49:39,607 - httpx - INFO - HTTP Request: GET https://dashscope.aliyuncs.com/api/v1/tasks/2ea60580-534c-4461-b8b8-75aa6cf608dc "HTTP/1.1 200 OK"
+2026-04-13 17:49:41,679 - httpx - INFO - HTTP Request: GET https://dashscope.aliyuncs.com/api/v1/tasks/2ea60580-534c-4461-b8b8-75aa6cf608dc "HTTP/1.1 200 OK"
+2026-04-13 17:49:43,752 - httpx - INFO - HTTP Request: GET https://dashscope.aliyuncs.com/api/v1/tasks/2ea60580-534c-4461-b8b8-75aa6cf608dc "HTTP/1.1 200 OK"
+2026-04-13 17:49:45,832 - httpx - INFO - HTTP Request: GET https://dashscope.aliyuncs.com/api/v1/tasks/2ea60580-534c-4461-b8b8-75aa6cf608dc "HTTP/1.1 200 OK"
+2026-04-13 17:49:47,918 - httpx - INFO - HTTP Request: GET https://dashscope.aliyuncs.com/api/v1/tasks/2ea60580-534c-4461-b8b8-75aa6cf608dc "HTTP/1.1 200 OK"
+2026-04-13 17:49:50,004 - httpx - INFO - HTTP Request: GET https://dashscope.aliyuncs.com/api/v1/tasks/2ea60580-534c-4461-b8b8-75aa6cf608dc "HTTP/1.1 200 OK"
+2026-04-13 17:49:52,084 - httpx - INFO - HTTP Request: GET https://dashscope.aliyuncs.com/api/v1/tasks/2ea60580-534c-4461-b8b8-75aa6cf608dc "HTTP/1.1 200 OK"
+2026-04-13 17:49:54,157 - httpx - INFO - HTTP Request: GET https://dashscope.aliyuncs.com/api/v1/tasks/2ea60580-534c-4461-b8b8-75aa6cf608dc "HTTP/1.1 200 OK"
+2026-04-13 17:49:56,239 - httpx - INFO - HTTP Request: GET https://dashscope.aliyuncs.com/api/v1/tasks/2ea60580-534c-4461-b8b8-75aa6cf608dc "HTTP/1.1 200 OK"
+2026-04-13 17:49:58,309 - httpx - INFO - HTTP Request: GET https://dashscope.aliyuncs.com/api/v1/tasks/2ea60580-534c-4461-b8b8-75aa6cf608dc "HTTP/1.1 200 OK"
+2026-04-13 17:50:00,388 - httpx - INFO - HTTP Request: GET https://dashscope.aliyuncs.com/api/v1/tasks/2ea60580-534c-4461-b8b8-75aa6cf608dc "HTTP/1.1 200 OK"
+2026-04-13 17:50:02,465 - httpx - INFO - HTTP Request: GET https://dashscope.aliyuncs.com/api/v1/tasks/2ea60580-534c-4461-b8b8-75aa6cf608dc "HTTP/1.1 200 OK"
+2026-04-13 17:50:04,537 - httpx - INFO - HTTP Request: GET https://dashscope.aliyuncs.com/api/v1/tasks/2ea60580-534c-4461-b8b8-75aa6cf608dc "HTTP/1.1 200 OK"
+2026-04-13 17:50:06,624 - httpx - INFO - HTTP Request: GET https://dashscope.aliyuncs.com/api/v1/tasks/2ea60580-534c-4461-b8b8-75aa6cf608dc "HTTP/1.1 200 OK"
+2026-04-13 17:50:08,708 - httpx - INFO - HTTP Request: GET https://dashscope.aliyuncs.com/api/v1/tasks/2ea60580-534c-4461-b8b8-75aa6cf608dc "HTTP/1.1 200 OK"
+2026-04-13 17:50:10,785 - httpx - INFO - HTTP Request: GET https://dashscope.aliyuncs.com/api/v1/tasks/2ea60580-534c-4461-b8b8-75aa6cf608dc "HTTP/1.1 200 OK"
+2026-04-13 17:50:12,851 - httpx - INFO - HTTP Request: GET https://dashscope.aliyuncs.com/api/v1/tasks/2ea60580-534c-4461-b8b8-75aa6cf608dc "HTTP/1.1 200 OK"
+2026-04-13 17:50:14,921 - httpx - INFO - HTTP Request: GET https://dashscope.aliyuncs.com/api/v1/tasks/2ea60580-534c-4461-b8b8-75aa6cf608dc "HTTP/1.1 200 OK"
+2026-04-13 17:50:16,999 - httpx - INFO - HTTP Request: GET https://dashscope.aliyuncs.com/api/v1/tasks/2ea60580-534c-4461-b8b8-75aa6cf608dc "HTTP/1.1 200 OK"
+2026-04-13 17:50:19,081 - httpx - INFO - HTTP Request: GET https://dashscope.aliyuncs.com/api/v1/tasks/2ea60580-534c-4461-b8b8-75aa6cf608dc "HTTP/1.1 200 OK"
+2026-04-13 17:50:21,152 - httpx - INFO - HTTP Request: GET https://dashscope.aliyuncs.com/api/v1/tasks/2ea60580-534c-4461-b8b8-75aa6cf608dc "HTTP/1.1 200 OK"
+2026-04-13 17:50:23,226 - httpx - INFO - HTTP Request: GET https://dashscope.aliyuncs.com/api/v1/tasks/2ea60580-534c-4461-b8b8-75aa6cf608dc "HTTP/1.1 200 OK"
+2026-04-13 17:50:25,302 - httpx - INFO - HTTP Request: GET https://dashscope.aliyuncs.com/api/v1/tasks/2ea60580-534c-4461-b8b8-75aa6cf608dc "HTTP/1.1 200 OK"
+2026-04-13 17:50:27,375 - httpx - INFO - HTTP Request: GET https://dashscope.aliyuncs.com/api/v1/tasks/2ea60580-534c-4461-b8b8-75aa6cf608dc "HTTP/1.1 200 OK"
+2026-04-13 17:50:29,459 - httpx - INFO - HTTP Request: GET https://dashscope.aliyuncs.com/api/v1/tasks/2ea60580-534c-4461-b8b8-75aa6cf608dc "HTTP/1.1 200 OK"
+2026-04-13 17:50:31,535 - httpx - INFO - HTTP Request: GET https://dashscope.aliyuncs.com/api/v1/tasks/2ea60580-534c-4461-b8b8-75aa6cf608dc "HTTP/1.1 200 OK"
+2026-04-13 17:50:33,618 - httpx - INFO - HTTP Request: GET https://dashscope.aliyuncs.com/api/v1/tasks/2ea60580-534c-4461-b8b8-75aa6cf608dc "HTTP/1.1 200 OK"
+2026-04-13 17:50:35,689 - httpx - INFO - HTTP Request: GET https://dashscope.aliyuncs.com/api/v1/tasks/2ea60580-534c-4461-b8b8-75aa6cf608dc "HTTP/1.1 200 OK"
+2026-04-13 17:50:37,760 - httpx - INFO - HTTP Request: GET https://dashscope.aliyuncs.com/api/v1/tasks/2ea60580-534c-4461-b8b8-75aa6cf608dc "HTTP/1.1 200 OK"
+2026-04-13 17:50:39,832 - httpx - INFO - HTTP Request: GET https://dashscope.aliyuncs.com/api/v1/tasks/2ea60580-534c-4461-b8b8-75aa6cf608dc "HTTP/1.1 200 OK"
+2026-04-13 17:50:41,903 - httpx - INFO - HTTP Request: GET https://dashscope.aliyuncs.com/api/v1/tasks/2ea60580-534c-4461-b8b8-75aa6cf608dc "HTTP/1.1 200 OK"
+2026-04-13 17:50:43,965 - httpx - INFO - HTTP Request: GET https://dashscope.aliyuncs.com/api/v1/tasks/2ea60580-534c-4461-b8b8-75aa6cf608dc "HTTP/1.1 200 OK"
+2026-04-13 17:50:46,031 - httpx - INFO - HTTP Request: GET https://dashscope.aliyuncs.com/api/v1/tasks/2ea60580-534c-4461-b8b8-75aa6cf608dc "HTTP/1.1 200 OK"
+2026-04-13 17:50:48,098 - httpx - INFO - HTTP Request: GET https://dashscope.aliyuncs.com/api/v1/tasks/2ea60580-534c-4461-b8b8-75aa6cf608dc "HTTP/1.1 200 OK"
+2026-04-13 17:50:50,172 - httpx - INFO - HTTP Request: GET https://dashscope.aliyuncs.com/api/v1/tasks/2ea60580-534c-4461-b8b8-75aa6cf608dc "HTTP/1.1 200 OK"
+2026-04-13 17:50:52,242 - httpx - INFO - HTTP Request: GET https://dashscope.aliyuncs.com/api/v1/tasks/2ea60580-534c-4461-b8b8-75aa6cf608dc "HTTP/1.1 200 OK"
+2026-04-13 17:50:54,337 - httpx - INFO - HTTP Request: GET https://dashscope.aliyuncs.com/api/v1/tasks/2ea60580-534c-4461-b8b8-75aa6cf608dc "HTTP/1.1 200 OK"
+2026-04-13 17:50:56,410 - httpx - INFO - HTTP Request: GET https://dashscope.aliyuncs.com/api/v1/tasks/2ea60580-534c-4461-b8b8-75aa6cf608dc "HTTP/1.1 200 OK"
+2026-04-13 17:50:58,486 - httpx - INFO - HTTP Request: GET https://dashscope.aliyuncs.com/api/v1/tasks/2ea60580-534c-4461-b8b8-75aa6cf608dc "HTTP/1.1 200 OK"
+2026-04-13 17:51:00,583 - httpx - INFO - HTTP Request: GET https://dashscope.aliyuncs.com/api/v1/tasks/2ea60580-534c-4461-b8b8-75aa6cf608dc "HTTP/1.1 200 OK"
+2026-04-13 17:51:02,651 - httpx - INFO - HTTP Request: GET https://dashscope.aliyuncs.com/api/v1/tasks/2ea60580-534c-4461-b8b8-75aa6cf608dc "HTTP/1.1 200 OK"
+2026-04-13 17:51:04,730 - httpx - INFO - HTTP Request: GET https://dashscope.aliyuncs.com/api/v1/tasks/2ea60580-534c-4461-b8b8-75aa6cf608dc "HTTP/1.1 200 OK"
+2026-04-13 17:51:06,804 - httpx - INFO - HTTP Request: GET https://dashscope.aliyuncs.com/api/v1/tasks/2ea60580-534c-4461-b8b8-75aa6cf608dc "HTTP/1.1 200 OK"
+2026-04-13 17:51:08,877 - httpx - INFO - HTTP Request: GET https://dashscope.aliyuncs.com/api/v1/tasks/2ea60580-534c-4461-b8b8-75aa6cf608dc "HTTP/1.1 200 OK"
+2026-04-13 17:51:10,944 - httpx - INFO - HTTP Request: GET https://dashscope.aliyuncs.com/api/v1/tasks/2ea60580-534c-4461-b8b8-75aa6cf608dc "HTTP/1.1 200 OK"
+2026-04-13 17:51:13,009 - httpx - INFO - HTTP Request: GET https://dashscope.aliyuncs.com/api/v1/tasks/2ea60580-534c-4461-b8b8-75aa6cf608dc "HTTP/1.1 200 OK"
+2026-04-13 17:51:15,078 - httpx - INFO - HTTP Request: GET https://dashscope.aliyuncs.com/api/v1/tasks/2ea60580-534c-4461-b8b8-75aa6cf608dc "HTTP/1.1 200 OK"
+2026-04-13 17:51:17,142 - httpx - INFO - HTTP Request: GET https://dashscope.aliyuncs.com/api/v1/tasks/2ea60580-534c-4461-b8b8-75aa6cf608dc "HTTP/1.1 200 OK"
+2026-04-13 17:51:19,218 - httpx - INFO - HTTP Request: GET https://dashscope.aliyuncs.com/api/v1/tasks/2ea60580-534c-4461-b8b8-75aa6cf608dc "HTTP/1.1 200 OK"
+2026-04-13 17:51:21,287 - httpx - INFO - HTTP Request: GET https://dashscope.aliyuncs.com/api/v1/tasks/2ea60580-534c-4461-b8b8-75aa6cf608dc "HTTP/1.1 200 OK"
+2026-04-13 17:51:23,358 - httpx - INFO - HTTP Request: GET https://dashscope.aliyuncs.com/api/v1/tasks/2ea60580-534c-4461-b8b8-75aa6cf608dc "HTTP/1.1 200 OK"
+2026-04-13 17:51:25,430 - httpx - INFO - HTTP Request: GET https://dashscope.aliyuncs.com/api/v1/tasks/2ea60580-534c-4461-b8b8-75aa6cf608dc "HTTP/1.1 200 OK"
+2026-04-13 17:51:27,514 - httpx - INFO - HTTP Request: GET https://dashscope.aliyuncs.com/api/v1/tasks/2ea60580-534c-4461-b8b8-75aa6cf608dc "HTTP/1.1 200 OK"
+2026-04-13 17:51:29,586 - httpx - INFO - HTTP Request: GET https://dashscope.aliyuncs.com/api/v1/tasks/2ea60580-534c-4461-b8b8-75aa6cf608dc "HTTP/1.1 200 OK"
+2026-04-13 17:51:31,658 - httpx - INFO - HTTP Request: GET https://dashscope.aliyuncs.com/api/v1/tasks/2ea60580-534c-4461-b8b8-75aa6cf608dc "HTTP/1.1 200 OK"
+2026-04-13 17:51:33,734 - httpx - INFO - HTTP Request: GET https://dashscope.aliyuncs.com/api/v1/tasks/2ea60580-534c-4461-b8b8-75aa6cf608dc "HTTP/1.1 200 OK"
+2026-04-13 17:51:35,800 - httpx - INFO - HTTP Request: GET https://dashscope.aliyuncs.com/api/v1/tasks/2ea60580-534c-4461-b8b8-75aa6cf608dc "HTTP/1.1 200 OK"
+2026-04-13 17:51:37,863 - httpx - INFO - HTTP Request: GET https://dashscope.aliyuncs.com/api/v1/tasks/2ea60580-534c-4461-b8b8-75aa6cf608dc "HTTP/1.1 200 OK"
+2026-04-13 17:51:39,923 - httpx - INFO - HTTP Request: GET https://dashscope.aliyuncs.com/api/v1/tasks/2ea60580-534c-4461-b8b8-75aa6cf608dc "HTTP/1.1 200 OK"
+2026-04-13 17:51:41,993 - httpx - INFO - HTTP Request: GET https://dashscope.aliyuncs.com/api/v1/tasks/2ea60580-534c-4461-b8b8-75aa6cf608dc "HTTP/1.1 200 OK"
+2026-04-13 17:51:44,067 - httpx - INFO - HTTP Request: GET https://dashscope.aliyuncs.com/api/v1/tasks/2ea60580-534c-4461-b8b8-75aa6cf608dc "HTTP/1.1 200 OK"
+2026-04-13 17:51:44,069 - backend.chat - INFO - Agent returned result: recommendation
+2026-04-13 17:51:44,070 - backend - INFO - Request completed: POST http://localhost:8000/api/chat/ - 200 - 191.9381s
+2026-04-13 17:52:35,730 - backend - INFO - Starting up backend service...
+2026-04-13 17:52:35,807 - backend - INFO - Database initialized successfully
+2026-04-13 17:52:35,807 - backend - INFO - Backend service started successfully
+2026-04-13 17:53:17,516 - backend - INFO - Received request: POST http://localhost:8000/api/auth/login
+2026-04-13 17:53:17,578 - backend - INFO - Request completed: POST http://localhost:8000/api/auth/login - 200 - 0.0618s
+2026-04-13 17:53:19,737 - backend - INFO - Received request: GET http://localhost:8000/health
+2026-04-13 17:53:19,741 - backend - INFO - Health check endpoint accessed
+2026-04-13 17:53:19,742 - backend - INFO - Request completed: GET http://localhost:8000/health - 200 - 0.0048s
+2026-04-13 17:53:35,128 - backend - INFO - Received request: GET http://localhost:8000/health
+2026-04-13 17:53:35,130 - backend - INFO - Health check endpoint accessed
+2026-04-13 17:53:35,131 - backend - INFO - Request completed: GET http://localhost:8000/health - 200 - 0.0031s
+2026-04-13 17:53:35,320 - backend - INFO - Received request: GET http://localhost:8000/health
+2026-04-13 17:53:35,322 - backend - INFO - Health check endpoint accessed
+2026-04-13 17:53:35,323 - backend - INFO - Request completed: GET http://localhost:8000/health - 200 - 0.0034s
+2026-04-13 17:53:37,403 - backend - INFO - Received request: POST http://localhost:8000/api/chat/
+2026-04-13 17:53:37,406 - backend.chat - INFO - Chat request received: user_id=e0b4a9b2-e866-43dd-a735-fb04fb187fa7, message_length=9, has_image=False
+2026-04-13 17:53:37,406 - backend.chat - INFO - Using existing session_id: 6a0c9b40-29eb-42fd-9c5a-8ca8771dfe2b
+2026-04-13 17:53:37,407 - backend.chat - INFO - Processing text-only request
+2026-04-13 17:53:41,204 - httpx - INFO - HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-13 17:53:42,427 - httpx - INFO - HTTP Request: POST https://dashscope.aliyuncs.com/api/v1/services/aigc/text2image/image-synthesis "HTTP/1.1 200 OK"
+2026-04-13 17:53:44,526 - httpx - INFO - HTTP Request: GET https://dashscope.aliyuncs.com/api/v1/tasks/4f797196-b2f8-4e4f-9e80-1153c75115bd "HTTP/1.1 200 OK"
+2026-04-13 17:53:46,614 - httpx - INFO - HTTP Request: GET https://dashscope.aliyuncs.com/api/v1/tasks/4f797196-b2f8-4e4f-9e80-1153c75115bd "HTTP/1.1 200 OK"
+2026-04-13 17:53:48,700 - httpx - INFO - HTTP Request: GET https://dashscope.aliyuncs.com/api/v1/tasks/4f797196-b2f8-4e4f-9e80-1153c75115bd "HTTP/1.1 200 OK"
+2026-04-13 17:53:50,788 - httpx - INFO - HTTP Request: GET https://dashscope.aliyuncs.com/api/v1/tasks/4f797196-b2f8-4e4f-9e80-1153c75115bd "HTTP/1.1 200 OK"
+2026-04-13 17:53:52,865 - httpx - INFO - HTTP Request: GET https://dashscope.aliyuncs.com/api/v1/tasks/4f797196-b2f8-4e4f-9e80-1153c75115bd "HTTP/1.1 200 OK"
+2026-04-13 17:53:54,946 - httpx - INFO - HTTP Request: GET https://dashscope.aliyuncs.com/api/v1/tasks/4f797196-b2f8-4e4f-9e80-1153c75115bd "HTTP/1.1 200 OK"
+2026-04-13 17:53:57,029 - httpx - INFO - HTTP Request: GET https://dashscope.aliyuncs.com/api/v1/tasks/4f797196-b2f8-4e4f-9e80-1153c75115bd "HTTP/1.1 200 OK"
+2026-04-13 17:53:59,134 - httpx - INFO - HTTP Request: GET https://dashscope.aliyuncs.com/api/v1/tasks/4f797196-b2f8-4e4f-9e80-1153c75115bd "HTTP/1.1 200 OK"
+2026-04-13 17:53:59,139 - backend.chat - INFO - Agent returned result: recommendation
+2026-04-13 17:53:59,141 - backend - INFO - Request completed: POST http://localhost:8000/api/chat/ - 200 - 21.7384s
+2026-04-13 18:03:24,846 - backend - INFO - Starting up backend service...
+2026-04-13 18:03:24,915 - backend - INFO - Database initialized successfully
+2026-04-13 18:03:24,916 - backend - INFO - Backend service started successfully
+2026-04-13 18:04:47,625 - backend - INFO - Received request: POST http://localhost:8000/api/auth/login
+2026-04-13 18:04:47,672 - backend - INFO - Request completed: POST http://localhost:8000/api/auth/login - 200 - 0.0473s
+2026-04-13 18:04:49,814 - backend - INFO - Received request: GET http://localhost:8000/health
+2026-04-13 18:04:49,817 - backend - INFO - Health check endpoint accessed
+2026-04-13 18:04:49,818 - backend - INFO - Request completed: GET http://localhost:8000/health - 200 - 0.0042s
+2026-04-13 18:05:04,771 - backend - INFO - Received request: GET http://localhost:8000/health
+2026-04-13 18:05:04,772 - backend - INFO - Health check endpoint accessed
+2026-04-13 18:05:04,774 - backend - INFO - Request completed: GET http://localhost:8000/health - 200 - 0.0029s
+2026-04-13 18:05:04,910 - backend - INFO - Received request: GET http://localhost:8000/health
+2026-04-13 18:05:04,911 - backend - INFO - Health check endpoint accessed
+2026-04-13 18:05:04,912 - backend - INFO - Request completed: GET http://localhost:8000/health - 200 - 0.0025s
+2026-04-13 18:05:06,950 - backend - INFO - Received request: POST http://localhost:8000/api/chat/
+2026-04-13 18:05:06,952 - backend.chat - INFO - Chat request received: user_id=e0b4a9b2-e866-43dd-a735-fb04fb187fa7, message_length=9, has_image=False
+2026-04-13 18:05:06,952 - backend.chat - INFO - Using existing session_id: 31b3349f-df56-44c9-8a18-24cd10f13282
+2026-04-13 18:05:06,953 - backend.chat - INFO - Processing text-only request
+2026-04-13 18:05:11,379 - httpx - INFO - HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-13 18:05:12,500 - httpx - INFO - HTTP Request: POST https://dashscope.aliyuncs.com/api/v1/services/aigc/text2image/image-synthesis "HTTP/1.1 200 OK"
+2026-04-13 18:05:14,595 - httpx - INFO - HTTP Request: GET https://dashscope.aliyuncs.com/api/v1/tasks/5571e999-5f2d-45ae-aa8b-2ad3f35f849e "HTTP/1.1 200 OK"
+2026-04-13 18:05:16,673 - httpx - INFO - HTTP Request: GET https://dashscope.aliyuncs.com/api/v1/tasks/5571e999-5f2d-45ae-aa8b-2ad3f35f849e "HTTP/1.1 200 OK"
+2026-04-13 18:05:18,745 - httpx - INFO - HTTP Request: GET https://dashscope.aliyuncs.com/api/v1/tasks/5571e999-5f2d-45ae-aa8b-2ad3f35f849e "HTTP/1.1 200 OK"
+2026-04-13 18:05:20,823 - httpx - INFO - HTTP Request: GET https://dashscope.aliyuncs.com/api/v1/tasks/5571e999-5f2d-45ae-aa8b-2ad3f35f849e "HTTP/1.1 200 OK"
+2026-04-13 18:05:22,900 - httpx - INFO - HTTP Request: GET https://dashscope.aliyuncs.com/api/v1/tasks/5571e999-5f2d-45ae-aa8b-2ad3f35f849e "HTTP/1.1 200 OK"
+2026-04-13 18:05:24,971 - httpx - INFO - HTTP Request: GET https://dashscope.aliyuncs.com/api/v1/tasks/5571e999-5f2d-45ae-aa8b-2ad3f35f849e "HTTP/1.1 200 OK"
+2026-04-13 18:05:27,049 - httpx - INFO - HTTP Request: GET https://dashscope.aliyuncs.com/api/v1/tasks/5571e999-5f2d-45ae-aa8b-2ad3f35f849e "HTTP/1.1 200 OK"
+2026-04-13 18:05:29,158 - httpx - INFO - HTTP Request: GET https://dashscope.aliyuncs.com/api/v1/tasks/5571e999-5f2d-45ae-aa8b-2ad3f35f849e "HTTP/1.1 200 OK"
+2026-04-13 18:05:29,160 - backend.chat - INFO - Agent returned result: recommendation
+2026-04-13 18:05:29,161 - backend - INFO - Request completed: POST http://localhost:8000/api/chat/ - 200 - 22.2110s
+2026-04-13 18:10:14,410 - backend - INFO - Received request: POST http://localhost:8000/api/auth/login
+2026-04-13 18:10:14,442 - backend - INFO - Request completed: POST http://localhost:8000/api/auth/login - 200 - 0.0324s
+2026-04-13 18:10:58,604 - backend - INFO - Starting up backend service...
+2026-04-13 18:10:58,663 - backend - INFO - Database initialized successfully
+2026-04-13 18:10:58,663 - backend - INFO - Backend service started successfully
+2026-04-13 18:12:00,177 - backend - INFO - Received request: POST http://localhost:8000/api/auth/login
+2026-04-13 18:12:00,248 - backend - INFO - Request completed: POST http://localhost:8000/api/auth/login - 200 - 0.0705s
+2026-04-13 18:12:02,398 - backend - INFO - Received request: GET http://localhost:8000/health
+2026-04-13 18:12:02,401 - backend - INFO - Health check endpoint accessed
+2026-04-13 18:12:02,403 - backend - INFO - Request completed: GET http://localhost:8000/health - 200 - 0.0043s
+2026-04-13 18:12:39,171 - backend - INFO - Received request: GET http://localhost:8000/health
+2026-04-13 18:12:39,172 - backend - INFO - Health check endpoint accessed
+2026-04-13 18:12:39,174 - backend - INFO - Request completed: GET http://localhost:8000/health - 200 - 0.0031s
+2026-04-13 18:12:39,365 - backend - INFO - Received request: GET http://localhost:8000/health
+2026-04-13 18:12:39,367 - backend - INFO - Health check endpoint accessed
+2026-04-13 18:12:39,369 - backend - INFO - Request completed: GET http://localhost:8000/health - 200 - 0.0042s
+2026-04-13 18:12:41,423 - backend - INFO - Received request: POST http://localhost:8000/api/chat/
+2026-04-13 18:12:41,426 - backend.chat - INFO - Chat request received: user_id=e0b4a9b2-e866-43dd-a735-fb04fb187fa7, message_length=9, has_image=False
+2026-04-13 18:12:41,427 - backend.chat - INFO - Using existing session_id: 2e5490b6-c797-4e3d-9f95-abe016cd5f5e
+2026-04-13 18:12:41,429 - backend.chat - INFO - Processing text-only request
+2026-04-13 18:12:46,239 - httpx - INFO - HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-13 18:12:47,466 - httpx - INFO - HTTP Request: POST https://dashscope.aliyuncs.com/api/v1/services/aigc/text2image/image-synthesis "HTTP/1.1 200 OK"
+2026-04-13 18:12:49,579 - httpx - INFO - HTTP Request: GET https://dashscope.aliyuncs.com/api/v1/tasks/94632085-98ad-4499-8335-8fd5d7b7640c "HTTP/1.1 200 OK"
+2026-04-13 18:12:51,654 - httpx - INFO - HTTP Request: GET https://dashscope.aliyuncs.com/api/v1/tasks/94632085-98ad-4499-8335-8fd5d7b7640c "HTTP/1.1 200 OK"
+2026-04-13 18:12:54,427 - httpx - INFO - HTTP Request: GET https://dashscope.aliyuncs.com/api/v1/tasks/94632085-98ad-4499-8335-8fd5d7b7640c "HTTP/1.1 200 OK"
+2026-04-13 18:12:56,571 - httpx - INFO - HTTP Request: GET https://dashscope.aliyuncs.com/api/v1/tasks/94632085-98ad-4499-8335-8fd5d7b7640c "HTTP/1.1 200 OK"
+2026-04-13 18:12:58,651 - httpx - INFO - HTTP Request: GET https://dashscope.aliyuncs.com/api/v1/tasks/94632085-98ad-4499-8335-8fd5d7b7640c "HTTP/1.1 200 OK"
+2026-04-13 18:13:00,735 - httpx - INFO - HTTP Request: GET https://dashscope.aliyuncs.com/api/v1/tasks/94632085-98ad-4499-8335-8fd5d7b7640c "HTTP/1.1 200 OK"
+2026-04-13 18:13:02,823 - httpx - INFO - HTTP Request: GET https://dashscope.aliyuncs.com/api/v1/tasks/94632085-98ad-4499-8335-8fd5d7b7640c "HTTP/1.1 200 OK"
+2026-04-13 18:13:04,909 - httpx - INFO - HTTP Request: GET https://dashscope.aliyuncs.com/api/v1/tasks/94632085-98ad-4499-8335-8fd5d7b7640c "HTTP/1.1 200 OK"
+2026-04-13 18:13:07,027 - httpx - INFO - HTTP Request: GET https://dashscope.aliyuncs.com/api/v1/tasks/94632085-98ad-4499-8335-8fd5d7b7640c "HTTP/1.1 200 OK"
+2026-04-13 18:13:07,030 - backend.chat - INFO - Agent returned result: recommendation
+2026-04-13 18:13:07,031 - backend - INFO - Request completed: POST http://localhost:8000/api/chat/ - 200 - 25.6072s
+2026-04-13 18:20:39,806 - backend - INFO - Starting up backend service...
+2026-04-13 18:20:39,857 - backend - INFO - Database initialized successfully
+2026-04-13 18:20:39,857 - backend - INFO - Backend service started successfully
+2026-04-13 18:21:28,812 - backend - INFO - Received request: POST http://localhost:8000/api/auth/login
+2026-04-13 18:21:28,871 - backend - INFO - Request completed: POST http://localhost:8000/api/auth/login - 200 - 0.0594s
+2026-04-13 18:21:31,005 - backend - INFO - Received request: GET http://localhost:8000/health
+2026-04-13 18:21:31,007 - backend - INFO - Health check endpoint accessed
+2026-04-13 18:21:31,008 - backend - INFO - Request completed: GET http://localhost:8000/health - 200 - 0.0038s
+2026-04-13 18:22:13,178 - backend - INFO - Received request: GET http://localhost:8000/health
+2026-04-13 18:22:13,179 - backend - INFO - Health check endpoint accessed
+2026-04-13 18:22:13,180 - backend - INFO - Request completed: GET http://localhost:8000/health - 200 - 0.0027s
+2026-04-13 18:22:13,380 - backend - INFO - Received request: GET http://localhost:8000/health
+2026-04-13 18:22:13,383 - backend - INFO - Health check endpoint accessed
+2026-04-13 18:22:13,384 - backend - INFO - Request completed: GET http://localhost:8000/health - 200 - 0.0044s
+2026-04-13 18:22:15,439 - backend - INFO - Received request: POST http://localhost:8000/api/chat/
+2026-04-13 18:22:15,441 - backend.chat - INFO - Chat request received: user_id=e0b4a9b2-e866-43dd-a735-fb04fb187fa7, message_length=9, has_image=False
+2026-04-13 18:22:15,441 - backend.chat - INFO - Using existing session_id: 9af8661c-1abd-4c9b-a15f-8333246d5a85
+2026-04-13 18:22:15,442 - backend.chat - INFO - Processing text-only request
+2026-04-13 18:22:20,499 - httpx - INFO - HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-13 18:22:21,723 - httpx - INFO - HTTP Request: POST https://dashscope.aliyuncs.com/api/v1/services/aigc/text2image/image-synthesis "HTTP/1.1 200 OK"
+2026-04-13 18:22:23,839 - httpx - INFO - HTTP Request: GET https://dashscope.aliyuncs.com/api/v1/tasks/18555d91-20db-46e4-89ec-8e333e2ebdcf "HTTP/1.1 200 OK"
+2026-04-13 18:22:25,942 - httpx - INFO - HTTP Request: GET https://dashscope.aliyuncs.com/api/v1/tasks/18555d91-20db-46e4-89ec-8e333e2ebdcf "HTTP/1.1 200 OK"
+2026-04-13 18:22:28,048 - httpx - INFO - HTTP Request: GET https://dashscope.aliyuncs.com/api/v1/tasks/18555d91-20db-46e4-89ec-8e333e2ebdcf "HTTP/1.1 200 OK"
+2026-04-13 18:22:30,145 - httpx - INFO - HTTP Request: GET https://dashscope.aliyuncs.com/api/v1/tasks/18555d91-20db-46e4-89ec-8e333e2ebdcf "HTTP/1.1 200 OK"
+2026-04-13 18:22:32,239 - httpx - INFO - HTTP Request: GET https://dashscope.aliyuncs.com/api/v1/tasks/18555d91-20db-46e4-89ec-8e333e2ebdcf "HTTP/1.1 200 OK"
+2026-04-13 18:22:34,336 - httpx - INFO - HTTP Request: GET https://dashscope.aliyuncs.com/api/v1/tasks/18555d91-20db-46e4-89ec-8e333e2ebdcf "HTTP/1.1 200 OK"
+2026-04-13 18:22:36,427 - httpx - INFO - HTTP Request: GET https://dashscope.aliyuncs.com/api/v1/tasks/18555d91-20db-46e4-89ec-8e333e2ebdcf "HTTP/1.1 200 OK"
+2026-04-13 18:22:38,620 - httpx - INFO - HTTP Request: GET https://dashscope.aliyuncs.com/api/v1/tasks/18555d91-20db-46e4-89ec-8e333e2ebdcf "HTTP/1.1 200 OK"
+2026-04-13 18:22:40,732 - httpx - INFO - HTTP Request: GET https://dashscope.aliyuncs.com/api/v1/tasks/18555d91-20db-46e4-89ec-8e333e2ebdcf "HTTP/1.1 200 OK"
+2026-04-13 18:22:40,737 - backend.chat - INFO - Agent returned result: recommendation
+2026-04-13 18:22:40,739 - backend - INFO - Request completed: POST http://localhost:8000/api/chat/ - 200 - 25.3001s
+2026-04-13 18:37:42,643 - backend - INFO - Received request: POST http://localhost:8000/api/auth/login
+2026-04-13 18:37:42,677 - backend - INFO - Request completed: POST http://localhost:8000/api/auth/login - 200 - 0.0332s
+2026-04-13 18:38:30,352 - backend - INFO - Starting up backend service...
+2026-04-13 18:38:30,402 - backend - INFO - Database initialized successfully
+2026-04-13 18:38:30,403 - backend - INFO - Backend service started successfully
+2026-04-13 18:39:07,986 - backend - INFO - Received request: POST http://localhost:8000/api/auth/login
+2026-04-13 18:39:08,069 - backend - INFO - Request completed: POST http://localhost:8000/api/auth/login - 200 - 0.0827s
+2026-04-13 18:39:10,211 - backend - INFO - Received request: GET http://localhost:8000/health
+2026-04-13 18:39:10,214 - backend - INFO - Health check endpoint accessed
+2026-04-13 18:39:10,215 - backend - INFO - Request completed: GET http://localhost:8000/health - 200 - 0.0045s
+2026-04-13 18:39:47,645 - backend - INFO - Received request: GET http://localhost:8000/health
+2026-04-13 18:39:47,646 - backend - INFO - Health check endpoint accessed
+2026-04-13 18:39:47,647 - backend - INFO - Request completed: GET http://localhost:8000/health - 200 - 0.0025s
+2026-04-13 18:39:47,796 - backend - INFO - Received request: GET http://localhost:8000/health
+2026-04-13 18:39:47,798 - backend - INFO - Health check endpoint accessed
+2026-04-13 18:39:47,800 - backend - INFO - Request completed: GET http://localhost:8000/health - 200 - 0.0041s
+2026-04-13 18:39:49,890 - backend - INFO - Received request: POST http://localhost:8000/api/chat/
+2026-04-13 18:39:49,893 - backend.chat - INFO - Chat request received: user_id=e0b4a9b2-e866-43dd-a735-fb04fb187fa7, message_length=9, has_image=False
+2026-04-13 18:39:49,894 - backend.chat - INFO - Using existing session_id: f64a76c4-c06e-4aec-a92a-a5e6137f87f9
+2026-04-13 18:39:49,895 - backend.chat - INFO - Processing text-only request
+2026-04-13 18:39:54,305 - httpx - INFO - HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-13 18:39:55,523 - httpx - INFO - HTTP Request: POST https://dashscope.aliyuncs.com/api/v1/services/aigc/text2image/image-synthesis "HTTP/1.1 200 OK"
+2026-04-13 18:39:57,617 - httpx - INFO - HTTP Request: GET https://dashscope.aliyuncs.com/api/v1/tasks/0c0bfc8d-b7e2-488b-938b-24fc5c1ca542 "HTTP/1.1 200 OK"
+2026-04-13 18:39:59,698 - httpx - INFO - HTTP Request: GET https://dashscope.aliyuncs.com/api/v1/tasks/0c0bfc8d-b7e2-488b-938b-24fc5c1ca542 "HTTP/1.1 200 OK"
+2026-04-13 18:40:01,782 - httpx - INFO - HTTP Request: GET https://dashscope.aliyuncs.com/api/v1/tasks/0c0bfc8d-b7e2-488b-938b-24fc5c1ca542 "HTTP/1.1 200 OK"
+2026-04-13 18:40:03,880 - httpx - INFO - HTTP Request: GET https://dashscope.aliyuncs.com/api/v1/tasks/0c0bfc8d-b7e2-488b-938b-24fc5c1ca542 "HTTP/1.1 200 OK"
+2026-04-13 18:40:05,953 - httpx - INFO - HTTP Request: GET https://dashscope.aliyuncs.com/api/v1/tasks/0c0bfc8d-b7e2-488b-938b-24fc5c1ca542 "HTTP/1.1 200 OK"
+2026-04-13 18:40:08,017 - httpx - INFO - HTTP Request: GET https://dashscope.aliyuncs.com/api/v1/tasks/0c0bfc8d-b7e2-488b-938b-24fc5c1ca542 "HTTP/1.1 200 OK"
+2026-04-13 18:40:10,093 - httpx - INFO - HTTP Request: GET https://dashscope.aliyuncs.com/api/v1/tasks/0c0bfc8d-b7e2-488b-938b-24fc5c1ca542 "HTTP/1.1 200 OK"
+2026-04-13 18:40:12,179 - httpx - INFO - HTTP Request: GET https://dashscope.aliyuncs.com/api/v1/tasks/0c0bfc8d-b7e2-488b-938b-24fc5c1ca542 "HTTP/1.1 200 OK"
+2026-04-13 18:40:14,258 - httpx - INFO - HTTP Request: GET https://dashscope.aliyuncs.com/api/v1/tasks/0c0bfc8d-b7e2-488b-938b-24fc5c1ca542 "HTTP/1.1 200 OK"
+2026-04-13 18:40:14,260 - backend.chat - INFO - Agent returned result: recommendation
+2026-04-13 18:40:14,261 - backend - INFO - Request completed: POST http://localhost:8000/api/chat/ - 200 - 24.3705s
+2026-04-13 18:44:06,979 - backend - INFO - Starting up backend service...
+2026-04-13 18:44:07,032 - backend - INFO - Database initialized successfully
+2026-04-13 18:44:07,033 - backend - INFO - Backend service started successfully
+2026-04-13 18:44:45,239 - backend - INFO - Received request: POST http://localhost:8000/api/auth/login
+2026-04-13 18:44:45,290 - backend - INFO - Request completed: POST http://localhost:8000/api/auth/login - 200 - 0.0512s
+2026-04-13 18:44:47,437 - backend - INFO - Received request: GET http://localhost:8000/health
+2026-04-13 18:44:47,441 - backend - INFO - Health check endpoint accessed
+2026-04-13 18:44:47,442 - backend - INFO - Request completed: GET http://localhost:8000/health - 200 - 0.0050s
+2026-04-13 18:45:31,604 - backend - INFO - Received request: GET http://localhost:8000/health
+2026-04-13 18:45:31,607 - backend - INFO - Health check endpoint accessed
+2026-04-13 18:45:31,609 - backend - INFO - Request completed: GET http://localhost:8000/health - 200 - 0.0043s
+2026-04-13 18:45:31,787 - backend - INFO - Received request: GET http://localhost:8000/health
+2026-04-13 18:45:31,790 - backend - INFO - Health check endpoint accessed
+2026-04-13 18:45:31,792 - backend - INFO - Request completed: GET http://localhost:8000/health - 200 - 0.0042s
+2026-04-13 18:45:33,895 - backend - INFO - Received request: POST http://localhost:8000/api/chat/
+2026-04-13 18:45:33,898 - backend.chat - INFO - Chat request received: user_id=e0b4a9b2-e866-43dd-a735-fb04fb187fa7, message_length=8, has_image=False
+2026-04-13 18:45:33,898 - backend.chat - INFO - Using existing session_id: 4ceed135-0f0e-448f-8636-1f55bb6fa794
+2026-04-13 18:45:33,899 - backend.chat - INFO - Processing text-only request
+2026-04-13 18:45:37,974 - httpx - INFO - HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-13 18:45:39,180 - httpx - INFO - HTTP Request: POST https://dashscope.aliyuncs.com/api/v1/services/aigc/text2image/image-synthesis "HTTP/1.1 200 OK"
+2026-04-13 18:45:41,300 - httpx - INFO - HTTP Request: GET https://dashscope.aliyuncs.com/api/v1/tasks/23037624-37b4-40f6-85ef-6a74583bbe00 "HTTP/1.1 200 OK"
+2026-04-13 18:45:43,385 - httpx - INFO - HTTP Request: GET https://dashscope.aliyuncs.com/api/v1/tasks/23037624-37b4-40f6-85ef-6a74583bbe00 "HTTP/1.1 200 OK"
+2026-04-13 18:45:45,461 - httpx - INFO - HTTP Request: GET https://dashscope.aliyuncs.com/api/v1/tasks/23037624-37b4-40f6-85ef-6a74583bbe00 "HTTP/1.1 200 OK"
+2026-04-13 18:45:47,552 - httpx - INFO - HTTP Request: GET https://dashscope.aliyuncs.com/api/v1/tasks/23037624-37b4-40f6-85ef-6a74583bbe00 "HTTP/1.1 200 OK"
+2026-04-13 18:45:49,621 - httpx - INFO - HTTP Request: GET https://dashscope.aliyuncs.com/api/v1/tasks/23037624-37b4-40f6-85ef-6a74583bbe00 "HTTP/1.1 200 OK"
+2026-04-13 18:45:51,701 - httpx - INFO - HTTP Request: GET https://dashscope.aliyuncs.com/api/v1/tasks/23037624-37b4-40f6-85ef-6a74583bbe00 "HTTP/1.1 200 OK"
+2026-04-13 18:45:53,785 - httpx - INFO - HTTP Request: GET https://dashscope.aliyuncs.com/api/v1/tasks/23037624-37b4-40f6-85ef-6a74583bbe00 "HTTP/1.1 200 OK"
+2026-04-13 18:45:55,866 - httpx - INFO - HTTP Request: GET https://dashscope.aliyuncs.com/api/v1/tasks/23037624-37b4-40f6-85ef-6a74583bbe00 "HTTP/1.1 200 OK"
+2026-04-13 18:45:57,941 - httpx - INFO - HTTP Request: GET https://dashscope.aliyuncs.com/api/v1/tasks/23037624-37b4-40f6-85ef-6a74583bbe00 "HTTP/1.1 200 OK"
+2026-04-13 18:46:00,044 - httpx - INFO - HTTP Request: GET https://dashscope.aliyuncs.com/api/v1/tasks/23037624-37b4-40f6-85ef-6a74583bbe00 "HTTP/1.1 200 OK"
+2026-04-13 18:46:00,047 - backend.chat - INFO - Agent returned result: recommendation
+2026-04-13 18:46:00,048 - backend - INFO - Request completed: POST http://localhost:8000/api/chat/ - 200 - 26.1534s
+2026-04-13 20:19:38,195 - backend - INFO - Starting up backend service...
+2026-04-13 20:19:38,243 - backend - INFO - Database initialized successfully
+2026-04-13 20:19:38,244 - backend - INFO - Backend service started successfully
+2026-04-13 20:23:41,296 - backend - INFO - Received request: POST http://localhost:8000/api/auth/login
+2026-04-13 20:23:41,361 - backend - INFO - Request completed: POST http://localhost:8000/api/auth/login - 200 - 0.0654s
+2026-04-13 20:23:43,537 - backend - INFO - Received request: GET http://localhost:8000/health
+2026-04-13 20:23:43,540 - backend - INFO - Health check endpoint accessed
+2026-04-13 20:23:43,541 - backend - INFO - Request completed: GET http://localhost:8000/health - 200 - 0.0047s
+2026-04-13 20:23:58,903 - backend - INFO - Received request: GET http://localhost:8000/health
+2026-04-13 20:23:58,905 - backend - INFO - Health check endpoint accessed
+2026-04-13 20:23:58,906 - backend - INFO - Request completed: GET http://localhost:8000/health - 200 - 0.0028s
+2026-04-13 20:23:59,069 - backend - INFO - Received request: GET http://localhost:8000/health
+2026-04-13 20:23:59,077 - backend - INFO - Health check endpoint accessed
+2026-04-13 20:23:59,079 - backend - INFO - Request completed: GET http://localhost:8000/health - 200 - 0.0107s
+2026-04-13 20:24:01,145 - backend - INFO - Received request: POST http://localhost:8000/api/chat/
+2026-04-13 20:24:01,148 - backend.chat - INFO - Chat request received: user_id=e0b4a9b2-e866-43dd-a735-fb04fb187fa7, message_length=8, has_image=False
+2026-04-13 20:24:01,148 - backend.chat - INFO - Using existing session_id: 50a83795-61a8-4f46-b48e-0fdd9d3e0029
+2026-04-13 20:24:01,148 - backend.chat - INFO - Processing text-only request
+2026-04-13 20:24:05,744 - httpx - INFO - HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-13 20:24:06,917 - httpx - INFO - HTTP Request: POST https://dashscope.aliyuncs.com/api/v1/services/aigc/text2image/image-synthesis "HTTP/1.1 200 OK"
+2026-04-13 20:24:09,032 - httpx - INFO - HTTP Request: GET https://dashscope.aliyuncs.com/api/v1/tasks/17c3b054-2431-4257-ad66-630a0861f155 "HTTP/1.1 200 OK"
+2026-04-13 20:24:11,106 - httpx - INFO - HTTP Request: GET https://dashscope.aliyuncs.com/api/v1/tasks/17c3b054-2431-4257-ad66-630a0861f155 "HTTP/1.1 200 OK"
+2026-04-13 20:24:13,180 - httpx - INFO - HTTP Request: GET https://dashscope.aliyuncs.com/api/v1/tasks/17c3b054-2431-4257-ad66-630a0861f155 "HTTP/1.1 200 OK"
+2026-04-13 20:24:15,279 - httpx - INFO - HTTP Request: GET https://dashscope.aliyuncs.com/api/v1/tasks/17c3b054-2431-4257-ad66-630a0861f155 "HTTP/1.1 200 OK"
+2026-04-13 20:24:17,360 - httpx - INFO - HTTP Request: GET https://dashscope.aliyuncs.com/api/v1/tasks/17c3b054-2431-4257-ad66-630a0861f155 "HTTP/1.1 200 OK"
+2026-04-13 20:24:19,465 - httpx - INFO - HTTP Request: GET https://dashscope.aliyuncs.com/api/v1/tasks/17c3b054-2431-4257-ad66-630a0861f155 "HTTP/1.1 200 OK"
+2026-04-13 20:24:21,549 - httpx - INFO - HTTP Request: GET https://dashscope.aliyuncs.com/api/v1/tasks/17c3b054-2431-4257-ad66-630a0861f155 "HTTP/1.1 200 OK"
+2026-04-13 20:24:23,638 - httpx - INFO - HTTP Request: GET https://dashscope.aliyuncs.com/api/v1/tasks/17c3b054-2431-4257-ad66-630a0861f155 "HTTP/1.1 200 OK"
+2026-04-13 20:24:25,719 - httpx - INFO - HTTP Request: GET https://dashscope.aliyuncs.com/api/v1/tasks/17c3b054-2431-4257-ad66-630a0861f155 "HTTP/1.1 200 OK"
+2026-04-13 20:24:27,826 - httpx - INFO - HTTP Request: GET https://dashscope.aliyuncs.com/api/v1/tasks/17c3b054-2431-4257-ad66-630a0861f155 "HTTP/1.1 200 OK"
+2026-04-13 20:24:29,927 - httpx - INFO - HTTP Request: GET https://dashscope.aliyuncs.com/api/v1/tasks/17c3b054-2431-4257-ad66-630a0861f155 "HTTP/1.1 200 OK"
+2026-04-13 20:24:29,929 - backend.chat - INFO - Agent returned result: recommendation
+2026-04-13 20:24:29,931 - backend - INFO - Request completed: POST http://localhost:8000/api/chat/ - 200 - 28.7854s
+2026-04-13 20:40:23,770 - backend - INFO - Starting up backend service...
+2026-04-13 20:40:23,818 - backend - INFO - Database initialized successfully
+2026-04-13 20:40:23,819 - backend - INFO - Backend service started successfully
+2026-04-13 20:41:36,198 - backend - INFO - Received request: POST http://localhost:8000/api/auth/login
+2026-04-13 20:41:36,251 - backend - INFO - Request completed: POST http://localhost:8000/api/auth/login - 200 - 0.0534s
+2026-04-13 20:41:38,407 - backend - INFO - Received request: GET http://localhost:8000/health
+2026-04-13 20:41:38,410 - backend - INFO - Health check endpoint accessed
+2026-04-13 20:41:38,412 - backend - INFO - Request completed: GET http://localhost:8000/health - 200 - 0.0048s
+2026-04-13 20:41:53,105 - backend - INFO - Received request: GET http://localhost:8000/health
+2026-04-13 20:41:53,107 - backend - INFO - Health check endpoint accessed
+2026-04-13 20:41:53,108 - backend - INFO - Request completed: GET http://localhost:8000/health - 200 - 0.0034s
+2026-04-13 20:41:53,261 - backend - INFO - Received request: GET http://localhost:8000/health
+2026-04-13 20:41:53,264 - backend - INFO - Health check endpoint accessed
+2026-04-13 20:41:53,266 - backend - INFO - Request completed: GET http://localhost:8000/health - 200 - 0.0055s
+2026-04-13 20:41:55,359 - backend - INFO - Received request: POST http://localhost:8000/api/chat/
+2026-04-13 20:41:55,362 - backend.chat - INFO - Chat request received: user_id=e0b4a9b2-e866-43dd-a735-fb04fb187fa7, message_length=8, has_image=False
+2026-04-13 20:41:55,362 - backend.chat - INFO - Using existing session_id: 94b85d01-4520-4c40-b4b7-770c2597d0c9
+2026-04-13 20:41:55,363 - backend.chat - INFO - Processing text-only request
+2026-04-13 20:41:59,912 - httpx - INFO - HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-13 20:42:00,959 - httpx - INFO - HTTP Request: POST https://dashscope.aliyuncs.com/api/v1/services/aigc/text2image/image-synthesis "HTTP/1.1 400 Bad Request"
+2026-04-13 20:42:00,962 - backend.chat - INFO - Agent returned result: recommendation
+2026-04-13 20:42:00,963 - backend - INFO - Request completed: POST http://localhost:8000/api/chat/ - 200 - 5.6046s
+2026-04-13 20:50:42,399 - backend - INFO - Starting up backend service...
+2026-04-13 20:50:42,455 - backend - INFO - Database initialized successfully
+2026-04-13 20:50:42,455 - backend - INFO - Backend service started successfully
+2026-04-13 20:51:12,278 - backend - INFO - Received request: POST http://localhost:8000/api/auth/login
+2026-04-13 20:51:12,339 - backend - INFO - Request completed: POST http://localhost:8000/api/auth/login - 200 - 0.0608s
+2026-04-13 20:51:14,502 - backend - INFO - Received request: GET http://localhost:8000/health
+2026-04-13 20:51:14,507 - backend - INFO - Health check endpoint accessed
+2026-04-13 20:51:14,509 - backend - INFO - Request completed: GET http://localhost:8000/health - 200 - 0.0066s
+2026-04-13 20:51:43,818 - backend - INFO - Received request: GET http://localhost:8000/health
+2026-04-13 20:51:43,820 - backend - INFO - Health check endpoint accessed
+2026-04-13 20:51:43,822 - backend - INFO - Request completed: GET http://localhost:8000/health - 200 - 0.0032s
+2026-04-13 20:51:43,988 - backend - INFO - Received request: GET http://localhost:8000/health
+2026-04-13 20:51:43,989 - backend - INFO - Health check endpoint accessed
+2026-04-13 20:51:43,990 - backend - INFO - Request completed: GET http://localhost:8000/health - 200 - 0.0028s
+2026-04-13 20:51:46,093 - backend - INFO - Received request: POST http://localhost:8000/api/chat/
+2026-04-13 20:51:46,096 - backend.chat - INFO - Chat request received: user_id=e0b4a9b2-e866-43dd-a735-fb04fb187fa7, message_length=8, has_image=False
+2026-04-13 20:51:46,096 - backend.chat - INFO - Using existing session_id: 2b5e542e-0117-4bdb-87d0-6f5a89430fe6
+2026-04-13 20:51:46,097 - backend.chat - INFO - Processing text-only request
+2026-04-13 20:51:49,972 - httpx - INFO - HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-13 20:51:51,478 - httpx - INFO - HTTP Request: POST https://dashscope.aliyuncs.com/api/v1/services/aigc/text2image/image-synthesis "HTTP/1.1 400 Bad Request"
+2026-04-13 20:51:51,481 - backend.chat - INFO - Agent returned result: recommendation
+2026-04-13 20:51:51,482 - backend - INFO - Request completed: POST http://localhost:8000/api/chat/ - 200 - 5.3889s
+2026-04-13 20:53:52,523 - backend - INFO - Starting up backend service...
+2026-04-13 20:53:52,566 - backend - INFO - Database initialized successfully
+2026-04-13 20:53:52,566 - backend - INFO - Backend service started successfully
+2026-04-13 20:54:01,079 - backend - INFO - Received request: POST http://localhost:8000/api/auth/login
+2026-04-13 20:54:01,130 - backend - INFO - Request completed: POST http://localhost:8000/api/auth/login - 200 - 0.0512s
+2026-04-13 20:54:03,256 - backend - INFO - Received request: GET http://localhost:8000/health
+2026-04-13 20:54:03,260 - backend - INFO - Health check endpoint accessed
+2026-04-13 20:54:03,261 - backend - INFO - Request completed: GET http://localhost:8000/health - 200 - 0.0056s
+2026-04-13 20:54:36,692 - backend - INFO - Received request: GET http://localhost:8000/health
+2026-04-13 20:54:36,694 - backend - INFO - Health check endpoint accessed
+2026-04-13 20:54:36,695 - backend - INFO - Request completed: GET http://localhost:8000/health - 200 - 0.0032s
+2026-04-13 20:54:36,859 - backend - INFO - Received request: GET http://localhost:8000/health
+2026-04-13 20:54:36,862 - backend - INFO - Health check endpoint accessed
+2026-04-13 20:54:36,863 - backend - INFO - Request completed: GET http://localhost:8000/health - 200 - 0.0045s
+2026-04-13 20:54:38,931 - backend - INFO - Received request: POST http://localhost:8000/api/chat/
+2026-04-13 20:54:38,935 - backend.chat - INFO - Chat request received: user_id=e0b4a9b2-e866-43dd-a735-fb04fb187fa7, message_length=8, has_image=False
+2026-04-13 20:54:38,935 - backend.chat - INFO - Using existing session_id: 874203eb-c958-4e76-a21f-30dc1eda6e0e
+2026-04-13 20:54:38,935 - backend.chat - INFO - Processing text-only request
+2026-04-13 20:54:43,162 - httpx - INFO - HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-13 20:54:44,681 - httpx - INFO - HTTP Request: POST https://dashscope.aliyuncs.com/api/v1/services/aigc/text2image/image-synthesis "HTTP/1.1 400 Bad Request"
+2026-04-13 20:54:44,686 - backend.chat - INFO - Agent returned result: recommendation
+2026-04-13 20:54:44,688 - backend - INFO - Request completed: POST http://localhost:8000/api/chat/ - 200 - 5.7569s
+2026-04-13 21:22:35,863 - backend - INFO - Starting up backend service...
+2026-04-13 21:22:35,927 - backend - INFO - Database initialized successfully
+2026-04-13 21:22:35,928 - backend - INFO - Backend service started successfully
+2026-04-13 21:24:12,777 - backend - INFO - Received request: POST http://localhost:8000/api/auth/login
+2026-04-13 21:24:12,809 - backend - INFO - Request completed: POST http://localhost:8000/api/auth/login - 200 - 0.0322s
+2026-04-13 21:24:14,925 - backend - INFO - Received request: GET http://localhost:8000/health
+2026-04-13 21:24:14,927 - backend - INFO - Health check endpoint accessed
+2026-04-13 21:24:14,928 - backend - INFO - Request completed: GET http://localhost:8000/health - 200 - 0.0034s
+2026-04-13 21:24:28,339 - backend - INFO - Received request: GET http://localhost:8000/health
+2026-04-13 21:24:28,341 - backend - INFO - Health check endpoint accessed
+2026-04-13 21:24:28,342 - backend - INFO - Request completed: GET http://localhost:8000/health - 200 - 0.0031s
+2026-04-13 21:24:28,463 - backend - INFO - Received request: GET http://localhost:8000/health
+2026-04-13 21:24:28,465 - backend - INFO - Health check endpoint accessed
+2026-04-13 21:24:28,466 - backend - INFO - Request completed: GET http://localhost:8000/health - 200 - 0.0036s
+2026-04-13 21:24:30,528 - backend - INFO - Received request: POST http://localhost:8000/api/chat/
+2026-04-13 21:24:30,530 - backend.chat - INFO - Chat request received: user_id=e0b4a9b2-e866-43dd-a735-fb04fb187fa7, message_length=8, has_image=False
+2026-04-13 21:24:30,530 - backend.chat - INFO - Using existing session_id: d3c545ca-170c-41ad-a577-10af4bcc9977
+2026-04-13 21:24:30,530 - backend.chat - INFO - Processing text-only request
+2026-04-13 21:24:35,054 - httpx - INFO - HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-13 21:24:36,013 - httpx - INFO - HTTP Request: POST https://dashscope.aliyuncs.com/api/v1/services/aigc/text2image/image-synthesis "HTTP/1.1 400 Bad Request"
+2026-04-13 21:24:36,015 - backend.chat - INFO - Agent returned result: recommendation
+2026-04-13 21:24:36,016 - backend - INFO - Request completed: POST http://localhost:8000/api/chat/ - 200 - 5.4882s
+2026-04-13 21:29:26,529 - backend - INFO - Starting up backend service...
+2026-04-13 21:29:26,605 - backend - INFO - Database initialized successfully
+2026-04-13 21:29:26,606 - backend - INFO - Backend service started successfully
+2026-04-13 21:29:34,675 - backend - INFO - Received request: POST http://localhost:8000/api/auth/login
+2026-04-13 21:29:34,708 - backend - INFO - Request completed: POST http://localhost:8000/api/auth/login - 200 - 0.0335s
+2026-04-13 21:29:36,814 - backend - INFO - Received request: GET http://localhost:8000/health
+2026-04-13 21:29:36,816 - backend - INFO - Health check endpoint accessed
+2026-04-13 21:29:36,817 - backend - INFO - Request completed: GET http://localhost:8000/health - 200 - 0.0033s
+2026-04-13 21:33:01,408 - backend - INFO - Received request: GET http://localhost:8000/health
+2026-04-13 21:33:01,410 - backend - INFO - Health check endpoint accessed
+2026-04-13 21:33:01,411 - backend - INFO - Request completed: GET http://localhost:8000/health - 200 - 0.0033s
+2026-04-13 21:33:09,405 - backend - INFO - Received request: GET http://localhost:8000/health
+2026-04-13 21:33:09,406 - backend - INFO - Health check endpoint accessed
+2026-04-13 21:33:09,407 - backend - INFO - Request completed: GET http://localhost:8000/health - 200 - 0.0022s
+2026-04-13 21:33:11,448 - backend - INFO - Received request: POST http://localhost:8000/api/chat/
+2026-04-13 21:33:11,449 - backend.chat - INFO - Chat request received: user_id=e0b4a9b2-e866-43dd-a735-fb04fb187fa7, message_length=8, has_image=False
+2026-04-13 21:33:11,450 - backend.chat - INFO - Using existing session_id: 01d89548-a2e6-47eb-a655-b2eb10612381
+2026-04-13 21:33:11,450 - backend.chat - INFO - Processing text-only request
+2026-04-13 21:33:18,152 - httpx - INFO - HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-13 21:33:19,097 - httpx - INFO - HTTP Request: POST https://dashscope.aliyuncs.com/api/v1/services/aigc/text2image/image-synthesis "HTTP/1.1 200 OK"
+2026-04-13 21:33:21,209 - httpx - INFO - HTTP Request: GET https://dashscope.aliyuncs.com/api/v1/tasks/f50ff41a-8868-4c7b-b6f3-19c2bd9d1e42 "HTTP/1.1 200 OK"
+2026-04-13 21:33:23,281 - httpx - INFO - HTTP Request: GET https://dashscope.aliyuncs.com/api/v1/tasks/f50ff41a-8868-4c7b-b6f3-19c2bd9d1e42 "HTTP/1.1 200 OK"
+2026-04-13 21:33:25,354 - httpx - INFO - HTTP Request: GET https://dashscope.aliyuncs.com/api/v1/tasks/f50ff41a-8868-4c7b-b6f3-19c2bd9d1e42 "HTTP/1.1 200 OK"
+2026-04-13 21:33:27,427 - httpx - INFO - HTTP Request: GET https://dashscope.aliyuncs.com/api/v1/tasks/f50ff41a-8868-4c7b-b6f3-19c2bd9d1e42 "HTTP/1.1 200 OK"
+2026-04-13 21:33:29,490 - httpx - INFO - HTTP Request: GET https://dashscope.aliyuncs.com/api/v1/tasks/f50ff41a-8868-4c7b-b6f3-19c2bd9d1e42 "HTTP/1.1 200 OK"
+2026-04-13 21:33:31,556 - httpx - INFO - HTTP Request: GET https://dashscope.aliyuncs.com/api/v1/tasks/f50ff41a-8868-4c7b-b6f3-19c2bd9d1e42 "HTTP/1.1 200 OK"
+2026-04-13 21:33:33,630 - httpx - INFO - HTTP Request: GET https://dashscope.aliyuncs.com/api/v1/tasks/f50ff41a-8868-4c7b-b6f3-19c2bd9d1e42 "HTTP/1.1 200 OK"
+2026-04-13 21:33:35,729 - httpx - INFO - HTTP Request: GET https://dashscope.aliyuncs.com/api/v1/tasks/f50ff41a-8868-4c7b-b6f3-19c2bd9d1e42 "HTTP/1.1 200 OK"
+2026-04-13 21:33:37,800 - httpx - INFO - HTTP Request: GET https://dashscope.aliyuncs.com/api/v1/tasks/f50ff41a-8868-4c7b-b6f3-19c2bd9d1e42 "HTTP/1.1 200 OK"
+2026-04-13 21:33:39,876 - httpx - INFO - HTTP Request: GET https://dashscope.aliyuncs.com/api/v1/tasks/f50ff41a-8868-4c7b-b6f3-19c2bd9d1e42 "HTTP/1.1 200 OK"
+2026-04-13 21:33:41,984 - httpx - INFO - HTTP Request: GET https://dashscope.aliyuncs.com/api/v1/tasks/f50ff41a-8868-4c7b-b6f3-19c2bd9d1e42 "HTTP/1.1 200 OK"
+2026-04-13 21:33:41,986 - backend.chat - INFO - Agent returned result: recommendation
+2026-04-13 21:33:41,987 - backend - INFO - Request completed: POST http://localhost:8000/api/chat/ - 200 - 30.5395s
+2026-04-13 22:21:46,558 - backend - INFO - Starting up backend service...
+2026-04-13 22:21:46,605 - backend - INFO - Database initialized successfully
+2026-04-13 22:21:46,605 - backend - INFO - Backend service started successfully
+2026-04-13 22:24:20,394 - backend - INFO - Starting up backend service...
+2026-04-13 22:24:20,441 - backend - INFO - Database initialized successfully
+2026-04-13 22:24:20,441 - backend - INFO - Backend service started successfully
+2026-04-13 22:24:57,230 - backend - INFO - Received request: GET http://localhost:8000/health
+2026-04-13 22:24:57,233 - backend - INFO - Health check endpoint accessed
+2026-04-13 22:24:57,234 - backend - INFO - Request completed: GET http://localhost:8000/health - 200 - 0.0043s
+2026-04-13 22:24:59,311 - backend - INFO - Received request: POST http://localhost:8000/api/chat/
+2026-04-13 22:24:59,312 - backend.chat - INFO - Chat request received: user_id=e0b4a9b2-e866-43dd-a735-fb04fb187fa7, message_length=8, has_image=False
+2026-04-13 22:24:59,313 - backend.chat - INFO - Using existing session_id: 01d89548-a2e6-47eb-a655-b2eb10612381
+2026-04-13 22:24:59,313 - backend.chat - INFO - Processing text-only request
+2026-04-13 22:25:05,318 - httpx - INFO - HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-13 22:25:06,318 - httpx - INFO - HTTP Request: POST https://dashscope.aliyuncs.com/api/v1/services/aigc/text2image/image-synthesis "HTTP/1.1 200 OK"
+2026-04-13 22:25:08,431 - httpx - INFO - HTTP Request: GET https://dashscope.aliyuncs.com/api/v1/tasks/0796720b-0b05-4a58-b584-66dace7e53a3 "HTTP/1.1 200 OK"
+2026-04-13 22:25:10,517 - httpx - INFO - HTTP Request: GET https://dashscope.aliyuncs.com/api/v1/tasks/0796720b-0b05-4a58-b584-66dace7e53a3 "HTTP/1.1 200 OK"
+2026-04-13 22:25:12,607 - httpx - INFO - HTTP Request: GET https://dashscope.aliyuncs.com/api/v1/tasks/0796720b-0b05-4a58-b584-66dace7e53a3 "HTTP/1.1 200 OK"
+2026-04-13 22:25:14,700 - httpx - INFO - HTTP Request: GET https://dashscope.aliyuncs.com/api/v1/tasks/0796720b-0b05-4a58-b584-66dace7e53a3 "HTTP/1.1 200 OK"
+2026-04-13 22:25:16,791 - httpx - INFO - HTTP Request: GET https://dashscope.aliyuncs.com/api/v1/tasks/0796720b-0b05-4a58-b584-66dace7e53a3 "HTTP/1.1 200 OK"
+2026-04-13 22:25:18,871 - httpx - INFO - HTTP Request: GET https://dashscope.aliyuncs.com/api/v1/tasks/0796720b-0b05-4a58-b584-66dace7e53a3 "HTTP/1.1 200 OK"
+2026-04-13 22:25:20,961 - httpx - INFO - HTTP Request: GET https://dashscope.aliyuncs.com/api/v1/tasks/0796720b-0b05-4a58-b584-66dace7e53a3 "HTTP/1.1 200 OK"
+2026-04-13 22:25:23,044 - httpx - INFO - HTTP Request: GET https://dashscope.aliyuncs.com/api/v1/tasks/0796720b-0b05-4a58-b584-66dace7e53a3 "HTTP/1.1 200 OK"
+2026-04-13 22:25:25,135 - httpx - INFO - HTTP Request: GET https://dashscope.aliyuncs.com/api/v1/tasks/0796720b-0b05-4a58-b584-66dace7e53a3 "HTTP/1.1 200 OK"
+2026-04-13 22:25:27,227 - httpx - INFO - HTTP Request: GET https://dashscope.aliyuncs.com/api/v1/tasks/0796720b-0b05-4a58-b584-66dace7e53a3 "HTTP/1.1 200 OK"
+2026-04-13 22:25:29,317 - httpx - INFO - HTTP Request: GET https://dashscope.aliyuncs.com/api/v1/tasks/0796720b-0b05-4a58-b584-66dace7e53a3 "HTTP/1.1 200 OK"
+2026-04-13 22:25:31,431 - httpx - INFO - HTTP Request: GET https://dashscope.aliyuncs.com/api/v1/tasks/0796720b-0b05-4a58-b584-66dace7e53a3 "HTTP/1.1 200 OK"
+2026-04-13 22:25:31,438 - backend.chat - INFO - Agent returned result: recommendation
+2026-04-13 22:25:31,440 - backend - INFO - Request completed: POST http://localhost:8000/api/chat/ - 200 - 32.1291s
+2026-04-13 22:28:35,970 - backend - INFO - Starting up backend service...
+2026-04-13 22:28:36,031 - backend - INFO - Database initialized successfully
+2026-04-13 22:28:36,031 - backend - INFO - Backend service started successfully
+2026-04-13 22:29:09,688 - backend - INFO - Received request: GET http://localhost:8000/health
+2026-04-13 22:29:09,691 - backend - INFO - Health check endpoint accessed
+2026-04-13 22:29:09,692 - backend - INFO - Request completed: GET http://localhost:8000/health - 200 - 0.0036s
+2026-04-13 22:29:11,749 - backend - INFO - Received request: POST http://localhost:8000/api/chat/
+2026-04-13 22:29:11,751 - backend.chat - INFO - Chat request received: user_id=e0b4a9b2-e866-43dd-a735-fb04fb187fa7, message_length=8, has_image=False
+2026-04-13 22:29:11,752 - backend.chat - INFO - Using existing session_id: 01d89548-a2e6-47eb-a655-b2eb10612381
+2026-04-13 22:29:11,752 - backend.chat - INFO - Processing text-only request
+2026-04-13 22:29:16,305 - httpx - INFO - HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-13 22:29:17,279 - httpx - INFO - HTTP Request: POST https://dashscope.aliyuncs.com/api/v1/services/aigc/text2image/image-synthesis "HTTP/1.1 200 OK"
+2026-04-13 22:29:19,383 - httpx - INFO - HTTP Request: GET https://dashscope.aliyuncs.com/api/v1/tasks/e96901a4-f0eb-4298-b33f-3a3f6774ad38 "HTTP/1.1 200 OK"
+2026-04-13 22:29:21,455 - httpx - INFO - HTTP Request: GET https://dashscope.aliyuncs.com/api/v1/tasks/e96901a4-f0eb-4298-b33f-3a3f6774ad38 "HTTP/1.1 200 OK"
+2026-04-13 22:29:23,533 - httpx - INFO - HTTP Request: GET https://dashscope.aliyuncs.com/api/v1/tasks/e96901a4-f0eb-4298-b33f-3a3f6774ad38 "HTTP/1.1 200 OK"
+2026-04-13 22:29:25,615 - httpx - INFO - HTTP Request: GET https://dashscope.aliyuncs.com/api/v1/tasks/e96901a4-f0eb-4298-b33f-3a3f6774ad38 "HTTP/1.1 200 OK"
+2026-04-13 22:29:27,689 - httpx - INFO - HTTP Request: GET https://dashscope.aliyuncs.com/api/v1/tasks/e96901a4-f0eb-4298-b33f-3a3f6774ad38 "HTTP/1.1 200 OK"
+2026-04-13 22:29:29,760 - httpx - INFO - HTTP Request: GET https://dashscope.aliyuncs.com/api/v1/tasks/e96901a4-f0eb-4298-b33f-3a3f6774ad38 "HTTP/1.1 200 OK"
+2026-04-13 22:29:31,835 - httpx - INFO - HTTP Request: GET https://dashscope.aliyuncs.com/api/v1/tasks/e96901a4-f0eb-4298-b33f-3a3f6774ad38 "HTTP/1.1 200 OK"
+2026-04-13 22:29:33,928 - httpx - INFO - HTTP Request: GET https://dashscope.aliyuncs.com/api/v1/tasks/e96901a4-f0eb-4298-b33f-3a3f6774ad38 "HTTP/1.1 200 OK"
+2026-04-13 22:29:33,929 - backend.chat - INFO - Agent returned result: recommendation
+2026-04-13 22:29:33,930 - backend - INFO - Request completed: POST http://localhost:8000/api/chat/ - 200 - 22.1808s
+2026-04-13 22:33:59,845 - backend - INFO - Starting up backend service...
+2026-04-13 22:33:59,901 - backend - INFO - Database initialized successfully
+2026-04-13 22:33:59,902 - backend - INFO - Backend service started successfully
+2026-04-13 22:35:56,787 - backend - INFO - Received request: GET http://localhost:8000/health
+2026-04-13 22:35:56,790 - backend - INFO - Health check endpoint accessed
+2026-04-13 22:35:56,791 - backend - INFO - Request completed: GET http://localhost:8000/health - 200 - 0.0036s
+2026-04-13 22:35:58,882 - backend - INFO - Received request: POST http://localhost:8000/api/chat/
+2026-04-13 22:35:58,884 - backend.chat - INFO - Chat request received: user_id=e0b4a9b2-e866-43dd-a735-fb04fb187fa7, message_length=8, has_image=False
+2026-04-13 22:35:58,885 - backend.chat - INFO - Using existing session_id: 01d89548-a2e6-47eb-a655-b2eb10612381
+2026-04-13 22:35:58,885 - backend.chat - INFO - Processing text-only request
+2026-04-13 22:36:04,253 - httpx - INFO - HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-13 22:36:07,751 - httpx - INFO - HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-13 22:36:10,798 - httpx - INFO - HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-13 22:36:14,096 - httpx - INFO - HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-13 22:36:15,049 - httpx - INFO - HTTP Request: POST https://dashscope.aliyuncs.com/api/v1/services/aigc/text2image/image-synthesis "HTTP/1.1 200 OK"
+2026-04-13 22:36:17,141 - httpx - INFO - HTTP Request: GET https://dashscope.aliyuncs.com/api/v1/tasks/0ad4bc58-1f60-4a35-88c2-961e7c39a27e "HTTP/1.1 200 OK"
+2026-04-13 22:36:19,218 - httpx - INFO - HTTP Request: GET https://dashscope.aliyuncs.com/api/v1/tasks/0ad4bc58-1f60-4a35-88c2-961e7c39a27e "HTTP/1.1 200 OK"
+2026-04-13 22:36:21,305 - httpx - INFO - HTTP Request: GET https://dashscope.aliyuncs.com/api/v1/tasks/0ad4bc58-1f60-4a35-88c2-961e7c39a27e "HTTP/1.1 200 OK"
+2026-04-13 22:36:23,383 - httpx - INFO - HTTP Request: GET https://dashscope.aliyuncs.com/api/v1/tasks/0ad4bc58-1f60-4a35-88c2-961e7c39a27e "HTTP/1.1 200 OK"
+2026-04-13 22:36:25,454 - httpx - INFO - HTTP Request: GET https://dashscope.aliyuncs.com/api/v1/tasks/0ad4bc58-1f60-4a35-88c2-961e7c39a27e "HTTP/1.1 200 OK"
+2026-04-13 22:36:27,526 - httpx - INFO - HTTP Request: GET https://dashscope.aliyuncs.com/api/v1/tasks/0ad4bc58-1f60-4a35-88c2-961e7c39a27e "HTTP/1.1 200 OK"
+2026-04-13 22:36:29,603 - httpx - INFO - HTTP Request: GET https://dashscope.aliyuncs.com/api/v1/tasks/0ad4bc58-1f60-4a35-88c2-961e7c39a27e "HTTP/1.1 200 OK"
+2026-04-13 22:36:31,671 - httpx - INFO - HTTP Request: GET https://dashscope.aliyuncs.com/api/v1/tasks/0ad4bc58-1f60-4a35-88c2-961e7c39a27e "HTTP/1.1 200 OK"
+2026-04-13 22:36:33,755 - httpx - INFO - HTTP Request: GET https://dashscope.aliyuncs.com/api/v1/tasks/0ad4bc58-1f60-4a35-88c2-961e7c39a27e "HTTP/1.1 200 OK"
+2026-04-13 22:36:35,829 - httpx - INFO - HTTP Request: GET https://dashscope.aliyuncs.com/api/v1/tasks/0ad4bc58-1f60-4a35-88c2-961e7c39a27e "HTTP/1.1 200 OK"
+2026-04-13 22:36:37,918 - httpx - INFO - HTTP Request: GET https://dashscope.aliyuncs.com/api/v1/tasks/0ad4bc58-1f60-4a35-88c2-961e7c39a27e "HTTP/1.1 200 OK"
+2026-04-13 22:36:37,921 - backend.chat - INFO - Agent returned result: recommendation
+2026-04-13 22:36:37,922 - backend - INFO - Request completed: POST http://localhost:8000/api/chat/ - 200 - 39.0394s
+2026-04-13 22:44:52,597 - backend - INFO - Received request: GET http://localhost:8000/health
+2026-04-13 22:44:52,599 - backend - INFO - Health check endpoint accessed
+2026-04-13 22:44:52,600 - backend - INFO - Request completed: GET http://localhost:8000/health - 200 - 0.0032s
+2026-04-13 22:44:52,732 - backend - INFO - Received request: GET http://localhost:8000/health
+2026-04-13 22:44:52,733 - backend - INFO - Health check endpoint accessed
+2026-04-13 22:44:52,734 - backend - INFO - Request completed: GET http://localhost:8000/health - 200 - 0.0023s
+2026-04-13 22:44:54,797 - backend - INFO - Received request: POST http://localhost:8000/api/chat/
+2026-04-13 22:44:54,799 - backend.chat - INFO - Chat request received: user_id=e0b4a9b2-e866-43dd-a735-fb04fb187fa7, message_length=10, has_image=False
+2026-04-13 22:44:54,800 - backend.chat - INFO - Using existing session_id: 01d89548-a2e6-47eb-a655-b2eb10612381
+2026-04-13 22:44:54,800 - backend.chat - INFO - Processing text-only request
+2026-04-13 22:44:59,599 - httpx - INFO - HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-13 22:45:02,210 - httpx - INFO - HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-13 22:45:05,091 - httpx - INFO - HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-13 22:45:08,497 - httpx - INFO - HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-13 22:45:09,527 - httpx - INFO - HTTP Request: POST https://dashscope.aliyuncs.com/api/v1/services/aigc/text2image/image-synthesis "HTTP/1.1 200 OK"
+2026-04-13 22:45:11,640 - httpx - INFO - HTTP Request: GET https://dashscope.aliyuncs.com/api/v1/tasks/27bc05ac-8ea0-43fc-9ce4-aa14729bb0ba "HTTP/1.1 200 OK"
+2026-04-13 22:45:13,730 - httpx - INFO - HTTP Request: GET https://dashscope.aliyuncs.com/api/v1/tasks/27bc05ac-8ea0-43fc-9ce4-aa14729bb0ba "HTTP/1.1 200 OK"
+2026-04-13 22:45:15,812 - httpx - INFO - HTTP Request: GET https://dashscope.aliyuncs.com/api/v1/tasks/27bc05ac-8ea0-43fc-9ce4-aa14729bb0ba "HTTP/1.1 200 OK"
+2026-04-13 22:45:17,909 - httpx - INFO - HTTP Request: GET https://dashscope.aliyuncs.com/api/v1/tasks/27bc05ac-8ea0-43fc-9ce4-aa14729bb0ba "HTTP/1.1 200 OK"
+2026-04-13 22:45:20,004 - httpx - INFO - HTTP Request: GET https://dashscope.aliyuncs.com/api/v1/tasks/27bc05ac-8ea0-43fc-9ce4-aa14729bb0ba "HTTP/1.1 200 OK"
+2026-04-13 22:45:22,090 - httpx - INFO - HTTP Request: GET https://dashscope.aliyuncs.com/api/v1/tasks/27bc05ac-8ea0-43fc-9ce4-aa14729bb0ba "HTTP/1.1 200 OK"
+2026-04-13 22:45:24,178 - httpx - INFO - HTTP Request: GET https://dashscope.aliyuncs.com/api/v1/tasks/27bc05ac-8ea0-43fc-9ce4-aa14729bb0ba "HTTP/1.1 200 OK"
+2026-04-13 22:45:26,268 - httpx - INFO - HTTP Request: GET https://dashscope.aliyuncs.com/api/v1/tasks/27bc05ac-8ea0-43fc-9ce4-aa14729bb0ba "HTTP/1.1 200 OK"
+2026-04-13 22:45:28,349 - httpx - INFO - HTTP Request: GET https://dashscope.aliyuncs.com/api/v1/tasks/27bc05ac-8ea0-43fc-9ce4-aa14729bb0ba "HTTP/1.1 200 OK"
+2026-04-13 22:45:30,439 - httpx - INFO - HTTP Request: GET https://dashscope.aliyuncs.com/api/v1/tasks/27bc05ac-8ea0-43fc-9ce4-aa14729bb0ba "HTTP/1.1 200 OK"
+2026-04-13 22:45:32,537 - httpx - INFO - HTTP Request: GET https://dashscope.aliyuncs.com/api/v1/tasks/27bc05ac-8ea0-43fc-9ce4-aa14729bb0ba "HTTP/1.1 200 OK"
+2026-04-13 22:45:32,539 - backend.chat - INFO - Agent returned result: recommendation
+2026-04-13 22:45:32,540 - backend - INFO - Request completed: POST http://localhost:8000/api/chat/ - 200 - 37.7433s
+2026-04-13 22:46:12,832 - backend - INFO - Received request: GET http://localhost:8000/health
+2026-04-13 22:46:12,834 - backend - INFO - Health check endpoint accessed
+2026-04-13 22:46:12,835 - backend - INFO - Request completed: GET http://localhost:8000/health - 200 - 0.0029s
+2026-04-13 22:46:26,587 - backend - INFO - Received request: GET http://localhost:8000/health
+2026-04-13 22:46:26,589 - backend - INFO - Health check endpoint accessed
+2026-04-13 22:46:26,590 - backend - INFO - Request completed: GET http://localhost:8000/health - 200 - 0.0028s
+2026-04-13 22:46:26,687 - backend - INFO - Received request: GET http://localhost:8000/health
+2026-04-13 22:46:26,688 - backend - INFO - Health check endpoint accessed
+2026-04-13 22:46:26,690 - backend - INFO - Request completed: GET http://localhost:8000/health - 200 - 0.0030s
+2026-04-13 22:46:28,888 - backend - INFO - Received request: POST http://localhost:8000/api/chat/
+2026-04-13 22:46:28,917 - backend.chat - INFO - Chat request received: user_id=e0b4a9b2-e866-43dd-a735-fb04fb187fa7, message_length=11, has_image=True
+2026-04-13 22:46:28,917 - backend.chat - INFO - Using existing session_id: 01d89548-a2e6-47eb-a655-b2eb10612381
+2026-04-13 22:46:28,917 - backend.chat - INFO - Processing image URL: data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAssA...
+2026-04-13 22:46:32,335 - httpx - INFO - HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-13 22:46:32,337 - backend.chat - INFO - Image analysis result: True
+2026-04-13 22:46:32,337 - backend.chat - INFO - Extracted conditions: {'style': '韩系', 'color': '白色、棕色', 'category': '上衣、下装', 'season': '春秋'}
+2026-04-13 22:46:32,337 - backend.chat - INFO - Mapped style: 韩系 -> 韩系
+2026-04-13 22:46:32,337 - backend.chat - INFO - Mapped category: 上衣、下装 -> 上衣
+2026-04-13 22:46:32,338 - backend.chat - INFO - Extracted text conditions: {}
+2026-04-13 22:46:32,338 - backend.chat - INFO - First search with conditions: {'style': '韩系'}
+2026-04-13 22:46:32,350 - backend.chat - INFO - First search found 20 products
+2026-04-13 22:46:32,350 - backend.chat - INFO - Created 20 items for response
+2026-04-13 22:46:36,215 - httpx - INFO - HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-13 22:46:36,217 - backend.chat - INFO - Generated recommendation reason
+2026-04-13 22:46:36,217 - backend.chat - INFO - Returning image search response with 20 items
+2026-04-13 22:46:36,219 - backend - INFO - Request completed: POST http://localhost:8000/api/chat/ - 200 - 7.3307s
+2026-04-13 22:49:19,656 - backend - INFO - Starting up backend service...
+2026-04-13 22:49:19,718 - backend - INFO - Database initialized successfully
+2026-04-13 22:49:19,719 - backend - INFO - Backend service started successfully
+2026-04-13 22:49:51,720 - backend - INFO - Received request: GET http://localhost:8000/health
+2026-04-13 22:49:51,724 - backend - INFO - Health check endpoint accessed
+2026-04-13 22:49:51,726 - backend - INFO - Request completed: GET http://localhost:8000/health - 200 - 0.0056s
+2026-04-13 22:49:53,928 - backend - INFO - Received request: POST http://localhost:8000/api/chat/
+2026-04-13 22:49:53,946 - backend.chat - INFO - Chat request received: user_id=e0b4a9b2-e866-43dd-a735-fb04fb187fa7, message_length=11, has_image=True
+2026-04-13 22:49:53,947 - backend.chat - INFO - Using existing session_id: 01d89548-a2e6-47eb-a655-b2eb10612381
+2026-04-13 22:49:53,948 - backend.chat - INFO - Processing image URL: data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAssA...
+2026-04-13 22:49:57,461 - httpx - INFO - HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-13 22:49:57,464 - backend.chat - INFO - Image analysis result: True
+2026-04-13 22:49:57,464 - backend.chat - INFO - Extracted conditions: {'style': '韩系', 'color': '白色、棕色', 'category': '上衣、下装', 'season': '春夏'}
+2026-04-13 22:49:57,465 - backend.chat - INFO - Mapped style: 韩系 -> 韩系
+2026-04-13 22:49:57,465 - backend.chat - INFO - Mapped category: 上衣、下装 -> 上衣
+2026-04-13 22:49:57,465 - backend.chat - INFO - Extracted text conditions: {}
+2026-04-13 22:49:57,466 - backend.chat - INFO - First search with conditions: {'style': '韩系'}
+2026-04-13 22:49:57,528 - backend.chat - INFO - First search found 20 products
+2026-04-13 22:49:57,528 - backend.chat - INFO - Created 20 items for response
+2026-04-13 22:49:57,528 - backend.chat - INFO - Building complete outfit recommendation
+2026-04-13 22:49:57,528 - backend.chat - ERROR - Error processing image: cannot import name 'create_outfit_from_products' from 'agent.skills.recommendation' (E:\服装穿搭旧\backend\agent\skills\recommendation.py)
+2026-04-13 22:49:57,529 - backend - INFO - Request completed: POST http://localhost:8000/api/chat/ - 500 - 3.6014s
+2026-04-13 22:50:21,175 - backend - INFO - Received request: GET http://localhost:8000/health
+2026-04-13 22:50:21,178 - backend - INFO - Health check endpoint accessed
+2026-04-13 22:50:21,179 - backend - INFO - Request completed: GET http://localhost:8000/health - 200 - 0.0036s
+2026-04-13 22:50:23,437 - backend - INFO - Received request: POST http://localhost:8000/api/chat/
+2026-04-13 22:50:23,447 - backend.chat - INFO - Chat request received: user_id=e0b4a9b2-e866-43dd-a735-fb04fb187fa7, message_length=11, has_image=True
+2026-04-13 22:50:23,448 - backend.chat - INFO - Using existing session_id: 01d89548-a2e6-47eb-a655-b2eb10612381
+2026-04-13 22:50:23,448 - backend.chat - INFO - Processing image URL: data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAssA...
+2026-04-13 22:50:27,810 - httpx - INFO - HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-13 22:50:27,812 - backend.chat - INFO - Image analysis result: True
+2026-04-13 22:50:27,812 - backend.chat - INFO - Extracted conditions: {'style': '韩系', 'color': '白色、棕色', 'category': '上衣、下装', 'season': '春夏'}
+2026-04-13 22:50:27,812 - backend.chat - INFO - Mapped style: 韩系 -> 韩系
+2026-04-13 22:50:27,812 - backend.chat - INFO - Mapped category: 上衣、下装 -> 上衣
+2026-04-13 22:50:27,813 - backend.chat - INFO - Extracted text conditions: {}
+2026-04-13 22:50:27,813 - backend.chat - INFO - First search with conditions: {'style': '韩系'}
+2026-04-13 22:50:27,826 - backend.chat - INFO - First search found 20 products
+2026-04-13 22:50:27,827 - backend.chat - INFO - Created 20 items for response
+2026-04-13 22:50:27,827 - backend.chat - INFO - Building complete outfit recommendation
+2026-04-13 22:50:27,828 - backend.chat - ERROR - Error processing image: cannot import name 'create_outfit_from_products' from 'agent.skills.recommendation' (E:\服装穿搭旧\backend\agent\skills\recommendation.py)
+2026-04-13 22:50:27,829 - backend - INFO - Request completed: POST http://localhost:8000/api/chat/ - 500 - 4.3922s
+2026-04-13 22:52:12,921 - backend - INFO - Starting up backend service...
+2026-04-13 22:52:12,964 - backend - INFO - Database initialized successfully
+2026-04-13 22:52:12,964 - backend - INFO - Backend service started successfully
+2026-04-13 22:53:15,456 - backend - INFO - Received request: GET http://localhost:8000/health
+2026-04-13 22:53:15,464 - backend - INFO - Health check endpoint accessed
+2026-04-13 22:53:15,467 - backend - INFO - Request completed: GET http://localhost:8000/health - 200 - 0.0104s
+2026-04-13 22:53:17,676 - backend - INFO - Received request: POST http://localhost:8000/api/chat/
+2026-04-13 22:53:17,686 - backend.chat - INFO - Chat request received: user_id=e0b4a9b2-e866-43dd-a735-fb04fb187fa7, message_length=11, has_image=True
+2026-04-13 22:53:17,687 - backend.chat - INFO - Using existing session_id: 01d89548-a2e6-47eb-a655-b2eb10612381
+2026-04-13 22:53:17,687 - backend.chat - INFO - Processing image URL: data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAssA...
+2026-04-13 22:53:21,850 - httpx - INFO - HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-13 22:53:21,853 - backend.chat - INFO - Image analysis result: True
+2026-04-13 22:53:21,853 - backend.chat - INFO - Extracted conditions: {'style': '韩系', 'color': '白色、棕色', 'category': '上衣、下装', 'season': '春夏'}
+2026-04-13 22:53:21,854 - backend.chat - INFO - Mapped style: 韩系 -> 韩系
+2026-04-13 22:53:21,854 - backend.chat - INFO - Mapped category: 上衣、下装 -> 上衣
+2026-04-13 22:53:21,854 - backend.chat - INFO - Extracted text conditions: {}
+2026-04-13 22:53:21,854 - backend.chat - INFO - First search with conditions: {'style': '韩系'}
+2026-04-13 22:53:21,937 - backend.chat - INFO - First search found 20 products
+2026-04-13 22:53:21,938 - backend.chat - INFO - Created 20 items for response
+2026-04-13 22:53:21,939 - backend.chat - INFO - Building complete outfit recommendation
+2026-04-13 22:53:21,939 - backend.chat - INFO - Extracted material: 
+2026-04-13 22:53:21,939 - backend.chat - INFO - Created outfit: 基于图片的韩系风格搭配
+2026-04-13 22:53:21,940 - backend.chat - INFO - Generating outfit image with 4 items
+2026-04-13 22:53:25,229 - httpx - INFO - HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-13 22:53:28,812 - httpx - INFO - HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-13 22:53:31,987 - httpx - INFO - HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-13 22:53:33,114 - httpx - INFO - HTTP Request: POST https://dashscope.aliyuncs.com/api/v1/services/aigc/text2image/image-synthesis "HTTP/1.1 200 OK"
+2026-04-13 22:53:35,206 - httpx - INFO - HTTP Request: GET https://dashscope.aliyuncs.com/api/v1/tasks/fbe1116e-25fa-4e84-9dbf-4c899e62aa24 "HTTP/1.1 200 OK"
+2026-04-13 22:53:37,268 - httpx - INFO - HTTP Request: GET https://dashscope.aliyuncs.com/api/v1/tasks/fbe1116e-25fa-4e84-9dbf-4c899e62aa24 "HTTP/1.1 200 OK"
+2026-04-13 22:53:39,350 - httpx - INFO - HTTP Request: GET https://dashscope.aliyuncs.com/api/v1/tasks/fbe1116e-25fa-4e84-9dbf-4c899e62aa24 "HTTP/1.1 200 OK"
+2026-04-13 22:53:41,429 - httpx - INFO - HTTP Request: GET https://dashscope.aliyuncs.com/api/v1/tasks/fbe1116e-25fa-4e84-9dbf-4c899e62aa24 "HTTP/1.1 200 OK"
+2026-04-13 22:53:43,513 - httpx - INFO - HTTP Request: GET https://dashscope.aliyuncs.com/api/v1/tasks/fbe1116e-25fa-4e84-9dbf-4c899e62aa24 "HTTP/1.1 200 OK"
+2026-04-13 22:53:45,592 - httpx - INFO - HTTP Request: GET https://dashscope.aliyuncs.com/api/v1/tasks/fbe1116e-25fa-4e84-9dbf-4c899e62aa24 "HTTP/1.1 200 OK"
+2026-04-13 22:53:47,672 - httpx - INFO - HTTP Request: GET https://dashscope.aliyuncs.com/api/v1/tasks/fbe1116e-25fa-4e84-9dbf-4c899e62aa24 "HTTP/1.1 200 OK"
+2026-04-13 22:53:49,745 - httpx - INFO - HTTP Request: GET https://dashscope.aliyuncs.com/api/v1/tasks/fbe1116e-25fa-4e84-9dbf-4c899e62aa24 "HTTP/1.1 200 OK"
+2026-04-13 22:53:51,804 - httpx - INFO - HTTP Request: GET https://dashscope.aliyuncs.com/api/v1/tasks/fbe1116e-25fa-4e84-9dbf-4c899e62aa24 "HTTP/1.1 200 OK"
+2026-04-13 22:53:53,885 - httpx - INFO - HTTP Request: GET https://dashscope.aliyuncs.com/api/v1/tasks/fbe1116e-25fa-4e84-9dbf-4c899e62aa24 "HTTP/1.1 200 OK"
+2026-04-13 22:53:56,014 - httpx - INFO - HTTP Request: GET https://dashscope.aliyuncs.com/api/v1/tasks/fbe1116e-25fa-4e84-9dbf-4c899e62aa24 "HTTP/1.1 200 OK"
+2026-04-13 22:53:56,017 - backend.chat - INFO - Generated outfit image: https://dashscope-7c2c.oss-accelerate.aliyuncs.com/1d/d0/20260413/2b8dd67a/fbe1116e-25fa-4e84-9dbf-4c899e62aa24.png?Expires=1776178434&OSSAccessKeyId=LTAI5tPxpiCM2hjmWrFXrym1&Signature=edlFj7G5fiUPcVOgsUPKReeBq%2Bk%3D
+2026-04-13 22:54:00,455 - httpx - INFO - HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-13 22:54:00,459 - backend.chat - INFO - Generated recommendation reason
+2026-04-13 22:54:00,459 - backend.chat - INFO - Returning outfit recommendation response with 4 items
+2026-04-13 22:54:00,461 - backend - INFO - Request completed: POST http://localhost:8000/api/chat/ - 200 - 42.7847s
+2026-04-13 22:54:13,430 - backend - INFO - Received request: GET http://localhost:8000/health
+2026-04-13 22:54:13,432 - backend - INFO - Health check endpoint accessed
+2026-04-13 22:54:13,433 - backend - INFO - Request completed: GET http://localhost:8000/health - 200 - 0.0032s
+2026-04-13 22:56:21,120 - backend - INFO - Received request: GET http://localhost:8000/health
+2026-04-13 22:56:21,123 - backend - INFO - Health check endpoint accessed
+2026-04-13 22:56:21,125 - backend - INFO - Request completed: GET http://localhost:8000/health - 200 - 0.0040s
+2026-04-13 22:56:32,355 - backend - INFO - Received request: GET http://localhost:8000/health
+2026-04-13 22:56:32,356 - backend - INFO - Health check endpoint accessed
+2026-04-13 22:56:32,357 - backend - INFO - Request completed: GET http://localhost:8000/health - 200 - 0.0022s
+2026-04-13 22:56:34,701 - backend - INFO - Received request: POST http://localhost:8000/api/wardrobe/save-outfit
+2026-04-13 22:56:34,883 - backend - INFO - Request completed: POST http://localhost:8000/api/wardrobe/save-outfit - 200 - 0.1818s
+2026-04-13 22:56:41,694 - backend - INFO - Received request: GET http://localhost:8000/health
+2026-04-13 22:56:41,696 - backend - INFO - Health check endpoint accessed
+2026-04-13 22:56:41,698 - backend - INFO - Request completed: GET http://localhost:8000/health - 200 - 0.0033s
+2026-04-13 22:56:43,756 - backend - INFO - Received request: GET http://localhost:8000/api/wardrobe/list/e0b4a9b2-e866-43dd-a735-fb04fb187fa7
+2026-04-13 22:56:43,780 - backend - INFO - Request completed: GET http://localhost:8000/api/wardrobe/list/e0b4a9b2-e866-43dd-a735-fb04fb187fa7 - 200 - 0.0238s
+2026-04-13 22:57:05,177 - backend - INFO - Received request: GET http://localhost:8000/health
+2026-04-13 22:57:05,178 - backend - INFO - Health check endpoint accessed
+2026-04-13 22:57:05,180 - backend - INFO - Request completed: GET http://localhost:8000/health - 200 - 0.0031s
+2026-04-13 23:02:05,241 - backend - INFO - Received request: GET http://localhost:8000/health
+2026-04-13 23:02:05,243 - backend - INFO - Health check endpoint accessed
+2026-04-13 23:02:05,245 - backend - INFO - Request completed: GET http://localhost:8000/health - 200 - 0.0039s
+2026-04-13 23:08:42,333 - backend - INFO - Starting up backend service...
+2026-04-13 23:08:42,372 - backend - INFO - Database initialized successfully
+2026-04-13 23:08:42,372 - backend - INFO - Backend service started successfully
+2026-04-13 23:09:22,705 - backend - INFO - Received request: POST http://localhost:8000/api/auth/login
+2026-04-13 23:09:22,761 - backend - INFO - Request completed: POST http://localhost:8000/api/auth/login - 200 - 0.0567s
+2026-04-13 23:09:24,896 - backend - INFO - Received request: GET http://localhost:8000/health
+2026-04-13 23:09:24,901 - backend - INFO - Health check endpoint accessed
+2026-04-13 23:09:24,902 - backend - INFO - Request completed: GET http://localhost:8000/health - 200 - 0.0064s
+2026-04-13 23:09:47,322 - backend - INFO - Received request: GET http://localhost:8000/health
+2026-04-13 23:09:47,324 - backend - INFO - Health check endpoint accessed
+2026-04-13 23:09:47,325 - backend - INFO - Request completed: GET http://localhost:8000/health - 200 - 0.0029s
+2026-04-13 23:09:59,035 - backend - INFO - Received request: GET http://localhost:8000/health
+2026-04-13 23:09:59,037 - backend - INFO - Health check endpoint accessed
+2026-04-13 23:09:59,038 - backend - INFO - Request completed: GET http://localhost:8000/health - 200 - 0.0034s
+2026-04-13 23:10:07,313 - backend - INFO - Received request: GET http://localhost:8000/health
+2026-04-13 23:10:07,315 - backend - INFO - Health check endpoint accessed
+2026-04-13 23:10:07,316 - backend - INFO - Request completed: GET http://localhost:8000/health - 200 - 0.0029s
+2026-04-13 23:10:07,467 - backend - INFO - Received request: GET http://localhost:8000/health
+2026-04-13 23:10:07,469 - backend - INFO - Health check endpoint accessed
+2026-04-13 23:10:07,470 - backend - INFO - Request completed: GET http://localhost:8000/health - 200 - 0.0026s
+2026-04-13 23:10:09,684 - backend - INFO - Received request: POST http://localhost:8000/api/chat/
+2026-04-13 23:10:09,713 - backend.chat - INFO - Chat request received: user_id=e0b4a9b2-e866-43dd-a735-fb04fb187fa7, message_length=9, has_image=True
+2026-04-13 23:10:09,713 - backend.chat - INFO - Using existing session_id: 5a2151a0-47d2-4132-a607-8a949a39c5a5
+2026-04-13 23:10:09,714 - backend.chat - INFO - Processing image URL: data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAssA...
+2026-04-13 23:10:13,667 - httpx - INFO - HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-13 23:10:13,672 - backend.chat - INFO - Image analysis result: True
+2026-04-13 23:10:13,673 - backend.chat - INFO - Extracted conditions: {'style': '韩系', 'color': '白色、棕色', 'category': '上衣、下装', 'season': '春秋'}
+2026-04-13 23:10:13,673 - backend.chat - INFO - Mapped style: 韩系 -> 韩系
+2026-04-13 23:10:13,673 - backend.chat - INFO - Mapped category: 上衣、下装 -> 上衣
+2026-04-13 23:10:13,674 - backend.chat - INFO - Extracted text conditions: {}
+2026-04-13 23:10:13,674 - backend.chat - INFO - First search with conditions: {'style': '韩系'}
+2026-04-13 23:10:13,691 - backend.chat - INFO - First search found 20 products
+2026-04-13 23:10:13,692 - backend.chat - INFO - Created 20 items for response
+2026-04-13 23:10:13,692 - backend.chat - INFO - Building complete outfit recommendation
+2026-04-13 23:10:13,692 - backend.chat - INFO - Extracted material: 
+2026-04-13 23:10:13,693 - backend.chat - INFO - Created outfit: 基于图片的韩系风格搭配
+2026-04-13 23:10:13,693 - backend.chat - INFO - Generating outfit image with 4 items
+2026-04-13 23:10:16,909 - httpx - INFO - HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-13 23:10:20,929 - httpx - INFO - HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-13 23:10:23,905 - httpx - INFO - HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-13 23:10:25,053 - httpx - INFO - HTTP Request: POST https://dashscope.aliyuncs.com/api/v1/services/aigc/text2image/image-synthesis "HTTP/1.1 200 OK"
+2026-04-13 23:10:27,147 - httpx - INFO - HTTP Request: GET https://dashscope.aliyuncs.com/api/v1/tasks/fa755aaf-6985-45fe-9b72-c268a5dacba8 "HTTP/1.1 200 OK"
+2026-04-13 23:10:29,224 - httpx - INFO - HTTP Request: GET https://dashscope.aliyuncs.com/api/v1/tasks/fa755aaf-6985-45fe-9b72-c268a5dacba8 "HTTP/1.1 200 OK"
+2026-04-13 23:10:31,303 - httpx - INFO - HTTP Request: GET https://dashscope.aliyuncs.com/api/v1/tasks/fa755aaf-6985-45fe-9b72-c268a5dacba8 "HTTP/1.1 200 OK"
+2026-04-13 23:10:33,378 - httpx - INFO - HTTP Request: GET https://dashscope.aliyuncs.com/api/v1/tasks/fa755aaf-6985-45fe-9b72-c268a5dacba8 "HTTP/1.1 200 OK"
+2026-04-13 23:10:35,447 - httpx - INFO - HTTP Request: GET https://dashscope.aliyuncs.com/api/v1/tasks/fa755aaf-6985-45fe-9b72-c268a5dacba8 "HTTP/1.1 200 OK"
+2026-04-13 23:10:37,522 - httpx - INFO - HTTP Request: GET https://dashscope.aliyuncs.com/api/v1/tasks/fa755aaf-6985-45fe-9b72-c268a5dacba8 "HTTP/1.1 200 OK"
+2026-04-13 23:10:39,590 - httpx - INFO - HTTP Request: GET https://dashscope.aliyuncs.com/api/v1/tasks/fa755aaf-6985-45fe-9b72-c268a5dacba8 "HTTP/1.1 200 OK"
+2026-04-13 23:10:41,662 - httpx - INFO - HTTP Request: GET https://dashscope.aliyuncs.com/api/v1/tasks/fa755aaf-6985-45fe-9b72-c268a5dacba8 "HTTP/1.1 200 OK"
+2026-04-13 23:10:43,776 - httpx - INFO - HTTP Request: GET https://dashscope.aliyuncs.com/api/v1/tasks/fa755aaf-6985-45fe-9b72-c268a5dacba8 "HTTP/1.1 200 OK"
+2026-04-13 23:10:43,779 - backend.chat - INFO - Generated outfit image: https://dashscope-7c2c.oss-accelerate.aliyuncs.com/1d/ea/20260413/2b8dd67a/fa755aaf-6985-45fe-9b72-c268a5dacba8.png?Expires=1776179443&OSSAccessKeyId=LTAI5tPxpiCM2hjmWrFXrym1&Signature=HzF4JISanW6R3v61KRc03eUfDZk%3D
+2026-04-13 23:10:48,275 - httpx - INFO - HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-13 23:10:48,278 - backend.chat - INFO - Generated recommendation reason
+2026-04-13 23:10:48,278 - backend.chat - INFO - Returning outfit recommendation response with 4 items
+2026-04-13 23:10:48,281 - backend - INFO - Request completed: POST http://localhost:8000/api/chat/ - 200 - 38.5967s
+2026-04-13 23:15:17,156 - backend - INFO - Received request: GET http://localhost:8000/health
+2026-04-13 23:15:17,158 - backend - INFO - Health check endpoint accessed
+2026-04-13 23:15:17,160 - backend - INFO - Request completed: GET http://localhost:8000/health - 200 - 0.0036s
+2026-04-13 23:15:55,269 - backend - INFO - Starting up backend service...
+2026-04-13 23:15:55,325 - backend - INFO - Database initialized successfully
+2026-04-13 23:15:55,325 - backend - INFO - Backend service started successfully
+2026-04-13 23:16:37,667 - backend - INFO - Received request: GET http://localhost:8000/health
+2026-04-13 23:16:37,672 - backend - INFO - Health check endpoint accessed
+2026-04-13 23:16:37,675 - backend - INFO - Request completed: GET http://localhost:8000/health - 200 - 0.0074s
+2026-04-13 23:16:39,877 - backend - INFO - Received request: POST http://localhost:8000/api/chat/
+2026-04-13 23:16:39,888 - backend.chat - INFO - Chat request received: user_id=e0b4a9b2-e866-43dd-a735-fb04fb187fa7, message_length=9, has_image=True
+2026-04-13 23:16:39,889 - backend.chat - INFO - Using existing session_id: 5a2151a0-47d2-4132-a607-8a949a39c5a5
+2026-04-13 23:16:39,889 - backend.chat - INFO - Processing image URL: data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAssA...
+2026-04-13 23:16:45,448 - httpx - INFO - HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-13 23:16:45,452 - backend.chat - INFO - Image analysis result: True
+2026-04-13 23:16:45,452 - backend.chat - INFO - Extracted conditions: {'style': '复古', 'color': '白色、棕色', 'category': '上衣、下装', 'season': '春夏'}
+2026-04-13 23:16:45,452 - backend.chat - INFO - Mapped style: 复古 -> 复古
+2026-04-13 23:16:45,453 - backend.chat - INFO - Mapped category: 上衣、下装 -> 上衣
+2026-04-13 23:16:45,453 - backend.chat - INFO - Extracted text conditions: {}
+2026-04-13 23:16:45,453 - backend.chat - INFO - First search with conditions: {'style': '复古'}
+2026-04-13 23:16:45,548 - backend.chat - INFO - First search found 20 products
+2026-04-13 23:16:45,548 - backend.chat - INFO - Created 20 items for response
+2026-04-13 23:16:45,549 - backend.chat - INFO - Building complete outfit recommendation
+2026-04-13 23:16:45,549 - backend.chat - INFO - Extracted material: 缎面、皮质
+2026-04-13 23:16:45,549 - backend.chat - INFO - Created outfit: 基于图片的复古风格搭配
+2026-04-13 23:16:45,549 - backend.chat - INFO - Generating outfit image with 3 items
+2026-04-13 23:16:49,338 - httpx - INFO - HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-13 23:16:55,968 - httpx - INFO - HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-13 23:17:01,423 - httpx - INFO - HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-13 23:17:02,551 - httpx - INFO - HTTP Request: POST https://dashscope.aliyuncs.com/api/v1/services/aigc/text2image/image-synthesis "HTTP/1.1 200 OK"
+2026-04-13 23:17:04,637 - httpx - INFO - HTTP Request: GET https://dashscope.aliyuncs.com/api/v1/tasks/3d3387f2-394e-41b4-b7fd-f255cf330bba "HTTP/1.1 200 OK"
+2026-04-13 23:17:06,714 - httpx - INFO - HTTP Request: GET https://dashscope.aliyuncs.com/api/v1/tasks/3d3387f2-394e-41b4-b7fd-f255cf330bba "HTTP/1.1 200 OK"
+2026-04-13 23:17:08,791 - httpx - INFO - HTTP Request: GET https://dashscope.aliyuncs.com/api/v1/tasks/3d3387f2-394e-41b4-b7fd-f255cf330bba "HTTP/1.1 200 OK"
+2026-04-13 23:17:10,861 - httpx - INFO - HTTP Request: GET https://dashscope.aliyuncs.com/api/v1/tasks/3d3387f2-394e-41b4-b7fd-f255cf330bba "HTTP/1.1 200 OK"
+2026-04-13 23:17:12,939 - httpx - INFO - HTTP Request: GET https://dashscope.aliyuncs.com/api/v1/tasks/3d3387f2-394e-41b4-b7fd-f255cf330bba "HTTP/1.1 200 OK"
+2026-04-13 23:17:15,007 - httpx - INFO - HTTP Request: GET https://dashscope.aliyuncs.com/api/v1/tasks/3d3387f2-394e-41b4-b7fd-f255cf330bba "HTTP/1.1 200 OK"
+2026-04-13 23:17:17,077 - httpx - INFO - HTTP Request: GET https://dashscope.aliyuncs.com/api/v1/tasks/3d3387f2-394e-41b4-b7fd-f255cf330bba "HTTP/1.1 200 OK"
+2026-04-13 23:17:19,169 - httpx - INFO - HTTP Request: GET https://dashscope.aliyuncs.com/api/v1/tasks/3d3387f2-394e-41b4-b7fd-f255cf330bba "HTTP/1.1 200 OK"
+2026-04-13 23:17:21,256 - httpx - INFO - HTTP Request: GET https://dashscope.aliyuncs.com/api/v1/tasks/3d3387f2-394e-41b4-b7fd-f255cf330bba "HTTP/1.1 200 OK"
+2026-04-13 23:17:21,258 - backend.chat - INFO - Generated outfit image: https://dashscope-7c2c.oss-accelerate.aliyuncs.com/1d/e7/20260413/2b8dd67a/3d3387f2-394e-41b4-b7fd-f255cf330bba.png?Expires=1776179840&OSSAccessKeyId=LTAI5tPxpiCM2hjmWrFXrym1&Signature=oHy514E95WEBgiIPNHumDZNenLk%3D
+2026-04-13 23:17:25,895 - httpx - INFO - HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-13 23:17:25,897 - backend.chat - INFO - Generated recommendation reason
+2026-04-13 23:17:25,897 - backend.chat - INFO - Returning outfit recommendation response with 3 items
+2026-04-13 23:17:25,899 - backend - INFO - Request completed: POST http://localhost:8000/api/chat/ - 200 - 46.0215s
+2026-04-13 23:21:43,568 - backend - INFO - Starting up backend service...
+2026-04-13 23:21:43,634 - backend - INFO - Database initialized successfully
+2026-04-13 23:21:43,634 - backend - INFO - Backend service started successfully
+2026-04-13 23:22:19,151 - backend - INFO - Received request: POST http://localhost:8000/api/auth/login
+2026-04-13 23:22:19,224 - backend - INFO - Request completed: POST http://localhost:8000/api/auth/login - 200 - 0.0728s
+2026-04-13 23:22:21,379 - backend - INFO - Received request: GET http://localhost:8000/health
+2026-04-13 23:22:21,383 - backend - INFO - Health check endpoint accessed
+2026-04-13 23:22:21,384 - backend - INFO - Request completed: GET http://localhost:8000/health - 200 - 0.0048s
+2026-04-13 23:22:46,309 - backend - INFO - Received request: GET http://localhost:8000/health
+2026-04-13 23:22:46,311 - backend - INFO - Health check endpoint accessed
+2026-04-13 23:22:46,312 - backend - INFO - Request completed: GET http://localhost:8000/health - 200 - 0.0032s
+2026-04-13 23:23:01,807 - backend - INFO - Received request: GET http://localhost:8000/health
+2026-04-13 23:23:01,809 - backend - INFO - Health check endpoint accessed
+2026-04-13 23:23:01,810 - backend - INFO - Request completed: GET http://localhost:8000/health - 200 - 0.0032s
+2026-04-13 23:23:01,948 - backend - INFO - Received request: GET http://localhost:8000/health
+2026-04-13 23:23:01,949 - backend - INFO - Health check endpoint accessed
+2026-04-13 23:23:01,951 - backend - INFO - Request completed: GET http://localhost:8000/health - 200 - 0.0031s
+2026-04-13 23:23:04,263 - backend - INFO - Received request: POST http://localhost:8000/api/chat/
+2026-04-13 23:23:04,282 - backend.chat - INFO - Chat request received: user_id=e0b4a9b2-e866-43dd-a735-fb04fb187fa7, message_length=10, has_image=True
+2026-04-13 23:23:04,283 - backend.chat - INFO - Using existing session_id: c582cd39-bdec-4b78-832f-51f2fd1c401e
+2026-04-13 23:23:04,283 - backend.chat - INFO - Processing image URL: data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAssA...
+2026-04-13 23:23:09,387 - httpx - INFO - HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-13 23:23:09,390 - backend.chat - INFO - Image analysis result: True
+2026-04-13 23:23:09,390 - backend.chat - INFO - Extracted conditions: {'style': '复古', 'color': '白色、棕色', 'category': '上衣、下装', 'season': '春夏'}
+2026-04-13 23:23:09,390 - backend.chat - INFO - Mapped style: 复古 -> 复古
+2026-04-13 23:23:09,390 - backend.chat - INFO - Mapped category: 上衣、下装 -> 上衣
+2026-04-13 23:23:09,391 - backend.chat - INFO - Extracted text conditions: {}
+2026-04-13 23:23:09,391 - backend.chat - INFO - First search with conditions: {'style': '复古'}
+2026-04-13 23:23:09,419 - backend.chat - INFO - First search found 20 products
+2026-04-13 23:23:09,419 - backend.chat - INFO - Created 20 items for response
+2026-04-13 23:23:09,420 - backend.chat - INFO - Building complete outfit recommendation
+2026-04-13 23:23:09,420 - backend.chat - INFO - Extracted material: 缎面、皮质
+2026-04-13 23:23:09,420 - backend.chat - INFO - Created outfit: 基于图片的复古风格搭配
+2026-04-13 23:23:09,420 - backend.chat - INFO - Generating outfit image with 3 items
+2026-04-13 23:23:13,031 - httpx - INFO - HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-13 23:23:16,321 - httpx - INFO - HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-13 23:23:20,712 - httpx - INFO - HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-13 23:23:21,838 - httpx - INFO - HTTP Request: POST https://dashscope.aliyuncs.com/api/v1/services/aigc/text2image/image-synthesis "HTTP/1.1 200 OK"
+2026-04-13 23:23:23,955 - httpx - INFO - HTTP Request: GET https://dashscope.aliyuncs.com/api/v1/tasks/9e9a17d8-4df7-41cf-88ba-ae2c4a609821 "HTTP/1.1 200 OK"
+2026-04-13 23:23:26,030 - httpx - INFO - HTTP Request: GET https://dashscope.aliyuncs.com/api/v1/tasks/9e9a17d8-4df7-41cf-88ba-ae2c4a609821 "HTTP/1.1 200 OK"
+2026-04-13 23:23:28,105 - httpx - INFO - HTTP Request: GET https://dashscope.aliyuncs.com/api/v1/tasks/9e9a17d8-4df7-41cf-88ba-ae2c4a609821 "HTTP/1.1 200 OK"
+2026-04-13 23:23:30,185 - httpx - INFO - HTTP Request: GET https://dashscope.aliyuncs.com/api/v1/tasks/9e9a17d8-4df7-41cf-88ba-ae2c4a609821 "HTTP/1.1 200 OK"
+2026-04-13 23:23:32,259 - httpx - INFO - HTTP Request: GET https://dashscope.aliyuncs.com/api/v1/tasks/9e9a17d8-4df7-41cf-88ba-ae2c4a609821 "HTTP/1.1 200 OK"
+2026-04-13 23:23:34,326 - httpx - INFO - HTTP Request: GET https://dashscope.aliyuncs.com/api/v1/tasks/9e9a17d8-4df7-41cf-88ba-ae2c4a609821 "HTTP/1.1 200 OK"
+2026-04-13 23:23:36,395 - httpx - INFO - HTTP Request: GET https://dashscope.aliyuncs.com/api/v1/tasks/9e9a17d8-4df7-41cf-88ba-ae2c4a609821 "HTTP/1.1 200 OK"
+2026-04-13 23:23:38,470 - httpx - INFO - HTTP Request: GET https://dashscope.aliyuncs.com/api/v1/tasks/9e9a17d8-4df7-41cf-88ba-ae2c4a609821 "HTTP/1.1 200 OK"
+2026-04-13 23:23:40,545 - httpx - INFO - HTTP Request: GET https://dashscope.aliyuncs.com/api/v1/tasks/9e9a17d8-4df7-41cf-88ba-ae2c4a609821 "HTTP/1.1 200 OK"
+2026-04-13 23:23:42,613 - httpx - INFO - HTTP Request: GET https://dashscope.aliyuncs.com/api/v1/tasks/9e9a17d8-4df7-41cf-88ba-ae2c4a609821 "HTTP/1.1 200 OK"
+2026-04-13 23:23:44,709 - httpx - INFO - HTTP Request: GET https://dashscope.aliyuncs.com/api/v1/tasks/9e9a17d8-4df7-41cf-88ba-ae2c4a609821 "HTTP/1.1 200 OK"
+2026-04-13 23:23:44,710 - backend.chat - INFO - Generated outfit image: https://dashscope-7c2c.oss-accelerate.aliyuncs.com/1d/31/20260413/2b8dd67a/9e9a17d8-4df7-41cf-88ba-ae2c4a609821.png?Expires=1776180222&OSSAccessKeyId=LTAI5tPxpiCM2hjmWrFXrym1&Signature=cudcjSTWSCEib7C6dbl1H0INFXI%3D
+2026-04-13 23:23:49,589 - httpx - INFO - HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-13 23:23:49,591 - backend.chat - INFO - Generated recommendation reason
+2026-04-13 23:23:49,592 - backend.chat - INFO - Returning outfit recommendation response with 3 items
+2026-04-13 23:23:49,594 - backend - INFO - Request completed: POST http://localhost:8000/api/chat/ - 200 - 45.3310s
+2026-04-13 23:24:43,418 - backend - INFO - Received request: POST http://localhost:8000/api/auth/register
+2026-04-13 23:24:43,438 - backend - INFO - Request completed: POST http://localhost:8000/api/auth/register - 400 - 0.0202s
+2026-04-13 23:25:40,691 - backend - INFO - Received request: POST http://localhost:8000/api/auth/register
+2026-04-13 23:25:40,783 - backend - INFO - Request completed: POST http://localhost:8000/api/auth/register - 200 - 0.0915s
+2026-04-13 23:25:50,951 - backend - INFO - Received request: POST http://localhost:8000/api/auth/login
+2026-04-13 23:25:50,959 - backend - INFO - Request completed: POST http://localhost:8000/api/auth/login - 200 - 0.0081s
+2026-04-13 23:26:06,945 - backend - INFO - Received request: PUT http://localhost:8000/api/auth/profile/bef77cd8-a8f3-499c-8665-c38151bd6817
+2026-04-13 23:26:07,014 - backend - INFO - Request completed: PUT http://localhost:8000/api/auth/profile/bef77cd8-a8f3-499c-8665-c38151bd6817 - 200 - 0.0687s
+2026-04-13 23:26:09,210 - backend - INFO - Received request: GET http://localhost:8000/health
+2026-04-13 23:26:09,213 - backend - INFO - Health check endpoint accessed
+2026-04-13 23:26:09,214 - backend - INFO - Request completed: GET http://localhost:8000/health - 200 - 0.0042s
+2026-04-13 23:26:30,793 - backend - INFO - Received request: GET http://localhost:8000/health
+2026-04-13 23:26:30,794 - backend - INFO - Health check endpoint accessed
+2026-04-13 23:26:30,795 - backend - INFO - Request completed: GET http://localhost:8000/health - 200 - 0.0026s
+2026-04-13 23:26:30,915 - backend - INFO - Received request: GET http://localhost:8000/health
+2026-04-13 23:26:30,916 - backend - INFO - Health check endpoint accessed
+2026-04-13 23:26:30,917 - backend - INFO - Request completed: GET http://localhost:8000/health - 200 - 0.0025s
+2026-04-13 23:26:32,982 - backend - INFO - Received request: POST http://localhost:8000/api/chat/
+2026-04-13 23:26:32,985 - backend.chat - INFO - Chat request received: user_id=bef77cd8-a8f3-499c-8665-c38151bd6817, message_length=8, has_image=False
+2026-04-13 23:26:32,985 - backend.chat - INFO - Using existing session_id: 3da1ca27-cce0-4d2a-ac27-a18194fae804
+2026-04-13 23:26:32,985 - backend.chat - INFO - Processing text-only request
+2026-04-13 23:26:38,958 - httpx - INFO - HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-13 23:26:41,732 - httpx - INFO - HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-13 23:26:44,696 - httpx - INFO - HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-13 23:26:49,403 - httpx - INFO - HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-13 23:26:50,735 - httpx - INFO - HTTP Request: POST https://dashscope.aliyuncs.com/api/v1/services/aigc/text2image/image-synthesis "HTTP/1.1 200 OK"
+2026-04-13 23:26:52,821 - httpx - INFO - HTTP Request: GET https://dashscope.aliyuncs.com/api/v1/tasks/ae87a06f-47fc-4878-aa35-5e3e174f3750 "HTTP/1.1 200 OK"
+2026-04-13 23:26:54,892 - httpx - INFO - HTTP Request: GET https://dashscope.aliyuncs.com/api/v1/tasks/ae87a06f-47fc-4878-aa35-5e3e174f3750 "HTTP/1.1 200 OK"
+2026-04-13 23:26:56,972 - httpx - INFO - HTTP Request: GET https://dashscope.aliyuncs.com/api/v1/tasks/ae87a06f-47fc-4878-aa35-5e3e174f3750 "HTTP/1.1 200 OK"
+2026-04-13 23:26:59,044 - httpx - INFO - HTTP Request: GET https://dashscope.aliyuncs.com/api/v1/tasks/ae87a06f-47fc-4878-aa35-5e3e174f3750 "HTTP/1.1 200 OK"
+2026-04-13 23:27:01,127 - httpx - INFO - HTTP Request: GET https://dashscope.aliyuncs.com/api/v1/tasks/ae87a06f-47fc-4878-aa35-5e3e174f3750 "HTTP/1.1 200 OK"
+2026-04-13 23:27:03,197 - httpx - INFO - HTTP Request: GET https://dashscope.aliyuncs.com/api/v1/tasks/ae87a06f-47fc-4878-aa35-5e3e174f3750 "HTTP/1.1 200 OK"
+2026-04-13 23:27:05,274 - httpx - INFO - HTTP Request: GET https://dashscope.aliyuncs.com/api/v1/tasks/ae87a06f-47fc-4878-aa35-5e3e174f3750 "HTTP/1.1 200 OK"
+2026-04-13 23:27:07,364 - httpx - INFO - HTTP Request: GET https://dashscope.aliyuncs.com/api/v1/tasks/ae87a06f-47fc-4878-aa35-5e3e174f3750 "HTTP/1.1 200 OK"
+2026-04-13 23:27:09,441 - httpx - INFO - HTTP Request: GET https://dashscope.aliyuncs.com/api/v1/tasks/ae87a06f-47fc-4878-aa35-5e3e174f3750 "HTTP/1.1 200 OK"
+2026-04-13 23:27:11,523 - httpx - INFO - HTTP Request: GET https://dashscope.aliyuncs.com/api/v1/tasks/ae87a06f-47fc-4878-aa35-5e3e174f3750 "HTTP/1.1 200 OK"
+2026-04-13 23:27:13,615 - httpx - INFO - HTTP Request: GET https://dashscope.aliyuncs.com/api/v1/tasks/ae87a06f-47fc-4878-aa35-5e3e174f3750 "HTTP/1.1 200 OK"
+2026-04-13 23:27:13,618 - backend.chat - INFO - Agent returned result: recommendation
+2026-04-13 23:27:13,619 - backend - INFO - Request completed: POST http://localhost:8000/api/chat/ - 200 - 40.6367s
+2026-04-13 23:27:41,531 - backend - INFO - Received request: GET http://localhost:8000/health
+2026-04-13 23:27:41,533 - backend - INFO - Health check endpoint accessed
+2026-04-13 23:27:41,534 - backend - INFO - Request completed: GET http://localhost:8000/health - 200 - 0.0038s
+2026-04-13 23:28:36,182 - backend - INFO - Received request: GET http://localhost:8000/health
+2026-04-13 23:28:36,185 - backend - INFO - Health check endpoint accessed
+2026-04-13 23:28:36,187 - backend - INFO - Request completed: GET http://localhost:8000/health - 200 - 0.0051s
+2026-04-13 23:28:38,259 - backend - INFO - Received request: POST http://localhost:8000/api/wardrobe/save-outfit
+2026-04-13 23:28:38,286 - backend - ERROR - Error processing request: POST http://localhost:8000/api/wardrobe/save-outfit - (pymysql.err.DataError) (1406, "Data too long for column 'product_url' at row 3")
+[SQL: INSERT INTO saved_outfit_items (id, outfit_id, product_id, product_name, product_price, product_image_url, product_url, sort_order) VALUES (%(id)s, %(outfit_id)s, %(product_id)s, %(product_name)s, %(product_price)s, %(product_image_url)s, %(product_url)s, %(sort_order)s)]
+[parameters: [{'id': '9b52b7a9-f570-409a-b4bf-703f0b086628', 'outfit_id': '0b092ff4-65ab-4ea2-a29f-d28e8c7da30b', 'product_id': None, 'product_name': '大码微胖mm2026春季新款娃娃领连衣裙女灰色短袖A字裙显瘦通勤裙', 'product_price': 68.64, 'product_image_url': 'https://g-search2.alicdn.com/img/bao/uploaded/i4/i3/2218755851552/O1CN01u1uFuA1NKrovpBctC_!!2218755851552.jpg_360x360q90.jpg_.webp', 'product_url': 'https://item.taobao.com/item.htm?id=1027512655388&ns=1&abbucket=4&xxc=taobaoSearch&mi_id=00001w_GEGhE3U_mlsgndUxsaufC87claprxf-VdAacbZzA&skuId=6040072964411&priceTId=2150454317754515746718545e123c&utparam=%7B%22aplus_abtest%22%3A%225066d3ef9f00543767b6fa1d67f960de%22%7D&spm=a21n57.1.item.30', 'sort_order': 0}, {'id': '9ea9bf54-3176-4c5b-ad66-3e18d2681097', 'outfit_id': '0b092ff4-65ab-4ea2-a29f-d28e8c7da30b', 'product_id': None, 'product_name': '2026年新款尖头高跟鞋女细跟职业通勤漆皮性感酒红色侧空婚鞋单鞋', 'product_price': 53.1, 'product_image_url': 'https://g-search3.alicdn.com/img/bao/uploaded/i4/i4/2984090682/O1CN01ZnEqBK1GuPDIyBwV3_!!2984090682.jpg_360x360q90.jpg_.webp', 'product_url': 'https://item.taobao.com/item.htm?id=984982527145&ns=1&abbucket=19&xxc=taobaoSearch&mi_id=00000lFbodQ6erWirW3IZMIBbWwg-sf0A9ZmFDK6e79N4mU&skuId=6055620517640&priceTId=2147839217754606780343316e1068&utparam=%7B%22aplus_abtest%22%3A%221ad08f5bd2869c2eae060048ece228bc%22%7D&spm=a21n57.1.item.28', 'sort_order': 1}, {'id': '1cefb28c-6fbd-424e-93f3-48580595743b', 'outfit_id': '0b092ff4-65ab-4ea2-a29f-d28e8c7da30b', 'product_id': None, 'product_name': 'COOGI包包女士2026新款轻奢托特包大容量单肩通勤手提包生日礼物', 'product_price': 999.0, 'product_image_url': 'https://gw.alicdn.com/imgextra/O1CN01CLLEIJ23NLpu8ro1C_!!2212640867243-0-picasso.jpg_360x360q90.jpg_.webp', 'product_url': 'https://click.simba.taobao.com/cc_im?p=%B0%FC%B0%FC&s=2053442490&k=2169&e=%2BAhj3vvo6wEvYBN1h1vq2B2%2BXwmuNqh5DOEQX2Ir0t6qMp2%2F%2B3znoO14E1mxvhyzAt5 ... (2515 characters truncated) ... 3D%2525257B%25252522aplus_abtest%25252522%2525253A%252525228014459f65937e2f2f3392615f03f5e4%25252522%2525257D%26&id=846513963880&spm=a21n57.1.item.48', 'sort_order': 2}]]
+(Background on this error at: https://sqlalche.me/e/20/9h9h)
+2026-04-13 23:29:53,506 - backend - INFO - Received request: GET http://localhost:8000/health
+2026-04-13 23:29:53,508 - backend - INFO - Health check endpoint accessed
+2026-04-13 23:29:53,510 - backend - INFO - Request completed: GET http://localhost:8000/health - 200 - 0.0036s
+2026-04-13 23:29:55,632 - backend - INFO - Received request: POST http://localhost:8000/api/wardrobe/save-outfit
+2026-04-13 23:29:55,697 - backend - ERROR - Error processing request: POST http://localhost:8000/api/wardrobe/save-outfit - (pymysql.err.DataError) (1406, "Data too long for column 'product_url' at row 3")
+[SQL: INSERT INTO saved_outfit_items (id, outfit_id, product_id, product_name, product_price, product_image_url, product_url, sort_order) VALUES (%(id)s, %(outfit_id)s, %(product_id)s, %(product_name)s, %(product_price)s, %(product_image_url)s, %(product_url)s, %(sort_order)s)]
+[parameters: [{'id': '81f728a1-7961-4481-9dea-b0920356c2a1', 'outfit_id': 'f5c637c4-b677-432a-b748-78c3c63057c2', 'product_id': None, 'product_name': '大码微胖mm2026春季新款娃娃领连衣裙女灰色短袖A字裙显瘦通勤裙', 'product_price': 68.64, 'product_image_url': 'https://g-search2.alicdn.com/img/bao/uploaded/i4/i3/2218755851552/O1CN01u1uFuA1NKrovpBctC_!!2218755851552.jpg_360x360q90.jpg_.webp', 'product_url': 'https://item.taobao.com/item.htm?id=1027512655388&ns=1&abbucket=4&xxc=taobaoSearch&mi_id=00001w_GEGhE3U_mlsgndUxsaufC87claprxf-VdAacbZzA&skuId=6040072964411&priceTId=2150454317754515746718545e123c&utparam=%7B%22aplus_abtest%22%3A%225066d3ef9f00543767b6fa1d67f960de%22%7D&spm=a21n57.1.item.30', 'sort_order': 0}, {'id': '4fb7f3f5-9df9-4d38-9402-c116c670caeb', 'outfit_id': 'f5c637c4-b677-432a-b748-78c3c63057c2', 'product_id': None, 'product_name': '2026年新款尖头高跟鞋女细跟职业通勤漆皮性感酒红色侧空婚鞋单鞋', 'product_price': 53.1, 'product_image_url': 'https://g-search3.alicdn.com/img/bao/uploaded/i4/i4/2984090682/O1CN01ZnEqBK1GuPDIyBwV3_!!2984090682.jpg_360x360q90.jpg_.webp', 'product_url': 'https://item.taobao.com/item.htm?id=984982527145&ns=1&abbucket=19&xxc=taobaoSearch&mi_id=00000lFbodQ6erWirW3IZMIBbWwg-sf0A9ZmFDK6e79N4mU&skuId=6055620517640&priceTId=2147839217754606780343316e1068&utparam=%7B%22aplus_abtest%22%3A%221ad08f5bd2869c2eae060048ece228bc%22%7D&spm=a21n57.1.item.28', 'sort_order': 1}, {'id': 'bbfc463f-469b-4207-9da3-50b0579ba371', 'outfit_id': 'f5c637c4-b677-432a-b748-78c3c63057c2', 'product_id': None, 'product_name': 'COOGI包包女士2026新款轻奢托特包大容量单肩通勤手提包生日礼物', 'product_price': 999.0, 'product_image_url': 'https://gw.alicdn.com/imgextra/O1CN01CLLEIJ23NLpu8ro1C_!!2212640867243-0-picasso.jpg_360x360q90.jpg_.webp', 'product_url': 'https://click.simba.taobao.com/cc_im?p=%B0%FC%B0%FC&s=2053442490&k=2169&e=%2BAhj3vvo6wEvYBN1h1vq2B2%2BXwmuNqh5DOEQX2Ir0t6qMp2%2F%2B3znoO14E1mxvhyzAt5 ... (2515 characters truncated) ... 3D%2525257B%25252522aplus_abtest%25252522%2525253A%252525228014459f65937e2f2f3392615f03f5e4%25252522%2525257D%26&id=846513963880&spm=a21n57.1.item.48', 'sort_order': 2}]]
+(Background on this error at: https://sqlalche.me/e/20/9h9h)
+2026-04-13 23:30:03,763 - backend - INFO - Received request: GET http://localhost:8000/health
+2026-04-13 23:30:03,765 - backend - INFO - Health check endpoint accessed
+2026-04-13 23:30:03,767 - backend - INFO - Request completed: GET http://localhost:8000/health - 200 - 0.0035s
+2026-04-13 23:30:05,875 - backend - INFO - Received request: GET http://localhost:8000/api/wardrobe/list/bef77cd8-a8f3-499c-8665-c38151bd6817
+2026-04-13 23:30:05,886 - backend - INFO - Request completed: GET http://localhost:8000/api/wardrobe/list/bef77cd8-a8f3-499c-8665-c38151bd6817 - 200 - 0.0111s
+2026-04-13 23:30:10,284 - backend - INFO - Received request: GET http://localhost:8000/health
+2026-04-13 23:30:10,285 - backend - INFO - Health check endpoint accessed
+2026-04-13 23:30:10,286 - backend - INFO - Request completed: GET http://localhost:8000/health - 200 - 0.0027s
+2026-04-13 23:30:25,415 - backend - INFO - Received request: POST http://localhost:8000/api/auth/login
+2026-04-13 23:30:25,426 - backend - INFO - Request completed: POST http://localhost:8000/api/auth/login - 200 - 0.0107s
+2026-04-13 23:30:27,630 - backend - INFO - Received request: GET http://localhost:8000/health
+2026-04-13 23:30:27,631 - backend - INFO - Health check endpoint accessed
+2026-04-13 23:30:27,632 - backend - INFO - Request completed: GET http://localhost:8000/health - 200 - 0.0023s
+2026-04-13 23:30:48,758 - backend - INFO - Received request: GET http://localhost:8000/health
+2026-04-13 23:30:48,760 - backend - INFO - Health check endpoint accessed
+2026-04-13 23:30:48,761 - backend - INFO - Request completed: GET http://localhost:8000/health - 200 - 0.0028s
+2026-04-13 23:30:48,930 - backend - INFO - Received request: GET http://localhost:8000/health
+2026-04-13 23:30:48,931 - backend - INFO - Health check endpoint accessed
+2026-04-13 23:30:48,933 - backend - INFO - Request completed: GET http://localhost:8000/health - 200 - 0.0027s
+2026-04-13 23:30:51,006 - backend - INFO - Received request: POST http://localhost:8000/api/chat/
+2026-04-13 23:30:51,009 - backend.chat - INFO - Chat request received: user_id=bef77cd8-a8f3-499c-8665-c38151bd6817, message_length=9, has_image=False
+2026-04-13 23:30:51,009 - backend.chat - INFO - Using existing session_id: 63644c26-8800-4153-81a8-5077cb15b699
+2026-04-13 23:30:51,009 - backend.chat - INFO - Processing text-only request
+2026-04-13 23:30:56,200 - httpx - INFO - HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-13 23:31:02,228 - httpx - INFO - HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-13 23:31:07,143 - httpx - INFO - HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-13 23:31:11,137 - httpx - INFO - HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-13 23:31:12,429 - httpx - INFO - HTTP Request: POST https://dashscope.aliyuncs.com/api/v1/services/aigc/text2image/image-synthesis "HTTP/1.1 200 OK"
+2026-04-13 23:31:14,542 - httpx - INFO - HTTP Request: GET https://dashscope.aliyuncs.com/api/v1/tasks/04969eb3-a231-4e0c-85e9-6e484ebd3e81 "HTTP/1.1 200 OK"
+2026-04-13 23:31:16,632 - httpx - INFO - HTTP Request: GET https://dashscope.aliyuncs.com/api/v1/tasks/04969eb3-a231-4e0c-85e9-6e484ebd3e81 "HTTP/1.1 200 OK"
+2026-04-13 23:31:18,725 - httpx - INFO - HTTP Request: GET https://dashscope.aliyuncs.com/api/v1/tasks/04969eb3-a231-4e0c-85e9-6e484ebd3e81 "HTTP/1.1 200 OK"
+2026-04-13 23:31:20,804 - httpx - INFO - HTTP Request: GET https://dashscope.aliyuncs.com/api/v1/tasks/04969eb3-a231-4e0c-85e9-6e484ebd3e81 "HTTP/1.1 200 OK"
+2026-04-13 23:31:22,898 - httpx - INFO - HTTP Request: GET https://dashscope.aliyuncs.com/api/v1/tasks/04969eb3-a231-4e0c-85e9-6e484ebd3e81 "HTTP/1.1 200 OK"
+2026-04-13 23:31:24,984 - httpx - INFO - HTTP Request: GET https://dashscope.aliyuncs.com/api/v1/tasks/04969eb3-a231-4e0c-85e9-6e484ebd3e81 "HTTP/1.1 200 OK"
+2026-04-13 23:31:27,085 - httpx - INFO - HTTP Request: GET https://dashscope.aliyuncs.com/api/v1/tasks/04969eb3-a231-4e0c-85e9-6e484ebd3e81 "HTTP/1.1 200 OK"
+2026-04-13 23:31:29,196 - httpx - INFO - HTTP Request: GET https://dashscope.aliyuncs.com/api/v1/tasks/04969eb3-a231-4e0c-85e9-6e484ebd3e81 "HTTP/1.1 200 OK"
+2026-04-13 23:31:31,297 - httpx - INFO - HTTP Request: GET https://dashscope.aliyuncs.com/api/v1/tasks/04969eb3-a231-4e0c-85e9-6e484ebd3e81 "HTTP/1.1 200 OK"
+2026-04-13 23:31:33,389 - httpx - INFO - HTTP Request: GET https://dashscope.aliyuncs.com/api/v1/tasks/04969eb3-a231-4e0c-85e9-6e484ebd3e81 "HTTP/1.1 200 OK"
+2026-04-13 23:31:35,503 - httpx - INFO - HTTP Request: GET https://dashscope.aliyuncs.com/api/v1/tasks/04969eb3-a231-4e0c-85e9-6e484ebd3e81 "HTTP/1.1 200 OK"
+2026-04-13 23:31:35,506 - backend.chat - INFO - Agent returned result: recommendation
+2026-04-13 23:31:35,508 - backend - INFO - Request completed: POST http://localhost:8000/api/chat/ - 200 - 44.5015s
+2026-04-13 23:32:05,458 - backend - INFO - Received request: GET http://localhost:8000/health
+2026-04-13 23:32:05,464 - backend - INFO - Health check endpoint accessed
+2026-04-13 23:32:05,467 - backend - INFO - Request completed: GET http://localhost:8000/health - 200 - 0.0086s
+2026-04-13 23:32:31,286 - backend - INFO - Received request: GET http://localhost:8000/health
+2026-04-13 23:32:31,287 - backend - INFO - Health check endpoint accessed
+2026-04-13 23:32:31,288 - backend - INFO - Request completed: GET http://localhost:8000/health - 200 - 0.0025s
+2026-04-13 23:32:31,435 - backend - INFO - Received request: GET http://localhost:8000/health
+2026-04-13 23:32:31,437 - backend - INFO - Health check endpoint accessed
+2026-04-13 23:32:31,438 - backend - INFO - Request completed: GET http://localhost:8000/health - 200 - 0.0028s
+2026-04-13 23:32:33,514 - backend - INFO - Received request: POST http://localhost:8000/api/chat/
+2026-04-13 23:32:33,517 - backend.chat - INFO - Chat request received: user_id=bef77cd8-a8f3-499c-8665-c38151bd6817, message_length=10, has_image=False
+2026-04-13 23:32:33,518 - backend.chat - INFO - Using existing session_id: 63644c26-8800-4153-81a8-5077cb15b699
+2026-04-13 23:32:33,518 - backend.chat - INFO - Processing text-only request
+2026-04-13 23:32:38,077 - httpx - INFO - HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-13 23:32:40,840 - httpx - INFO - HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-13 23:32:43,649 - httpx - INFO - HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-13 23:32:47,086 - httpx - INFO - HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-13 23:32:48,212 - httpx - INFO - HTTP Request: POST https://dashscope.aliyuncs.com/api/v1/services/aigc/text2image/image-synthesis "HTTP/1.1 200 OK"
+2026-04-13 23:32:50,304 - httpx - INFO - HTTP Request: GET https://dashscope.aliyuncs.com/api/v1/tasks/f5c945b0-e7ab-464c-93b0-cd2410bfbe10 "HTTP/1.1 200 OK"
+2026-04-13 23:32:52,374 - httpx - INFO - HTTP Request: GET https://dashscope.aliyuncs.com/api/v1/tasks/f5c945b0-e7ab-464c-93b0-cd2410bfbe10 "HTTP/1.1 200 OK"
+2026-04-13 23:32:54,444 - httpx - INFO - HTTP Request: GET https://dashscope.aliyuncs.com/api/v1/tasks/f5c945b0-e7ab-464c-93b0-cd2410bfbe10 "HTTP/1.1 200 OK"
+2026-04-13 23:32:56,505 - httpx - INFO - HTTP Request: GET https://dashscope.aliyuncs.com/api/v1/tasks/f5c945b0-e7ab-464c-93b0-cd2410bfbe10 "HTTP/1.1 200 OK"
+2026-04-13 23:32:58,571 - httpx - INFO - HTTP Request: GET https://dashscope.aliyuncs.com/api/v1/tasks/f5c945b0-e7ab-464c-93b0-cd2410bfbe10 "HTTP/1.1 200 OK"
+2026-04-13 23:33:00,649 - httpx - INFO - HTTP Request: GET https://dashscope.aliyuncs.com/api/v1/tasks/f5c945b0-e7ab-464c-93b0-cd2410bfbe10 "HTTP/1.1 200 OK"
+2026-04-13 23:33:02,718 - httpx - INFO - HTTP Request: GET https://dashscope.aliyuncs.com/api/v1/tasks/f5c945b0-e7ab-464c-93b0-cd2410bfbe10 "HTTP/1.1 200 OK"
+2026-04-13 23:33:04,797 - httpx - INFO - HTTP Request: GET https://dashscope.aliyuncs.com/api/v1/tasks/f5c945b0-e7ab-464c-93b0-cd2410bfbe10 "HTTP/1.1 200 OK"
+2026-04-13 23:33:06,876 - httpx - INFO - HTTP Request: GET https://dashscope.aliyuncs.com/api/v1/tasks/f5c945b0-e7ab-464c-93b0-cd2410bfbe10 "HTTP/1.1 200 OK"
+2026-04-13 23:33:08,991 - httpx - INFO - HTTP Request: GET https://dashscope.aliyuncs.com/api/v1/tasks/f5c945b0-e7ab-464c-93b0-cd2410bfbe10 "HTTP/1.1 200 OK"
+2026-04-13 23:33:08,994 - backend.chat - INFO - Agent returned result: recommendation
+2026-04-13 23:33:08,995 - backend - INFO - Request completed: POST http://localhost:8000/api/chat/ - 200 - 35.4805s
+2026-04-13 23:37:06,012 - backend - INFO - Received request: POST http://localhost:8000/api/auth/login
+2026-04-13 23:37:06,032 - backend - INFO - Request completed: POST http://localhost:8000/api/auth/login - 200 - 0.0204s
+2026-04-13 23:37:08,220 - backend - INFO - Received request: GET http://localhost:8000/health
+2026-04-13 23:37:08,222 - backend - INFO - Health check endpoint accessed
+2026-04-13 23:37:08,223 - backend - INFO - Request completed: GET http://localhost:8000/health - 200 - 0.0029s
+2026-04-13 23:37:34,300 - backend - INFO - Received request: GET http://localhost:8000/health
+2026-04-13 23:37:34,302 - backend - INFO - Health check endpoint accessed
+2026-04-13 23:37:34,303 - backend - INFO - Request completed: GET http://localhost:8000/health - 200 - 0.0031s
+2026-04-13 23:37:34,461 - backend - INFO - Received request: GET http://localhost:8000/health
+2026-04-13 23:37:34,463 - backend - INFO - Health check endpoint accessed
+2026-04-13 23:37:34,464 - backend - INFO - Request completed: GET http://localhost:8000/health - 200 - 0.0031s
+2026-04-13 23:37:36,569 - backend - INFO - Received request: POST http://localhost:8000/api/chat/
+2026-04-13 23:37:36,571 - backend.chat - INFO - Chat request received: user_id=e0b4a9b2-e866-43dd-a735-fb04fb187fa7, message_length=11, has_image=False
+2026-04-13 23:37:36,572 - backend.chat - INFO - Using existing session_id: 4952e827-dee2-4176-a7ec-600bef3c2162
+2026-04-13 23:37:36,572 - backend.chat - INFO - Processing text-only request
+2026-04-13 23:37:42,054 - httpx - INFO - HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-13 23:37:46,197 - httpx - INFO - HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-13 23:37:49,375 - httpx - INFO - HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-13 23:37:52,862 - httpx - INFO - HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-13 23:37:54,080 - httpx - INFO - HTTP Request: POST https://dashscope.aliyuncs.com/api/v1/services/aigc/text2image/image-synthesis "HTTP/1.1 200 OK"
+2026-04-13 23:37:56,169 - httpx - INFO - HTTP Request: GET https://dashscope.aliyuncs.com/api/v1/tasks/8970985a-6132-4558-b2c4-26e1939dcc3e "HTTP/1.1 200 OK"
+2026-04-13 23:37:58,239 - httpx - INFO - HTTP Request: GET https://dashscope.aliyuncs.com/api/v1/tasks/8970985a-6132-4558-b2c4-26e1939dcc3e "HTTP/1.1 200 OK"
+2026-04-13 23:38:00,355 - httpx - INFO - HTTP Request: GET https://dashscope.aliyuncs.com/api/v1/tasks/8970985a-6132-4558-b2c4-26e1939dcc3e "HTTP/1.1 200 OK"
+2026-04-13 23:38:02,424 - httpx - INFO - HTTP Request: GET https://dashscope.aliyuncs.com/api/v1/tasks/8970985a-6132-4558-b2c4-26e1939dcc3e "HTTP/1.1 200 OK"
+2026-04-13 23:38:04,501 - httpx - INFO - HTTP Request: GET https://dashscope.aliyuncs.com/api/v1/tasks/8970985a-6132-4558-b2c4-26e1939dcc3e "HTTP/1.1 200 OK"
+2026-04-13 23:38:06,570 - httpx - INFO - HTTP Request: GET https://dashscope.aliyuncs.com/api/v1/tasks/8970985a-6132-4558-b2c4-26e1939dcc3e "HTTP/1.1 200 OK"
+2026-04-13 23:38:08,647 - httpx - INFO - HTTP Request: GET https://dashscope.aliyuncs.com/api/v1/tasks/8970985a-6132-4558-b2c4-26e1939dcc3e "HTTP/1.1 200 OK"
+2026-04-13 23:38:10,721 - httpx - INFO - HTTP Request: GET https://dashscope.aliyuncs.com/api/v1/tasks/8970985a-6132-4558-b2c4-26e1939dcc3e "HTTP/1.1 200 OK"
+2026-04-13 23:38:12,798 - httpx - INFO - HTTP Request: GET https://dashscope.aliyuncs.com/api/v1/tasks/8970985a-6132-4558-b2c4-26e1939dcc3e "HTTP/1.1 200 OK"
+2026-04-13 23:38:14,889 - httpx - INFO - HTTP Request: GET https://dashscope.aliyuncs.com/api/v1/tasks/8970985a-6132-4558-b2c4-26e1939dcc3e "HTTP/1.1 200 OK"
+2026-04-13 23:38:16,977 - httpx - INFO - HTTP Request: GET https://dashscope.aliyuncs.com/api/v1/tasks/8970985a-6132-4558-b2c4-26e1939dcc3e "HTTP/1.1 200 OK"
+2026-04-13 23:38:19,090 - httpx - INFO - HTTP Request: GET https://dashscope.aliyuncs.com/api/v1/tasks/8970985a-6132-4558-b2c4-26e1939dcc3e "HTTP/1.1 200 OK"
+2026-04-13 23:38:19,094 - backend.chat - INFO - Agent returned result: recommendation
+2026-04-13 23:38:19,096 - backend - INFO - Request completed: POST http://localhost:8000/api/chat/ - 200 - 42.5275s
+2026-04-13 23:39:13,090 - backend - INFO - Received request: GET http://localhost:8000/health
+2026-04-13 23:39:13,099 - backend - INFO - Health check endpoint accessed
+2026-04-13 23:39:13,107 - backend - INFO - Request completed: GET http://localhost:8000/health - 200 - 0.0169s
+2026-04-13 23:39:19,487 - backend - INFO - Received request: GET http://localhost:8000/health
+2026-04-13 23:39:19,489 - backend - INFO - Health check endpoint accessed
+2026-04-13 23:39:19,490 - backend - INFO - Request completed: GET http://localhost:8000/health - 200 - 0.0029s
+2026-04-13 23:39:21,573 - backend - INFO - Received request: POST http://localhost:8000/api/chat/
+2026-04-13 23:39:21,576 - backend.chat - INFO - Chat request received: user_id=e0b4a9b2-e866-43dd-a735-fb04fb187fa7, message_length=9, has_image=False
+2026-04-13 23:39:21,576 - backend.chat - INFO - Using existing session_id: 4952e827-dee2-4176-a7ec-600bef3c2162
+2026-04-13 23:39:21,576 - backend.chat - INFO - Processing text-only request
+2026-04-13 23:39:26,761 - httpx - INFO - HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-13 23:39:29,757 - httpx - INFO - HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-13 23:39:33,261 - httpx - INFO - HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-13 23:39:36,994 - httpx - INFO - HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-13 23:39:38,221 - httpx - INFO - HTTP Request: POST https://dashscope.aliyuncs.com/api/v1/services/aigc/text2image/image-synthesis "HTTP/1.1 200 OK"
+2026-04-13 23:39:40,311 - httpx - INFO - HTTP Request: GET https://dashscope.aliyuncs.com/api/v1/tasks/e1dd8906-2388-4a07-be12-87c7a7d6f2a9 "HTTP/1.1 200 OK"
+2026-04-13 23:39:42,384 - httpx - INFO - HTTP Request: GET https://dashscope.aliyuncs.com/api/v1/tasks/e1dd8906-2388-4a07-be12-87c7a7d6f2a9 "HTTP/1.1 200 OK"
+2026-04-13 23:39:44,468 - httpx - INFO - HTTP Request: GET https://dashscope.aliyuncs.com/api/v1/tasks/e1dd8906-2388-4a07-be12-87c7a7d6f2a9 "HTTP/1.1 200 OK"
+2026-04-13 23:39:46,536 - httpx - INFO - HTTP Request: GET https://dashscope.aliyuncs.com/api/v1/tasks/e1dd8906-2388-4a07-be12-87c7a7d6f2a9 "HTTP/1.1 200 OK"
+2026-04-13 23:39:48,608 - httpx - INFO - HTTP Request: GET https://dashscope.aliyuncs.com/api/v1/tasks/e1dd8906-2388-4a07-be12-87c7a7d6f2a9 "HTTP/1.1 200 OK"
+2026-04-13 23:39:50,675 - httpx - INFO - HTTP Request: GET https://dashscope.aliyuncs.com/api/v1/tasks/e1dd8906-2388-4a07-be12-87c7a7d6f2a9 "HTTP/1.1 200 OK"
+2026-04-13 23:39:52,740 - httpx - INFO - HTTP Request: GET https://dashscope.aliyuncs.com/api/v1/tasks/e1dd8906-2388-4a07-be12-87c7a7d6f2a9 "HTTP/1.1 200 OK"
+2026-04-13 23:39:54,812 - httpx - INFO - HTTP Request: GET https://dashscope.aliyuncs.com/api/v1/tasks/e1dd8906-2388-4a07-be12-87c7a7d6f2a9 "HTTP/1.1 200 OK"
+2026-04-13 23:39:56,902 - httpx - INFO - HTTP Request: GET https://dashscope.aliyuncs.com/api/v1/tasks/e1dd8906-2388-4a07-be12-87c7a7d6f2a9 "HTTP/1.1 200 OK"
+2026-04-13 23:39:59,001 - httpx - INFO - HTTP Request: GET https://dashscope.aliyuncs.com/api/v1/tasks/e1dd8906-2388-4a07-be12-87c7a7d6f2a9 "HTTP/1.1 200 OK"
+2026-04-13 23:39:59,005 - backend.chat - INFO - Agent returned result: recommendation
+2026-04-13 23:39:59,006 - backend - INFO - Request completed: POST http://localhost:8000/api/chat/ - 200 - 37.4333s
+2026-04-13 23:40:30,606 - backend - INFO - Received request: GET http://localhost:8000/health
+2026-04-13 23:40:30,608 - backend - INFO - Health check endpoint accessed
+2026-04-13 23:40:30,609 - backend - INFO - Request completed: GET http://localhost:8000/health - 200 - 0.0038s
+2026-04-13 23:40:45,741 - backend - INFO - Received request: GET http://localhost:8000/health
+2026-04-13 23:40:45,743 - backend - INFO - Health check endpoint accessed
+2026-04-13 23:40:45,744 - backend - INFO - Request completed: GET http://localhost:8000/health - 200 - 0.0036s
+2026-04-13 23:40:47,858 - backend - INFO - Received request: POST http://localhost:8000/api/wardrobe/save-outfit
+2026-04-13 23:40:47,921 - backend - INFO - Request completed: POST http://localhost:8000/api/wardrobe/save-outfit - 200 - 0.0638s
+2026-04-13 23:40:54,039 - backend - INFO - Received request: GET http://localhost:8000/health
+2026-04-13 23:40:54,041 - backend - INFO - Health check endpoint accessed
+2026-04-13 23:40:54,043 - backend - INFO - Request completed: GET http://localhost:8000/health - 200 - 0.0038s
+2026-04-13 23:40:56,130 - backend - INFO - Received request: GET http://localhost:8000/api/wardrobe/list/e0b4a9b2-e866-43dd-a735-fb04fb187fa7
+2026-04-13 23:40:56,149 - backend - INFO - Request completed: GET http://localhost:8000/api/wardrobe/list/e0b4a9b2-e866-43dd-a735-fb04fb187fa7 - 200 - 0.0192s
+2026-04-13 23:41:09,622 - backend - INFO - Received request: GET http://localhost:8000/health
+2026-04-13 23:41:09,625 - backend - INFO - Health check endpoint accessed
+2026-04-13 23:41:09,627 - backend - INFO - Request completed: GET http://localhost:8000/health - 200 - 0.0050s
+2026-04-13 23:41:20,072 - backend - INFO - Received request: GET http://localhost:8000/health
+2026-04-13 23:41:20,073 - backend - INFO - Health check endpoint accessed
+2026-04-13 23:41:20,074 - backend - INFO - Request completed: GET http://localhost:8000/health - 200 - 0.0023s
+2026-04-13 23:41:44,498 - backend - INFO - Received request: GET http://localhost:8000/health
+2026-04-13 23:41:44,500 - backend - INFO - Health check endpoint accessed
+2026-04-13 23:41:44,501 - backend - INFO - Request completed: GET http://localhost:8000/health - 200 - 0.0025s
+2026-04-13 23:41:57,906 - backend - INFO - Received request: GET http://localhost:8000/health
+2026-04-13 23:41:57,908 - backend - INFO - Health check endpoint accessed
+2026-04-13 23:41:57,910 - backend - INFO - Request completed: GET http://localhost:8000/health - 200 - 0.0043s
+2026-04-13 23:41:58,064 - backend - INFO - Received request: GET http://localhost:8000/health
+2026-04-13 23:41:58,066 - backend - INFO - Health check endpoint accessed
+2026-04-13 23:41:58,067 - backend - INFO - Request completed: GET http://localhost:8000/health - 200 - 0.0024s
+2026-04-13 23:42:00,312 - backend - INFO - Received request: POST http://localhost:8000/api/chat/
+2026-04-13 23:42:00,348 - backend.chat - INFO - Chat request received: user_id=e0b4a9b2-e866-43dd-a735-fb04fb187fa7, message_length=10, has_image=True
+2026-04-13 23:42:00,349 - backend.chat - INFO - Using existing session_id: 4952e827-dee2-4176-a7ec-600bef3c2162
+2026-04-13 23:42:00,349 - backend.chat - INFO - Processing image URL: data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAssA...
+2026-04-13 23:42:05,550 - httpx - INFO - HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-13 23:42:05,553 - backend.chat - INFO - Image analysis result: True
+2026-04-13 23:42:05,553 - backend.chat - INFO - Extracted conditions: {'style': '复古', 'color': '白色、棕色', 'category': '上衣、下装', 'season': '春秋'}
+2026-04-13 23:42:05,553 - backend.chat - INFO - Mapped style: 复古 -> 复古
+2026-04-13 23:42:05,553 - backend.chat - INFO - Mapped category: 上衣、下装 -> 上衣
+2026-04-13 23:42:05,554 - backend.chat - INFO - Extracted text conditions: {}
+2026-04-13 23:42:05,554 - backend.chat - INFO - First search with conditions: {'style': '复古'}
+2026-04-13 23:42:05,583 - backend.chat - INFO - First search found 20 products
+2026-04-13 23:42:05,584 - backend.chat - INFO - Created 20 items for response
+2026-04-13 23:42:05,584 - backend.chat - INFO - Building complete outfit recommendation
+2026-04-13 23:42:05,584 - backend.chat - INFO - Extracted material: 缎面、皮质
+2026-04-13 23:42:05,584 - backend.chat - INFO - Created outfit: 基于图片的复古风格搭配
+2026-04-13 23:42:05,585 - backend.chat - INFO - Generating outfit image with 3 items
+2026-04-13 23:42:08,846 - httpx - INFO - HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-13 23:42:12,918 - httpx - INFO - HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-13 23:42:16,123 - httpx - INFO - HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-13 23:42:17,330 - httpx - INFO - HTTP Request: POST https://dashscope.aliyuncs.com/api/v1/services/aigc/text2image/image-synthesis "HTTP/1.1 200 OK"
+2026-04-13 23:42:19,422 - httpx - INFO - HTTP Request: GET https://dashscope.aliyuncs.com/api/v1/tasks/63892fcd-5e64-46a0-b068-94a8c0f3070b "HTTP/1.1 200 OK"
+2026-04-13 23:42:21,504 - httpx - INFO - HTTP Request: GET https://dashscope.aliyuncs.com/api/v1/tasks/63892fcd-5e64-46a0-b068-94a8c0f3070b "HTTP/1.1 200 OK"
+2026-04-13 23:42:23,586 - httpx - INFO - HTTP Request: GET https://dashscope.aliyuncs.com/api/v1/tasks/63892fcd-5e64-46a0-b068-94a8c0f3070b "HTTP/1.1 200 OK"
+2026-04-13 23:42:25,658 - httpx - INFO - HTTP Request: GET https://dashscope.aliyuncs.com/api/v1/tasks/63892fcd-5e64-46a0-b068-94a8c0f3070b "HTTP/1.1 200 OK"
+2026-04-13 23:42:27,743 - httpx - INFO - HTTP Request: GET https://dashscope.aliyuncs.com/api/v1/tasks/63892fcd-5e64-46a0-b068-94a8c0f3070b "HTTP/1.1 200 OK"
+2026-04-13 23:42:29,825 - httpx - INFO - HTTP Request: GET https://dashscope.aliyuncs.com/api/v1/tasks/63892fcd-5e64-46a0-b068-94a8c0f3070b "HTTP/1.1 200 OK"
+2026-04-13 23:42:31,905 - httpx - INFO - HTTP Request: GET https://dashscope.aliyuncs.com/api/v1/tasks/63892fcd-5e64-46a0-b068-94a8c0f3070b "HTTP/1.1 200 OK"
+2026-04-13 23:42:33,976 - httpx - INFO - HTTP Request: GET https://dashscope.aliyuncs.com/api/v1/tasks/63892fcd-5e64-46a0-b068-94a8c0f3070b "HTTP/1.1 200 OK"
+2026-04-13 23:42:36,049 - httpx - INFO - HTTP Request: GET https://dashscope.aliyuncs.com/api/v1/tasks/63892fcd-5e64-46a0-b068-94a8c0f3070b "HTTP/1.1 200 OK"
+2026-04-13 23:42:38,125 - httpx - INFO - HTTP Request: GET https://dashscope.aliyuncs.com/api/v1/tasks/63892fcd-5e64-46a0-b068-94a8c0f3070b "HTTP/1.1 200 OK"
+2026-04-13 23:42:40,188 - httpx - INFO - HTTP Request: GET https://dashscope.aliyuncs.com/api/v1/tasks/63892fcd-5e64-46a0-b068-94a8c0f3070b "HTTP/1.1 200 OK"
+2026-04-13 23:42:42,277 - httpx - INFO - HTTP Request: GET https://dashscope.aliyuncs.com/api/v1/tasks/63892fcd-5e64-46a0-b068-94a8c0f3070b "HTTP/1.1 200 OK"
+2026-04-13 23:42:42,279 - backend.chat - INFO - Generated outfit image: https://dashscope-7c2c.oss-accelerate.aliyuncs.com/1d/e3/20260413/2b8dd67a/63892fcd-5e64-46a0-b068-94a8c0f3070b.png?Expires=1776181360&OSSAccessKeyId=LTAI5tPxpiCM2hjmWrFXrym1&Signature=ImrAPxhAdpw%2BJZaHK16j7TCO76w%3D
+2026-04-13 23:42:46,229 - httpx - INFO - HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-13 23:42:46,231 - backend.chat - INFO - Generated recommendation reason
+2026-04-13 23:42:46,232 - backend.chat - INFO - Returning outfit recommendation response with 3 items
+2026-04-13 23:42:46,234 - backend - INFO - Request completed: POST http://localhost:8000/api/chat/ - 200 - 45.9213s
+2026-04-14 23:08:35,628 - backend - INFO - Starting backend service with uvicorn
+2026-04-14 23:08:35,811 - backend - INFO - Starting up backend service...
+2026-04-14 23:08:39,875 - backend - ERROR - Error initializing database: (pymysql.err.OperationalError) (2003, "Can't connect to MySQL server on 'localhost' ([WinError 10061] 由于目标计算机积极拒绝，无法连接。)")
+(Background on this error at: https://sqlalche.me/e/20/e3q8)
+2026-04-14 23:08:39,876 - backend - INFO - Backend service started successfully
+2026-04-14 23:11:41,479 - backend - INFO - Received request: POST http://localhost:8000/api/auth/login
+2026-04-14 23:11:45,600 - backend - ERROR - Error processing request: POST http://localhost:8000/api/auth/login - (pymysql.err.OperationalError) (2003, "Can't connect to MySQL server on 'localhost' ([WinError 10061] 由于目标计算机积极拒绝，无法连接。)")
+(Background on this error at: https://sqlalche.me/e/20/e3q8)
+2026-04-14 23:11:59,878 - backend - INFO - Received request: POST http://localhost:8000/api/auth/login
+2026-04-14 23:12:03,949 - backend - ERROR - Error processing request: POST http://localhost:8000/api/auth/login - (pymysql.err.OperationalError) (2003, "Can't connect to MySQL server on 'localhost' ([WinError 10061] 由于目标计算机积极拒绝，无法连接。)")
+(Background on this error at: https://sqlalche.me/e/20/e3q8)
+2026-04-14 23:12:15,101 - backend - INFO - Received request: POST http://localhost:8000/api/auth/register
+2026-04-14 23:12:19,203 - backend - ERROR - Error processing request: POST http://localhost:8000/api/auth/register - (pymysql.err.OperationalError) (2003, "Can't connect to MySQL server on 'localhost' ([WinError 10061] 由于目标计算机积极拒绝，无法连接。)")
+(Background on this error at: https://sqlalche.me/e/20/e3q8)
+2026-04-14 23:13:57,319 - backend - INFO - Received request: POST http://localhost:8000/api/auth/login
+2026-04-14 23:13:57,433 - backend - INFO - Request completed: POST http://localhost:8000/api/auth/login - 200 - 0.1147s
+2026-04-14 23:13:59,572 - backend - INFO - Received request: GET http://localhost:8000/health
+2026-04-14 23:13:59,577 - backend - INFO - Health check endpoint accessed
+2026-04-14 23:13:59,579 - backend - INFO - Request completed: GET http://localhost:8000/health - 200 - 0.0067s
+2026-04-14 23:23:41,284 - backend - INFO - Received request: GET http://localhost:8000/health
+2026-04-14 23:23:41,285 - backend - INFO - Health check endpoint accessed
+2026-04-14 23:23:41,286 - backend - INFO - Request completed: GET http://localhost:8000/health - 200 - 0.0013s
+2026-04-14 23:45:08,901 - backend - INFO - Received request: GET http://localhost:8000/health
+2026-04-14 23:45:08,904 - backend - INFO - Health check endpoint accessed
+2026-04-14 23:45:08,906 - backend - INFO - Request completed: GET http://localhost:8000/health - 200 - 0.0050s
+2026-04-15 21:20:31,033 - backend - INFO - Starting backend service with uvicorn
+2026-04-15 21:20:31,199 - backend - INFO - Starting up backend service...
+2026-04-15 21:20:34,847 - backend - ERROR - Error initializing database: (pymysql.err.OperationalError) (2013, 'Lost connection to MySQL server during query ([WinError 10054] 远程主机强迫关闭了一个现有的连接。)')
+[SQL: DESCRIBE `fashion_assistant`.`users`]
+(Background on this error at: https://sqlalche.me/e/20/e3q8)
+2026-04-15 21:20:34,851 - backend - INFO - Backend service started successfully
+2026-04-15 21:24:06,309 - backend - INFO - Starting backend service with uvicorn
+2026-04-15 21:24:06,409 - backend - INFO - Starting up backend service...
+2026-04-15 21:24:06,493 - backend - INFO - Database initialized successfully
+2026-04-15 21:24:06,494 - backend - INFO - Backend service started successfully
+2026-04-15 21:24:54,719 - backend - INFO - Received request: POST http://localhost:8000/api/auth/login
+2026-04-15 21:24:54,820 - backend - INFO - Request completed: POST http://localhost:8000/api/auth/login - 200 - 0.1014s
+2026-04-15 21:24:56,948 - backend - INFO - Received request: GET http://localhost:8000/health
+2026-04-15 21:24:56,957 - backend - INFO - Health check endpoint accessed
+2026-04-15 21:24:56,958 - backend - INFO - Request completed: GET http://localhost:8000/health - 200 - 0.0102s
+2026-04-15 21:25:15,937 - backend - INFO - Received request: GET http://localhost:8000/health
+2026-04-15 21:25:15,939 - backend - INFO - Health check endpoint accessed
+2026-04-15 21:25:15,940 - backend - INFO - Request completed: GET http://localhost:8000/health - 200 - 0.0032s
+2026-04-15 21:25:17,981 - backend - INFO - Received request: GET http://localhost:8000/api/wardrobe/list/e0b4a9b2-e866-43dd-a735-fb04fb187fa7
+2026-04-15 21:25:18,066 - backend - INFO - Request completed: GET http://localhost:8000/api/wardrobe/list/e0b4a9b2-e866-43dd-a735-fb04fb187fa7 - 200 - 0.0857s
+2026-04-15 21:25:58,409 - backend - INFO - Received request: GET http://localhost:8000/health
+2026-04-15 21:25:58,411 - backend - INFO - Health check endpoint accessed
+2026-04-15 21:25:58,413 - backend - INFO - Request completed: GET http://localhost:8000/health - 200 - 0.0038s
+2026-04-15 21:27:44,806 - backend - INFO - Received request: GET http://localhost:8000/health
+2026-04-15 21:27:44,808 - backend - INFO - Health check endpoint accessed
+2026-04-15 21:27:44,809 - backend - INFO - Request completed: GET http://localhost:8000/health - 200 - 0.0030s
+2026-04-15 21:28:15,823 - backend - INFO - Received request: GET http://localhost:8000/health
+2026-04-15 21:28:15,825 - backend - INFO - Health check endpoint accessed
+2026-04-15 21:28:15,828 - backend - INFO - Request completed: GET http://localhost:8000/health - 200 - 0.0044s
+2026-04-15 21:28:15,965 - backend - INFO - Received request: GET http://localhost:8000/health
+2026-04-15 21:28:15,971 - backend - INFO - Health check endpoint accessed
+2026-04-15 21:28:15,972 - backend - INFO - Request completed: GET http://localhost:8000/health - 200 - 0.0070s
+2026-04-15 21:28:18,032 - backend - INFO - Received request: POST http://localhost:8000/api/chat/
+2026-04-15 21:28:18,034 - backend.chat - INFO - Chat request received: user_id=e0b4a9b2-e866-43dd-a735-fb04fb187fa7, message_length=9, has_image=False
+2026-04-15 21:28:18,035 - backend.chat - INFO - Using existing session_id: 93904723-553f-4a63-96d3-6cdc2238edea
+2026-04-15 21:28:18,035 - backend.chat - INFO - Processing text-only request
+2026-04-15 21:28:24,085 - httpx - INFO - HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-15 21:28:27,648 - httpx - INFO - HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-15 21:28:30,533 - httpx - INFO - HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-15 21:28:34,015 - httpx - INFO - HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-15 21:28:35,347 - httpx - INFO - HTTP Request: POST https://dashscope.aliyuncs.com/api/v1/services/aigc/text2image/image-synthesis "HTTP/1.1 200 OK"
+2026-04-15 21:28:37,472 - httpx - INFO - HTTP Request: GET https://dashscope.aliyuncs.com/api/v1/tasks/e8a87808-3b35-432d-a372-bcde1f7ab099 "HTTP/1.1 200 OK"
+2026-04-15 21:28:39,571 - httpx - INFO - HTTP Request: GET https://dashscope.aliyuncs.com/api/v1/tasks/e8a87808-3b35-432d-a372-bcde1f7ab099 "HTTP/1.1 200 OK"
+2026-04-15 21:28:41,658 - httpx - INFO - HTTP Request: GET https://dashscope.aliyuncs.com/api/v1/tasks/e8a87808-3b35-432d-a372-bcde1f7ab099 "HTTP/1.1 200 OK"
+2026-04-15 21:28:43,750 - httpx - INFO - HTTP Request: GET https://dashscope.aliyuncs.com/api/v1/tasks/e8a87808-3b35-432d-a372-bcde1f7ab099 "HTTP/1.1 200 OK"
+2026-04-15 21:28:45,847 - httpx - INFO - HTTP Request: GET https://dashscope.aliyuncs.com/api/v1/tasks/e8a87808-3b35-432d-a372-bcde1f7ab099 "HTTP/1.1 200 OK"
+2026-04-15 21:28:47,941 - httpx - INFO - HTTP Request: GET https://dashscope.aliyuncs.com/api/v1/tasks/e8a87808-3b35-432d-a372-bcde1f7ab099 "HTTP/1.1 200 OK"
+2026-04-15 21:28:50,042 - httpx - INFO - HTTP Request: GET https://dashscope.aliyuncs.com/api/v1/tasks/e8a87808-3b35-432d-a372-bcde1f7ab099 "HTTP/1.1 200 OK"
+2026-04-15 21:28:52,132 - httpx - INFO - HTTP Request: GET https://dashscope.aliyuncs.com/api/v1/tasks/e8a87808-3b35-432d-a372-bcde1f7ab099 "HTTP/1.1 200 OK"
+2026-04-15 21:28:54,233 - httpx - INFO - HTTP Request: GET https://dashscope.aliyuncs.com/api/v1/tasks/e8a87808-3b35-432d-a372-bcde1f7ab099 "HTTP/1.1 200 OK"
+2026-04-15 21:28:56,325 - httpx - INFO - HTTP Request: GET https://dashscope.aliyuncs.com/api/v1/tasks/e8a87808-3b35-432d-a372-bcde1f7ab099 "HTTP/1.1 200 OK"
+2026-04-15 21:28:58,450 - httpx - INFO - HTTP Request: GET https://dashscope.aliyuncs.com/api/v1/tasks/e8a87808-3b35-432d-a372-bcde1f7ab099 "HTTP/1.1 200 OK"
+2026-04-15 21:28:58,454 - backend.chat - INFO - Agent returned result: recommendation
+2026-04-15 21:28:58,456 - backend - INFO - Request completed: POST http://localhost:8000/api/chat/ - 200 - 40.4239s
+2026-04-15 21:29:49,309 - backend - INFO - Received request: GET http://localhost:8000/health
+2026-04-15 21:29:49,311 - backend - INFO - Received request: GET http://localhost:8000/health
+2026-04-15 21:29:49,312 - backend - INFO - Health check endpoint accessed
+2026-04-15 21:29:49,314 - backend - INFO - Health check endpoint accessed
+2026-04-15 21:29:49,315 - backend - INFO - Request completed: GET http://localhost:8000/health - 200 - 0.0056s
+2026-04-15 21:29:49,318 - backend - INFO - Request completed: GET http://localhost:8000/health - 200 - 0.0069s
+2026-04-15 21:29:51,511 - backend - INFO - Received request: POST http://localhost:8000/api/chat/
+2026-04-15 21:29:51,514 - backend.chat - INFO - Chat request received: user_id=e0b4a9b2-e866-43dd-a735-fb04fb187fa7, message_length=11, has_image=False
+2026-04-15 21:29:51,515 - backend.chat - INFO - Using existing session_id: 93904723-553f-4a63-96d3-6cdc2238edea
+2026-04-15 21:29:51,516 - backend.chat - INFO - Processing text-only request
+2026-04-15 21:29:56,036 - httpx - INFO - HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-15 21:29:58,604 - backend - INFO - Received request: GET http://localhost:8000/health
+2026-04-15 21:29:58,606 - backend - INFO - Health check endpoint accessed
+2026-04-15 21:29:58,607 - backend - INFO - Request completed: GET http://localhost:8000/health - 200 - 0.0038s
+2026-04-15 21:29:59,719 - httpx - INFO - HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-15 21:30:03,205 - httpx - INFO - HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-15 21:30:07,199 - httpx - INFO - HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-15 21:30:08,426 - httpx - INFO - HTTP Request: POST https://dashscope.aliyuncs.com/api/v1/services/aigc/text2image/image-synthesis "HTTP/1.1 200 OK"
+2026-04-15 21:30:10,537 - httpx - INFO - HTTP Request: GET https://dashscope.aliyuncs.com/api/v1/tasks/00f1e88b-e0c0-4922-83ff-a7610eb9b370 "HTTP/1.1 200 OK"
+2026-04-15 21:30:10,916 - backend - INFO - Received request: GET http://localhost:8000/health
+2026-04-15 21:30:10,920 - backend - INFO - Health check endpoint accessed
+2026-04-15 21:30:10,925 - backend - INFO - Request completed: GET http://localhost:8000/health - 200 - 0.0083s
+2026-04-15 21:30:11,070 - backend - INFO - Received request: GET http://localhost:8000/health
+2026-04-15 21:30:11,071 - backend - INFO - Health check endpoint accessed
+2026-04-15 21:30:11,073 - backend - INFO - Request completed: GET http://localhost:8000/health - 200 - 0.0030s
+2026-04-15 21:30:12,620 - httpx - INFO - HTTP Request: GET https://dashscope.aliyuncs.com/api/v1/tasks/00f1e88b-e0c0-4922-83ff-a7610eb9b370 "HTTP/1.1 200 OK"
+2026-04-15 21:30:13,138 - backend - INFO - Received request: POST http://localhost:8000/api/chat/
+2026-04-15 21:30:13,142 - backend.chat - INFO - Chat request received: user_id=e0b4a9b2-e866-43dd-a735-fb04fb187fa7, message_length=11, has_image=False
+2026-04-15 21:30:13,142 - backend.chat - INFO - Using existing session_id: 93904723-553f-4a63-96d3-6cdc2238edea
+2026-04-15 21:30:13,143 - backend.chat - INFO - Processing text-only request
+2026-04-15 21:30:14,693 - httpx - INFO - HTTP Request: GET https://dashscope.aliyuncs.com/api/v1/tasks/00f1e88b-e0c0-4922-83ff-a7610eb9b370 "HTTP/1.1 200 OK"
+2026-04-15 21:30:16,760 - httpx - INFO - HTTP Request: GET https://dashscope.aliyuncs.com/api/v1/tasks/00f1e88b-e0c0-4922-83ff-a7610eb9b370 "HTTP/1.1 200 OK"
+2026-04-15 21:30:17,949 - httpx - INFO - HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-15 21:30:18,825 - httpx - INFO - HTTP Request: GET https://dashscope.aliyuncs.com/api/v1/tasks/00f1e88b-e0c0-4922-83ff-a7610eb9b370 "HTTP/1.1 200 OK"
+2026-04-15 21:30:20,896 - httpx - INFO - HTTP Request: GET https://dashscope.aliyuncs.com/api/v1/tasks/00f1e88b-e0c0-4922-83ff-a7610eb9b370 "HTTP/1.1 200 OK"
+2026-04-15 21:30:21,433 - httpx - INFO - HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-15 21:30:22,972 - httpx - INFO - HTTP Request: GET https://dashscope.aliyuncs.com/api/v1/tasks/00f1e88b-e0c0-4922-83ff-a7610eb9b370 "HTTP/1.1 200 OK"
+2026-04-15 21:30:25,047 - httpx - INFO - HTTP Request: GET https://dashscope.aliyuncs.com/api/v1/tasks/00f1e88b-e0c0-4922-83ff-a7610eb9b370 "HTTP/1.1 200 OK"
+2026-04-15 21:30:27,119 - httpx - INFO - HTTP Request: GET https://dashscope.aliyuncs.com/api/v1/tasks/00f1e88b-e0c0-4922-83ff-a7610eb9b370 "HTTP/1.1 200 OK"
+2026-04-15 21:30:29,111 - httpx - INFO - HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-15 21:30:30,035 - httpx - INFO - HTTP Request: GET https://dashscope.aliyuncs.com/api/v1/tasks/00f1e88b-e0c0-4922-83ff-a7610eb9b370 "HTTP/1.1 200 OK"
+2026-04-15 21:30:30,041 - backend.chat - INFO - Agent returned result: recommendation
+2026-04-15 21:30:30,042 - backend - INFO - Request completed: POST http://localhost:8000/api/chat/ - 200 - 38.5310s
+2026-04-15 21:30:34,439 - httpx - INFO - HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-15 21:30:35,664 - httpx - INFO - HTTP Request: POST https://dashscope.aliyuncs.com/api/v1/services/aigc/text2image/image-synthesis "HTTP/1.1 200 OK"
+2026-04-15 21:30:37,760 - httpx - INFO - HTTP Request: GET https://dashscope.aliyuncs.com/api/v1/tasks/13769840-2cfd-4e21-ae69-ff16e164fb92 "HTTP/1.1 200 OK"
+2026-04-15 21:30:39,840 - httpx - INFO - HTTP Request: GET https://dashscope.aliyuncs.com/api/v1/tasks/13769840-2cfd-4e21-ae69-ff16e164fb92 "HTTP/1.1 200 OK"
+2026-04-15 21:30:41,917 - httpx - INFO - HTTP Request: GET https://dashscope.aliyuncs.com/api/v1/tasks/13769840-2cfd-4e21-ae69-ff16e164fb92 "HTTP/1.1 200 OK"
+2026-04-15 21:30:43,997 - httpx - INFO - HTTP Request: GET https://dashscope.aliyuncs.com/api/v1/tasks/13769840-2cfd-4e21-ae69-ff16e164fb92 "HTTP/1.1 200 OK"
+2026-04-15 21:30:46,083 - httpx - INFO - HTTP Request: GET https://dashscope.aliyuncs.com/api/v1/tasks/13769840-2cfd-4e21-ae69-ff16e164fb92 "HTTP/1.1 200 OK"
+2026-04-15 21:30:48,160 - httpx - INFO - HTTP Request: GET https://dashscope.aliyuncs.com/api/v1/tasks/13769840-2cfd-4e21-ae69-ff16e164fb92 "HTTP/1.1 200 OK"
+2026-04-15 21:30:50,238 - httpx - INFO - HTTP Request: GET https://dashscope.aliyuncs.com/api/v1/tasks/13769840-2cfd-4e21-ae69-ff16e164fb92 "HTTP/1.1 200 OK"
+2026-04-15 21:30:52,324 - httpx - INFO - HTTP Request: GET https://dashscope.aliyuncs.com/api/v1/tasks/13769840-2cfd-4e21-ae69-ff16e164fb92 "HTTP/1.1 200 OK"
+2026-04-15 21:30:54,402 - httpx - INFO - HTTP Request: GET https://dashscope.aliyuncs.com/api/v1/tasks/13769840-2cfd-4e21-ae69-ff16e164fb92 "HTTP/1.1 200 OK"
+2026-04-15 21:30:56,494 - httpx - INFO - HTTP Request: GET https://dashscope.aliyuncs.com/api/v1/tasks/13769840-2cfd-4e21-ae69-ff16e164fb92 "HTTP/1.1 200 OK"
+2026-04-15 21:30:56,499 - backend.chat - INFO - Agent returned result: recommendation
+2026-04-15 21:30:56,501 - backend - INFO - Request completed: POST http://localhost:8000/api/chat/ - 200 - 43.3630s
+2026-04-15 21:31:35,111 - backend - INFO - Received request: GET http://localhost:8000/health
+2026-04-15 21:31:35,115 - backend - INFO - Health check endpoint accessed
+2026-04-15 21:31:35,118 - backend - INFO - Request completed: GET http://localhost:8000/health - 200 - 0.0065s
+2026-04-15 21:31:54,438 - backend - INFO - Received request: GET http://localhost:8000/health
+2026-04-15 21:31:54,450 - backend - INFO - Health check endpoint accessed
+2026-04-15 21:31:54,452 - backend - INFO - Request completed: GET http://localhost:8000/health - 200 - 0.0134s
+2026-04-15 21:31:54,584 - backend - INFO - Received request: GET http://localhost:8000/health
+2026-04-15 21:31:54,586 - backend - INFO - Health check endpoint accessed
+2026-04-15 21:31:54,587 - backend - INFO - Request completed: GET http://localhost:8000/health - 200 - 0.0033s
+2026-04-15 21:31:56,784 - backend - INFO - Received request: POST http://localhost:8000/api/chat/
+2026-04-15 21:31:56,822 - backend.chat - INFO - Chat request received: user_id=e0b4a9b2-e866-43dd-a735-fb04fb187fa7, message_length=12, has_image=True
+2026-04-15 21:31:56,823 - backend.chat - INFO - Using existing session_id: 93904723-553f-4a63-96d3-6cdc2238edea
+2026-04-15 21:31:56,824 - backend.chat - INFO - Processing image URL: data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAssA...
+2026-04-15 21:32:02,708 - httpx - INFO - HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-15 21:32:02,712 - backend.chat - INFO - Image analysis result: True
+2026-04-15 21:32:02,714 - backend.chat - INFO - Extracted conditions: {'style': '复古', 'color': '白色、棕色', 'category': '上衣、下装', 'season': '春秋'}
+2026-04-15 21:32:02,715 - backend.chat - INFO - Mapped style: 复古 -> 复古
+2026-04-15 21:32:02,715 - backend.chat - INFO - Mapped category: 上衣、下装 -> 上衣
+2026-04-15 21:32:02,716 - backend.chat - INFO - Extracted text conditions: {}
+2026-04-15 21:32:02,717 - backend.chat - INFO - First search with conditions: {'style': '复古'}
+2026-04-15 21:32:02,739 - backend.chat - INFO - First search found 20 products
+2026-04-15 21:32:02,740 - backend.chat - INFO - Created 20 items for response
+2026-04-15 21:32:02,741 - backend.chat - INFO - Building complete outfit recommendation
+2026-04-15 21:32:02,744 - backend.chat - INFO - Extracted material: 缎面、皮质
+2026-04-15 21:32:02,745 - backend.chat - INFO - Created outfit: 基于图片的复古风格搭配
+2026-04-15 21:32:02,745 - backend.chat - INFO - Generating outfit image with 3 items
+2026-04-15 21:32:06,391 - httpx - INFO - HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-15 21:32:09,053 - httpx - INFO - HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-15 21:32:13,642 - httpx - INFO - HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-15 21:32:14,891 - httpx - INFO - HTTP Request: POST https://dashscope.aliyuncs.com/api/v1/services/aigc/text2image/image-synthesis "HTTP/1.1 200 OK"
+2026-04-15 21:32:16,990 - httpx - INFO - HTTP Request: GET https://dashscope.aliyuncs.com/api/v1/tasks/74bb50f3-f79d-4bf9-8555-91a3592efff9 "HTTP/1.1 200 OK"
+2026-04-15 21:32:19,072 - httpx - INFO - HTTP Request: GET https://dashscope.aliyuncs.com/api/v1/tasks/74bb50f3-f79d-4bf9-8555-91a3592efff9 "HTTP/1.1 200 OK"
+2026-04-15 21:32:21,162 - httpx - INFO - HTTP Request: GET https://dashscope.aliyuncs.com/api/v1/tasks/74bb50f3-f79d-4bf9-8555-91a3592efff9 "HTTP/1.1 200 OK"
+2026-04-15 21:32:23,250 - httpx - INFO - HTTP Request: GET https://dashscope.aliyuncs.com/api/v1/tasks/74bb50f3-f79d-4bf9-8555-91a3592efff9 "HTTP/1.1 200 OK"
+2026-04-15 21:32:25,337 - httpx - INFO - HTTP Request: GET https://dashscope.aliyuncs.com/api/v1/tasks/74bb50f3-f79d-4bf9-8555-91a3592efff9 "HTTP/1.1 200 OK"
+2026-04-15 21:32:27,436 - httpx - INFO - HTTP Request: GET https://dashscope.aliyuncs.com/api/v1/tasks/74bb50f3-f79d-4bf9-8555-91a3592efff9 "HTTP/1.1 200 OK"
+2026-04-15 21:32:29,527 - httpx - INFO - HTTP Request: GET https://dashscope.aliyuncs.com/api/v1/tasks/74bb50f3-f79d-4bf9-8555-91a3592efff9 "HTTP/1.1 200 OK"
+2026-04-15 21:32:31,620 - httpx - INFO - HTTP Request: GET https://dashscope.aliyuncs.com/api/v1/tasks/74bb50f3-f79d-4bf9-8555-91a3592efff9 "HTTP/1.1 200 OK"
+2026-04-15 21:32:33,698 - httpx - INFO - HTTP Request: GET https://dashscope.aliyuncs.com/api/v1/tasks/74bb50f3-f79d-4bf9-8555-91a3592efff9 "HTTP/1.1 200 OK"
+2026-04-15 21:32:35,788 - httpx - INFO - HTTP Request: GET https://dashscope.aliyuncs.com/api/v1/tasks/74bb50f3-f79d-4bf9-8555-91a3592efff9 "HTTP/1.1 200 OK"
+2026-04-15 21:32:37,884 - httpx - INFO - HTTP Request: GET https://dashscope.aliyuncs.com/api/v1/tasks/74bb50f3-f79d-4bf9-8555-91a3592efff9 "HTTP/1.1 200 OK"
+2026-04-15 21:32:37,886 - backend.chat - INFO - Generated outfit image: https://dashscope-7c2c.oss-accelerate.aliyuncs.com/1d/c4/20260415/2b8dd67a/74bb50f3-f79d-4bf9-8555-91a3592efff9.png?Expires=1776346355&OSSAccessKeyId=LTAI5tPxpiCM2hjmWrFXrym1&Signature=tIa9jd63ZwlzigDu%2FXeqQo3yuqA%3D
+2026-04-15 21:32:43,666 - httpx - INFO - HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-15 21:32:43,669 - backend.chat - INFO - Generated recommendation reason
+2026-04-15 21:32:43,670 - backend.chat - INFO - Returning outfit recommendation response with 3 items
+2026-04-15 21:32:43,671 - backend - INFO - Request completed: POST http://localhost:8000/api/chat/ - 200 - 46.8872s
+2026-04-15 21:33:12,861 - backend - INFO - Received request: GET http://localhost:8000/health
+2026-04-15 21:33:12,863 - backend - INFO - Health check endpoint accessed
+2026-04-15 21:33:12,865 - backend - INFO - Request completed: GET http://localhost:8000/health - 200 - 0.0038s
+2026-04-15 21:33:15,054 - backend - INFO - Received request: POST http://localhost:8000/api/wardrobe/save-outfit
+2026-04-15 21:33:15,120 - backend - INFO - Request completed: POST http://localhost:8000/api/wardrobe/save-outfit - 200 - 0.0663s
+2026-04-15 21:33:24,321 - backend - INFO - Received request: GET http://localhost:8000/health
+2026-04-15 21:33:24,325 - backend - INFO - Health check endpoint accessed
+2026-04-15 21:33:24,328 - backend - INFO - Request completed: GET http://localhost:8000/health - 200 - 0.0067s
+2026-04-15 21:33:26,378 - backend - INFO - Received request: GET http://localhost:8000/api/wardrobe/list/e0b4a9b2-e866-43dd-a735-fb04fb187fa7
+2026-04-15 21:33:26,401 - backend - INFO - Request completed: GET http://localhost:8000/api/wardrobe/list/e0b4a9b2-e866-43dd-a735-fb04fb187fa7 - 200 - 0.0224s
+2026-04-15 21:33:42,859 - backend - INFO - Received request: GET http://localhost:8000/health
+2026-04-15 21:33:42,861 - backend - INFO - Health check endpoint accessed
+2026-04-15 21:33:42,862 - backend - INFO - Request completed: GET http://localhost:8000/health - 200 - 0.0039s
+2026-04-15 21:33:44,908 - backend - INFO - Received request: GET http://localhost:8000/api/wardrobe/list/e0b4a9b2-e866-43dd-a735-fb04fb187fa7
+2026-04-15 21:33:44,931 - backend - INFO - Request completed: GET http://localhost:8000/api/wardrobe/list/e0b4a9b2-e866-43dd-a735-fb04fb187fa7 - 200 - 0.0232s
+2026-04-15 21:33:46,987 - backend - INFO - Received request: PUT http://localhost:8000/api/wardrobe/591a7e8a-354b-47e1-9c90-10bb7829afbb/favorite
+2026-04-15 21:33:47,062 - backend - INFO - Request completed: PUT http://localhost:8000/api/wardrobe/591a7e8a-354b-47e1-9c90-10bb7829afbb/favorite - 200 - 0.0754s
+2026-04-15 21:33:49,206 - backend - INFO - Received request: GET http://localhost:8000/health
+2026-04-15 21:33:49,208 - backend - INFO - Health check endpoint accessed
+2026-04-15 21:33:49,211 - backend - INFO - Request completed: GET http://localhost:8000/health - 200 - 0.0051s
+2026-04-15 21:33:51,265 - backend - INFO - Received request: GET http://localhost:8000/api/wardrobe/list/e0b4a9b2-e866-43dd-a735-fb04fb187fa7
+2026-04-15 21:33:51,288 - backend - INFO - Request completed: GET http://localhost:8000/api/wardrobe/list/e0b4a9b2-e866-43dd-a735-fb04fb187fa7 - 200 - 0.0226s
+2026-04-15 21:34:00,592 - backend - INFO - Received request: GET http://localhost:8000/health
+2026-04-15 21:34:00,601 - backend - INFO - Health check endpoint accessed
+2026-04-15 21:34:00,650 - backend - INFO - Request completed: GET http://localhost:8000/health - 200 - 0.0584s
+2026-04-15 21:34:02,720 - backend - INFO - Received request: GET http://localhost:8000/api/wardrobe/list/e0b4a9b2-e866-43dd-a735-fb04fb187fa7
+2026-04-15 21:34:02,741 - backend - INFO - Request completed: GET http://localhost:8000/api/wardrobe/list/e0b4a9b2-e866-43dd-a735-fb04fb187fa7 - 200 - 0.0213s
+2026-04-15 21:34:04,804 - backend - INFO - Received request: DELETE http://localhost:8000/api/wardrobe/591a7e8a-354b-47e1-9c90-10bb7829afbb
+2026-04-15 21:34:04,851 - backend - INFO - Request completed: DELETE http://localhost:8000/api/wardrobe/591a7e8a-354b-47e1-9c90-10bb7829afbb - 200 - 0.0473s
+2026-04-15 21:34:06,973 - backend - INFO - Received request: GET http://localhost:8000/health
+2026-04-15 21:34:06,975 - backend - INFO - Health check endpoint accessed
+2026-04-15 21:34:06,976 - backend - INFO - Request completed: GET http://localhost:8000/health - 200 - 0.0028s
+2026-04-15 21:34:09,046 - backend - INFO - Received request: GET http://localhost:8000/api/wardrobe/list/e0b4a9b2-e866-43dd-a735-fb04fb187fa7
+2026-04-15 21:34:09,066 - backend - INFO - Request completed: GET http://localhost:8000/api/wardrobe/list/e0b4a9b2-e866-43dd-a735-fb04fb187fa7 - 200 - 0.0204s
+2026-04-15 21:34:13,605 - backend - INFO - Received request: GET http://localhost:8000/health
+2026-04-15 21:34:13,607 - backend - INFO - Health check endpoint accessed
+2026-04-15 21:34:13,609 - backend - INFO - Request completed: GET http://localhost:8000/health - 200 - 0.0033s
+2026-04-15 21:34:21,806 - backend - INFO - Received request: GET http://localhost:8000/health
+2026-04-15 21:34:21,811 - backend - INFO - Health check endpoint accessed
+2026-04-15 21:34:21,813 - backend - INFO - Request completed: GET http://localhost:8000/health - 200 - 0.0068s
+2026-04-15 21:34:43,021 - backend - INFO - Received request: GET http://localhost:8000/health
+2026-04-15 21:34:43,023 - backend - INFO - Health check endpoint accessed
+2026-04-15 21:34:43,024 - backend - INFO - Request completed: GET http://localhost:8000/health - 200 - 0.0029s
+2026-04-15 21:34:50,204 - backend - INFO - Received request: GET http://localhost:8000/health
+2026-04-15 21:34:50,205 - backend - INFO - Health check endpoint accessed
+2026-04-15 21:34:50,207 - backend - INFO - Request completed: GET http://localhost:8000/health - 200 - 0.0031s
+2026-04-15 21:35:19,219 - backend - INFO - Received request: GET http://localhost:8000/health
+2026-04-15 21:35:19,222 - backend - INFO - Health check endpoint accessed
+2026-04-15 21:35:19,223 - backend - INFO - Request completed: GET http://localhost:8000/health - 200 - 0.0036s
+2026-04-15 21:36:24,633 - backend - INFO - Received request: GET http://localhost:8000/health
+2026-04-15 21:36:24,635 - backend - INFO - Health check endpoint accessed
+2026-04-15 21:36:24,636 - backend - INFO - Request completed: GET http://localhost:8000/health - 200 - 0.0032s
+2026-04-15 21:37:03,810 - backend - INFO - Received request: GET http://localhost:8000/health
+2026-04-15 21:37:03,812 - backend - INFO - Health check endpoint accessed
+2026-04-15 21:37:03,814 - backend - INFO - Request completed: GET http://localhost:8000/health - 200 - 0.0031s
+2026-04-15 21:37:16,537 - backend - INFO - Received request: GET http://localhost:8000/health
+2026-04-15 21:37:16,539 - backend - INFO - Health check endpoint accessed
+2026-04-15 21:37:16,541 - backend - INFO - Request completed: GET http://localhost:8000/health - 200 - 0.0034s
+2026-04-15 21:37:46,353 - backend - INFO - Received request: GET http://localhost:8000/health
+2026-04-15 21:37:46,356 - backend - INFO - Health check endpoint accessed
+2026-04-15 21:37:46,357 - backend - INFO - Request completed: GET http://localhost:8000/health - 200 - 0.0040s
+2026-04-15 21:40:04,848 - backend - INFO - Received request: POST http://localhost:8000/api/auth/login
+2026-04-15 21:40:04,859 - backend - INFO - Request completed: POST http://localhost:8000/api/auth/login - 200 - 0.0118s
+2026-04-15 21:40:06,985 - backend - INFO - Received request: GET http://localhost:8000/health
+2026-04-15 21:40:06,986 - backend - INFO - Health check endpoint accessed
+2026-04-15 21:40:06,988 - backend - INFO - Request completed: GET http://localhost:8000/health - 200 - 0.0031s
+2026-04-15 21:41:04,741 - backend - INFO - Received request: GET http://localhost:8000/health
+2026-04-15 21:41:04,744 - backend - INFO - Health check endpoint accessed
+2026-04-15 21:41:04,746 - backend - INFO - Request completed: GET http://localhost:8000/health - 200 - 0.0047s
+2026-04-15 21:41:18,421 - backend - INFO - Received request: GET http://localhost:8000/health
+2026-04-15 21:41:18,423 - backend - INFO - Health check endpoint accessed
+2026-04-15 21:41:18,424 - backend - INFO - Request completed: GET http://localhost:8000/health - 200 - 0.0035s
+2026-04-15 21:41:18,532 - backend - INFO - Received request: GET http://localhost:8000/health
+2026-04-15 21:41:18,534 - backend - INFO - Health check endpoint accessed
+2026-04-15 21:41:18,536 - backend - INFO - Request completed: GET http://localhost:8000/health - 200 - 0.0039s
+2026-04-15 21:41:20,729 - backend - INFO - Received request: POST http://localhost:8000/api/chat/
+2026-04-15 21:41:20,747 - backend.chat - INFO - Chat request received: user_id=e0b4a9b2-e866-43dd-a735-fb04fb187fa7, message_length=11, has_image=True
+2026-04-15 21:41:20,747 - backend.chat - INFO - Using existing session_id: 9dbf6e00-4c9b-4cd7-bca2-b3bca21b5a0f
+2026-04-15 21:41:20,748 - backend.chat - INFO - Processing image URL: data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAssA...
+2026-04-15 21:41:26,521 - httpx - INFO - HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-15 21:41:26,525 - backend.chat - INFO - Image analysis result: True
+2026-04-15 21:41:26,525 - backend.chat - INFO - Extracted conditions: {'style': '复古', 'color': '白色、棕色', 'category': '上衣、下装', 'season': '春夏'}
+2026-04-15 21:41:26,526 - backend.chat - INFO - Mapped style: 复古 -> 复古
+2026-04-15 21:41:26,526 - backend.chat - INFO - Mapped category: 上衣、下装 -> 上衣
+2026-04-15 21:41:26,527 - backend.chat - INFO - Extracted text conditions: {}
+2026-04-15 21:41:26,528 - backend.chat - INFO - First search with conditions: {'style': '复古'}
+2026-04-15 21:41:26,535 - backend.chat - INFO - First search found 20 products
+2026-04-15 21:41:26,537 - backend.chat - INFO - Created 20 items for response
+2026-04-15 21:41:26,537 - backend.chat - INFO - Building complete outfit recommendation
+2026-04-15 21:41:26,538 - backend.chat - INFO - Extracted material: 缎面、皮质
+2026-04-15 21:41:26,538 - backend.chat - INFO - Created outfit: 基于图片的复古风格搭配
+2026-04-15 21:41:26,539 - backend.chat - INFO - Generating outfit image with 3 items
+2026-04-15 21:41:29,694 - httpx - INFO - HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-15 21:41:32,268 - httpx - INFO - HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-15 21:41:35,633 - httpx - INFO - HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-15 21:41:36,768 - httpx - INFO - HTTP Request: POST https://dashscope.aliyuncs.com/api/v1/services/aigc/text2image/image-synthesis "HTTP/1.1 200 OK"
+2026-04-15 21:41:38,857 - httpx - INFO - HTTP Request: GET https://dashscope.aliyuncs.com/api/v1/tasks/cd66a66f-78e8-4609-86c6-1823a59d570b "HTTP/1.1 200 OK"
+2026-04-15 21:41:40,940 - httpx - INFO - HTTP Request: GET https://dashscope.aliyuncs.com/api/v1/tasks/cd66a66f-78e8-4609-86c6-1823a59d570b "HTTP/1.1 200 OK"
+2026-04-15 21:41:43,020 - httpx - INFO - HTTP Request: GET https://dashscope.aliyuncs.com/api/v1/tasks/cd66a66f-78e8-4609-86c6-1823a59d570b "HTTP/1.1 200 OK"
+2026-04-15 21:41:45,103 - httpx - INFO - HTTP Request: GET https://dashscope.aliyuncs.com/api/v1/tasks/cd66a66f-78e8-4609-86c6-1823a59d570b "HTTP/1.1 200 OK"
+2026-04-15 21:41:47,184 - httpx - INFO - HTTP Request: GET https://dashscope.aliyuncs.com/api/v1/tasks/cd66a66f-78e8-4609-86c6-1823a59d570b "HTTP/1.1 200 OK"
+2026-04-15 21:41:49,263 - httpx - INFO - HTTP Request: GET https://dashscope.aliyuncs.com/api/v1/tasks/cd66a66f-78e8-4609-86c6-1823a59d570b "HTTP/1.1 200 OK"
+2026-04-15 21:41:51,343 - httpx - INFO - HTTP Request: GET https://dashscope.aliyuncs.com/api/v1/tasks/cd66a66f-78e8-4609-86c6-1823a59d570b "HTTP/1.1 200 OK"
+2026-04-15 21:41:53,429 - httpx - INFO - HTTP Request: GET https://dashscope.aliyuncs.com/api/v1/tasks/cd66a66f-78e8-4609-86c6-1823a59d570b "HTTP/1.1 200 OK"
+2026-04-15 21:41:55,519 - httpx - INFO - HTTP Request: GET https://dashscope.aliyuncs.com/api/v1/tasks/cd66a66f-78e8-4609-86c6-1823a59d570b "HTTP/1.1 200 OK"
+2026-04-15 21:41:57,622 - httpx - INFO - HTTP Request: GET https://dashscope.aliyuncs.com/api/v1/tasks/cd66a66f-78e8-4609-86c6-1823a59d570b "HTTP/1.1 200 OK"
+2026-04-15 21:41:57,626 - backend.chat - INFO - Generated outfit image: https://dashscope-7c2c.oss-accelerate.aliyuncs.com/1d/e0/20260415/2b8dd67a/cd66a66f-78e8-4609-86c6-1823a59d570b.png?Expires=1776346914&OSSAccessKeyId=LTAI5tPxpiCM2hjmWrFXrym1&Signature=MzzM3EM1tgBOyFV75jK1J%2BVX%2F8E%3D
+2026-04-15 21:42:02,565 - httpx - INFO - HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-15 21:42:02,568 - backend.chat - INFO - Generated recommendation reason
+2026-04-15 21:42:02,569 - backend.chat - INFO - Returning outfit recommendation response with 3 items
+2026-04-15 21:42:02,570 - backend - INFO - Request completed: POST http://localhost:8000/api/chat/ - 200 - 41.8414s
