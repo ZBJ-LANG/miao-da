@@ -20,7 +20,7 @@ class Config:
 
     DASHSCOPE_API_KEY = os.getenv("DASHSCOPE_API_KEY", "")
 
-    DATABASE_URL = f"mysql+pymysql://{MYSQL_USER}:{MYSQL_PASSWORD}@{MYSQL_HOST}:{MYSQL_PORT}/{MYSQL_DATABASE}"
+    DATABASE_URL = os.getenv("DATABASE_URL", f"mysql+pymysql://{MYSQL_USER}:{MYSQL_PASSWORD}@{MYSQL_HOST}:{MYSQL_PORT}/{MYSQL_DATABASE}")
 
 
 config = Config()
