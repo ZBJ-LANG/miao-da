@@ -3,11 +3,11 @@ from typing import TypedDict, Annotated
 import operator
 import asyncio
 
-from agent.intent_classifier import classify_intent, extract_search_conditions
-from agent.skills.recommendation import search_products_by_conditions, generate_outfit_from_products
-from agent.skills.search import search_products
-from agent.tools.weather import get_weather, get_weather_suggestion
-from agent.llm_service import classify_intent_with_llm, generate_recommendation_reason, map_style_to_db, llm_service
+from .intent_classifier import classify_intent, extract_search_conditions
+from .skills.recommendation import search_products_by_conditions, generate_outfit_from_products
+from .skills.search import search_products
+from .tools.weather import get_weather, get_weather_suggestion
+from .llm_service import classify_intent_with_llm, generate_recommendation_reason, map_style_to_db, llm_service
 
 
 class AgentState(TypedDict):
@@ -38,7 +38,7 @@ async def intent_node_llm(state: AgentState) -> AgentState:
     # Check if message is garbled (contains only ? characters)
     if all(c == '?' for c in message):
         print("DEBUG: Detected garbled message, using default recommendation intent")
-        from agent.intent_classifier import IntentResult
+        from .intent_classifier import IntentResult
         state['intent'] = IntentResult(
             intent='recommendation',
             confidence=0.9,
@@ -401,7 +401,7 @@ async def run_agent(message: str, user_id: str = "default", session_id: str = No
     # Get user profile if user_id is provided
     user_profile = {}
     if user_id != "default":
-        from services.user_service import UserService
+        from ..services.user_service import UserService
         user_service = UserService()
         try:
             user = user_service.get_user(user_id)
@@ -427,7 +427,7 @@ async def run_agent(message: str, user_id: str = "default", session_id: str = No
 
 
 async def _run_agent(initial_state: dict):
-    from agent.intent_classifier import IntentResult
+    from .intent_classifier import IntentResult
     
     await intent_node_llm(initial_state)
     

@@ -1,6 +1,6 @@
 from typing import List, Optional
-from models.product import Product, ProductSearch
-from services.product_service import ProductService
+from ...models.product import Product, ProductSearch
+from ...services.product_service import ProductService
 
 
 def search_products_by_conditions(conditions: dict, limit: int = 20) -> List[Product]:

@@ -3,8 +3,8 @@ from sqlalchemy.orm import Session
 from sqlalchemy import or_
 import uuid
 
-from services.database import ProductModel, SessionLocal
-from models.product import Product, ProductSearch
+from .database import ProductModel, SessionLocal
+from ..models.product import Product, ProductSearch
 
 
 class ProductService:

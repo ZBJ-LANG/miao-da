@@ -2,8 +2,8 @@ from typing import Optional, List
 from sqlalchemy.orm import Session
 import uuid
 
-from services.database import SavedOutfitModel, SavedOutfitItemModel, SessionLocal
-from models.outfit import Outfit, OutfitCreate, OutfitItem
+from .database import SavedOutfitModel, SavedOutfitItemModel, SessionLocal
+from ..models.outfit import Outfit, OutfitCreate, OutfitItem
 
 
 class OutfitService:

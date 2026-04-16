@@ -4,8 +4,8 @@ from sqlalchemy import or_
 import uuid
 import hashlib
 
-from services.database import UserModel, SessionLocal
-from models.user import (
+from .database import UserModel, SessionLocal
+from ..models.user import (
     UserRegister, UserLogin, UserProfileUpdate, User, UserProfile
 )
 
