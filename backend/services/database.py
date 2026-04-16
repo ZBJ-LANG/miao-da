@@ -4,7 +4,7 @@ from sqlalchemy.orm import sessionmaker, relationship
 from datetime import datetime
 import uuid
 
-from config import config
+from ..config import config
 
 Base = declarative_base()
 engine = create_engine(config.DATABASE_URL, echo=False, pool_pre_ping=True)
